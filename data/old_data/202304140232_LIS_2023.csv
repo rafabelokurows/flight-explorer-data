@@ -1,0 +1,507 @@
+City,Country,Duration,Price,Airline,Airport,Depart,Return,Link,MinPrice,is_MinPrice
+Incheon,Coreia do Sul,2085,721.05,Finnair,ICN,2023-09-12,2023-09-18,http://kayak.com/flights/LIS-ICN/2023-09-12/2023-09-18/,721.05,1
+Paris,França,155,48.07,Ryanair,PAR,2023-09-23,2023-09-28,http://kayak.com/flights/LIS-PAR/2023-09-23/2023-09-28/,48.07,1
+Londres,Reino Unido,170,67.12,Wizz Air UK,LON,2023-05-03,2023-05-07,http://kayak.com/flights/LIS-LON/2023-05-03/2023-05-07/,67.12,1
+Nova Iorque,Estados Unidos,810,414.49,Delta,NYC,2024-02-09,2024-02-14,http://kayak.com/flights/LIS-NYC/2024-02-09/2024-02-14/,414.49,1
+Copenhaga,Dinamarca,755,141.49,Ryanair,CPH,2023-09-15,2023-09-19,http://kayak.com/flights/LIS-CPH/2023-09-15/2023-09-19/,141.49,1
+Los Angeles,Estados Unidos,1695,579.57,Aer Lingus,LAX,2023-08-22,2023-08-29,http://kayak.com/flights/LIS-LAX/2023-08-22/2023-08-29/,579.57,1
+Barcelona,Espanha,130,46.26,Vueling,BCN,2023-11-07,2023-11-11,http://kayak.com/flights/LIS-BCN/2023-11-07/2023-11-11/,46.26,1
+Madrid,Espanha,85,34.47,easyJet,MAD,2023-05-11,2023-05-17,http://kayak.com/flights/LIS-MAD/2023-05-11/2023-05-17/,34.47,1
+Viena,Áustria,1145,114.28,Ryanair,VIE,2023-05-04,2023-05-09,http://kayak.com/flights/LIS-VIE/2023-05-04/2023-05-09/,114.28,1
+Amesterdão,Holanda,195,95.24,Vueling,AMS,2023-11-27,2023-12-01,http://kayak.com/flights/LIS-AMS/2023-11-27/2023-12-01/,95.24,1
+Frankfurt,Alemanha,745,163.26,Várias companhias aéreas,FRA,2023-05-13,2023-05-20,http://kayak.com/flights/LIS-FRA/2023-05-13/2023-05-20/,163.26,1
+Roma,Itália,190,60.77,Ryanair,ROM,2023-10-06,2023-10-11,http://kayak.com/flights/LIS-ROM/2023-10-06/2023-10-11/,60.77,1
+Miami,Estados Unidos,1125,384.56,Várias companhias aéreas,MIA,2023-11-13,2023-11-19,http://kayak.com/flights/LIS-MIA/2023-11-13/2023-11-19/,384.56,1
+Berlim,Alemanha,405,137.87,Ryanair,BER,2023-10-04,2023-10-09,http://kayak.com/flights/LIS-BER/2023-10-04/2023-10-09/,137.87,1
+Istambul,Turquia,795,225.84,Air Serbia,IST,2023-10-03,2023-10-07,http://kayak.com/flights/LIS-IST/2023-10-03/2023-10-07/,225.84,1
+Atenas,Grécia,650,127.89,Várias companhias aéreas,ATH,2023-10-06,2023-10-10,http://kayak.com/flights/LIS-ATH/2023-10-06/2023-10-10/,127.89,1
+São Francisco,Estados Unidos,1185,584.1,British Airways,SFO,2023-08-28,2023-09-04,http://kayak.com/flights/LIS-SFO/2023-08-28/2023-09-04/,584.1,1
+Zurique,Suíça,175,68.94,easyJet,ZRH,2023-06-16,2023-06-21,http://kayak.com/flights/LIS-ZRH/2023-06-16/2023-06-21/,68.94,1
+Palma de Maiorca,Espanha,125,60.77,Vueling,PMI,2023-05-28,2023-06-01,http://kayak.com/flights/LIS-PMI/2023-05-28/2023-06-01/,60.77,1
+Munique,Alemanha,490,165.98,Air France,MUC,2023-12-05,2023-12-11,http://kayak.com/flights/LIS-MUC/2023-12-05/2023-12-11/,165.98,1
+Milão,Itália,175,53.52,easyJet,MIL,2023-11-14,2023-11-20,http://kayak.com/flights/LIS-MIL/2023-11-14/2023-11-20/,53.52,1
+Málaga,Espanha,75,35.38,Ryanair,AGP,2023-06-01,2023-06-06,http://kayak.com/flights/LIS-AGP/2023-06-01/2023-06-06/,35.38,1
+Boston,Estados Unidos,836,503.38,Air France,BOS,2023-06-15,2023-06-20,http://kayak.com/flights/LIS-BOS/2023-06-15/2023-06-20/,503.38,1
+Bruxelas,Bélgica,170,79.82,Ryanair,BRU,2023-10-05,2023-10-11,http://kayak.com/flights/LIS-BRU/2023-10-05/2023-10-11/,79.82,1
+Dublin,Irlanda,170,68.03,Ryanair,DUB,2023-10-06,2023-10-10,http://kayak.com/flights/LIS-DUB/2023-10-06/2023-10-10/,68.03,1
+Telavive,Israel,655,168.7,Várias companhias aéreas,TLV,2024-01-16,2024-01-23,http://kayak.com/flights/LIS-TLV/2024-01-16/2024-01-23/,168.7,1
+Porto,Portugal,60,75.28,TAP AIR PORTUGAL,OPO,2023-05-08,2023-05-12,http://kayak.com/flights/LIS-OPO/2023-05-08/2023-05-12/,75.28,1
+Manchester,Reino Unido,165,103.4,Várias companhias aéreas,MAN,2023-05-03,2023-05-07,http://kayak.com/flights/LIS-MAN/2023-05-03/2023-05-07/,103.4,1
+Lyon,França,150,61.68,easyJet,LYS,2023-09-21,2023-09-27,http://kayak.com/flights/LIS-LYS/2023-09-21/2023-09-27/,61.68,1
+Dusseldorf,Alemanha,705,127.89,Várias companhias aéreas,DUS,2023-11-25,2023-12-02,http://kayak.com/flights/LIS-DUS/2023-11-25/2023-12-02/,127.89,1
+Oslo,Noruega,750,142.4,Várias companhias aéreas,OSL,2024-03-13,2024-03-19,http://kayak.com/flights/LIS-OSL/2024-03-13/2024-03-19/,142.4,1
+Estocolmo,Suécia,650,155.1,Ryanair,STO,2023-05-30,2023-06-04,http://kayak.com/flights/LIS-STO/2023-05-30/2023-06-04/,155.1,1
+Marselha,França,140,57.14,Ryanair,MRS,2023-06-21,2023-06-27,http://kayak.com/flights/LIS-MRS/2023-06-21/2023-06-27/,57.14,1
+Nice,França,155,77.1,easyJet,NCE,2023-06-04,2023-06-08,http://kayak.com/flights/LIS-NCE/2023-06-04/2023-06-08/,77.1,1
+Varsóvia,Polónia,1690,162.35,Ryanair,WAW,2023-06-08,2023-06-13,http://kayak.com/flights/LIS-WAW/2023-06-08/2023-06-13/,162.35,1
+Praga,República Checa,935,123.35,Ryanair,PRG,2023-06-06,2023-06-13,http://kayak.com/flights/LIS-PRG/2023-06-06/2023-06-13/,123.35,1
+Dubai,Emirados Árabes Unidos,1375,375.49,Várias companhias aéreas,DXB,2023-06-01,2023-06-06,http://kayak.com/flights/LIS-DXB/2023-06-01/2023-06-06/,375.49,1
+Banguecoque,Tailândia,2655,799.96,Etihad Airways,BKK,2023-11-29,2023-12-06,http://kayak.com/flights/LIS-BKK/2023-11-29/2023-12-06/,799.96,1
+Genebra,Suíça,160,70.75,easyJet,GVA,2024-01-20,2024-01-27,http://kayak.com/flights/LIS-GVA/2024-01-20/2024-01-27/,70.75,1
+Helsínquia,Finlândia,1670,192.28,Ryanair,HEL,2023-05-03,2023-05-08,http://kayak.com/flights/LIS-HEL/2023-05-03/2023-05-08/,192.28,1
+Newark,Estados Unidos,715,417.22,British Airways,EWR,2023-05-04,2023-05-09,http://kayak.com/flights/LIS-EWR/2023-05-04/2023-05-09/,417.22,1
+Veneza,Itália,195,84.35,Ryanair,VCE,2023-10-18,2023-10-23,http://kayak.com/flights/LIS-VCE/2023-10-18/2023-10-23/,84.35,1
+Hamburgo,Alemanha,955,164.17,Ryanair,HAM,2023-05-02,2023-05-09,http://kayak.com/flights/LIS-HAM/2023-05-02/2023-05-09/,164.17,1
+Budapeste,Hungria,1015,141.49,Várias companhias aéreas,BUD,2023-05-13,2023-05-20,http://kayak.com/flights/LIS-BUD/2023-05-13/2023-05-20/,141.49,1
+Valência,Espanha,105,39.01,Ryanair,VLC,2023-05-17,2023-05-24,http://kayak.com/flights/LIS-VLC/2023-05-17/2023-05-24/,39.01,1
+Nápoles,Itália,350,110.66,Ryanair,NAP,2023-09-28,2023-10-05,http://kayak.com/flights/LIS-NAP/2023-09-28/2023-10-05/,110.66,1
+Edimburgo,Reino Unido,190,75.28,Ryanair,EDI,2023-06-01,2023-06-06,http://kayak.com/flights/LIS-EDI/2023-06-01/2023-06-06/,75.28,1
+Marraquexe,Marrocos,100,77.1,easyJet,RAK,2024-02-02,2024-02-09,http://kayak.com/flights/LIS-RAK/2024-02-02/2024-02-09/,77.1,1
+Cairo,Egito,1270,277.54,Várias companhias aéreas,CAI,2023-06-05,2023-06-10,http://kayak.com/flights/LIS-CAI/2023-06-05/2023-06-10/,277.54,1
+Alicante,Espanha,550,112.47,Várias companhias aéreas,ALC,2023-08-15,2023-08-22,http://kayak.com/flights/LIS-ALC/2023-08-15/2023-08-22/,112.47,1
+Toulouse,França,710,70.75,Ryanair,TLS,2023-05-13,2023-05-20,http://kayak.com/flights/LIS-TLS/2023-05-13/2023-05-20/,70.75,1
+Nantes,França,125,129.7,easyJet,NTE,2023-04-26,2023-05-01,http://kayak.com/flights/LIS-NTE/2023-04-26/2023-05-01/,129.7,1
+Sevilha,Espanha,65,32.66,Ryanair,SVQ,2023-05-10,2023-05-17,http://kayak.com/flights/LIS-SVQ/2023-05-10/2023-05-17/,32.66,1
+Billund,Dinamarca,800,181.4,Ryanair,BLL,2023-08-04,2023-08-09,http://kayak.com/flights/LIS-BLL/2023-08-04/2023-08-09/,181.4,1
+Cracóvia,Polónia,980,142.4,Ryanair,KRK,2023-05-30,2023-06-06,http://kayak.com/flights/LIS-KRK/2023-05-30/2023-06-06/,142.4,1
+Bordéus,França,115,48.98,Ryanair,BOD,2023-06-17,2023-06-22,http://kayak.com/flights/LIS-BOD/2023-06-17/2023-06-22/,48.98,1
+Ibiza,Espanha,115,45.35,easyJet,IBZ,2023-05-17,2023-05-24,http://kayak.com/flights/LIS-IBZ/2023-05-17/2023-05-24/,45.35,1
+Luqa,Malta,1165,114.28,Ryanair,MLA,2023-05-23,2023-05-30,http://kayak.com/flights/LIS-MLA/2023-05-23/2023-05-30/,114.28,1
+Bucareste,Roménia,965,112.47,Várias companhias aéreas,BUH,2023-05-17,2023-05-23,http://kayak.com/flights/LIS-BUH/2023-05-17/2023-05-23/,112.47,1
+Birmingham,Reino Unido,1265,91.61,Ryanair,BHX,2023-05-13,2023-05-20,http://kayak.com/flights/LIS-BHX/2023-05-13/2023-05-20/,91.61,1
+Faro,Portugal,50,76.19,TAP AIR PORTUGAL,FAO,2023-04-15,2023-04-22,http://kayak.com/flights/LIS-FAO/2023-04-15/2023-04-22/,76.19,1
+Nova Deli,Índia,855,589.54,Etihad Airways,DEL,2023-08-31,2023-09-06,http://kayak.com/flights/LIS-DEL/2023-08-31/2023-09-06/,589.54,1
+Toronto,Canadá,865,419.94,Várias companhias aéreas,YYZ,2023-05-18,2023-05-23,http://kayak.com/flights/LIS-YYZ/2023-05-18/2023-05-23/,419.94,1
+Atlanta,Estados Unidos,923,612.22,British Airways,ATL,2023-05-03,2023-05-08,http://kayak.com/flights/LIS-ATL/2023-05-03/2023-05-08/,612.22,1
+Bolonha,Itália,475,95.24,Ryanair,BLQ,2023-05-11,2023-05-18,http://kayak.com/flights/LIS-BLQ/2023-05-11/2023-05-18/,95.24,1
+Bilbau,Espanha,100,60.77,easyJet,BIO,2023-04-25,2023-05-02,http://kayak.com/flights/LIS-BIO/2023-04-25/2023-05-02/,60.77,1
+Riga,Letónia,1435,159.63,Várias companhias aéreas,RIX,2023-05-12,2023-05-16,http://kayak.com/flights/LIS-RIX/2023-05-12/2023-05-16/,159.63,1
+Funchal,Portugal,105,29.03,TAP AIR PORTUGAL,FNC,2024-02-15,2024-02-19,http://kayak.com/flights/LIS-FNC/2024-02-15/2024-02-19/,29.03,1
+Casablanca,Marrocos,470,158.73,Várias companhias aéreas,CMN,2023-05-12,2023-05-16,http://kayak.com/flights/LIS-CMN/2023-05-12/2023-05-16/,158.73,1
+Gotemburgo,Suécia,1360,219.49,Várias companhias aéreas,GOT,2023-04-28,2023-05-02,http://kayak.com/flights/LIS-GOT/2023-04-28/2023-05-02/,219.49,1
+Bérgamo,Itália,175,56.24,Ryanair,BGY,2023-05-31,2023-06-05,http://kayak.com/flights/LIS-BGY/2023-05-31/2023-06-05/,56.24,1
+Catânia,Itália,985,147.84,Ryanair,CTA,2023-05-05,2023-05-09,http://kayak.com/flights/LIS-CTA/2023-05-05/2023-05-09/,147.84,1
+Las Palmas,Espanha,795,101.59,Várias companhias aéreas,LPA,2023-05-04,2023-05-10,http://kayak.com/flights/LIS-LPA/2023-05-04/2023-05-10/,101.59,1
+Estugarda,Alemanha,630,188.66,Várias companhias aéreas,STR,2023-06-23,2023-06-30,http://kayak.com/flights/LIS-STR/2023-06-23/2023-06-30/,188.66,1
+Amã,Jordânia,860,196.82,Várias companhias aéreas,AMM,2023-06-14,2023-06-19,http://kayak.com/flights/LIS-AMM/2023-06-14/2023-06-19/,196.82,1
+Santa Cruz de Tenerife,Espanha,140,79.82,Vueling,TCI,2023-05-13,2023-05-20,http://kayak.com/flights/LIS-TCI/2023-05-13/2023-05-20/,79.82,1
+Colónia,Alemanha,1530,124.26,Ryanair,CGN,2023-05-04,2023-05-09,http://kayak.com/flights/LIS-CGN/2023-05-04/2023-05-09/,124.26,1
+"Washington, D.C.",Estados Unidos,1170,462.56,British Airways,WAS,2023-05-13,2023-05-20,http://kayak.com/flights/LIS-WAS/2023-05-13/2023-05-20/,462.56,1
+Luxemburgo,Luxemburgo,615,78.91,Ryanair,LUX,2023-05-30,2023-06-05,http://kayak.com/flights/LIS-LUX/2023-05-30/2023-06-05/,78.91,1
+Tirana,Albânia,2295,151.47,Várias companhias aéreas,TIA,2023-06-21,2023-06-26,http://kayak.com/flights/LIS-TIA/2023-06-21/2023-06-26/,151.47,1
+Orlando,Estados Unidos,1510,496.12,British Airways,MCO,2023-06-05,2023-06-12,http://kayak.com/flights/LIS-MCO/2023-06-05/2023-06-12/,496.12,1
+Bari,Itália,1355,130.61,Várias companhias aéreas,BRI,2023-05-18,2023-05-23,http://kayak.com/flights/LIS-BRI/2023-05-18/2023-05-23/,130.61,1
+Túnis,Tunísia,785,178.68,Várias companhias aéreas,TUN,2023-06-12,2023-06-19,http://kayak.com/flights/LIS-TUN/2023-06-12/2023-06-19/,178.68,1
+Cagliari,Itália,1015,117.01,Várias companhias aéreas,CAG,2023-06-13,2023-06-20,http://kayak.com/flights/LIS-CAG/2023-06-13/2023-06-20/,117.01,1
+Palermo,Itália,1055,158.73,Várias companhias aéreas,PMO,2023-05-04,2023-05-11,http://kayak.com/flights/LIS-PMO/2023-05-04/2023-05-11/,158.73,1
+Las Vegas,Estados Unidos,1565,721.05,Várias companhias aéreas,LAS,2023-05-11,2023-05-18,http://kayak.com/flights/LIS-LAS/2023-05-11/2023-05-18/,721.05,1
+Tânger,Marrocos,1505,65.31,Ryanair,TNG,2023-06-01,2023-06-06,http://kayak.com/flights/LIS-TNG/2023-06-01/2023-06-06/,65.31,1
+Sófia,Bulgária,1470,164.17,Várias companhias aéreas,SOF,2023-05-16,2023-05-22,http://kayak.com/flights/LIS-SOF/2023-05-16/2023-05-22/,164.17,1
+Ponta Delgada,Portugal,155,58.96,Ryanair,PDL,2023-05-17,2023-05-23,http://kayak.com/flights/LIS-PDL/2023-05-17/2023-05-23/,58.96,1
+Belgrado,Sérvia,1045,165.98,Várias companhias aéreas,BEG,2024-02-15,2024-02-19,http://kayak.com/flights/LIS-BEG/2024-02-15/2024-02-19/,165.98,1
+Fort Lauderdale,Estados Unidos,1240,458.94,British Airways,FLL,2023-05-13,2023-05-20,http://kayak.com/flights/LIS-FLL/2023-05-13/2023-05-20/,458.94,1
+Turim,Itália,1165,117.91,Várias companhias aéreas,TRN,2023-05-30,2023-06-03,http://kayak.com/flights/LIS-TRN/2023-05-30/2023-06-03/,117.91,1
+Santiago de Compostela,Espanha,560,77.1,Várias companhias aéreas,SCQ,2023-05-10,2023-05-17,http://kayak.com/flights/LIS-SCQ/2023-05-10/2023-05-17/,77.1,1
+Agadir,Marrocos,1025,64.4,Várias companhias aéreas,AGA,2023-05-12,2023-05-16,http://kayak.com/flights/LIS-AGA/2023-05-12/2023-05-16/,64.4,1
+Astúrias,Espanha,90,43.54,Volotea,OVD,2023-04-28,2023-05-03,http://kayak.com/flights/LIS-OVD/2023-04-28/2023-05-03/,43.54,1
+Eindhoven,Holanda,425,134.24,Ryanair,EIN,2023-05-17,2023-05-23,http://kayak.com/flights/LIS-EIN/2023-05-17/2023-05-23/,134.24,1
+Granadilla de Abona,Espanha,820,133.33,Várias companhias aéreas,TFS,2023-05-20,2023-05-25,http://kayak.com/flights/LIS-TFS/2023-05-20/2023-05-25/,133.33,1
+Cancún,México,1080,487.05,American Airlines,CUN,2024-02-20,2024-02-27,http://kayak.com/flights/LIS-CUN/2024-02-20/2024-02-27/,487.05,1
+Dubrovnik,Croácia,905,154.19,Várias companhias aéreas,DBV,2023-06-27,2023-07-04,http://kayak.com/flights/LIS-DBV/2023-06-27/2023-07-04/,154.19,1
+Florença,Itália,850,215.87,Várias companhias aéreas,FLR,2023-10-07,2023-10-14,http://kayak.com/flights/LIS-FLR/2023-10-07/2023-10-14/,215.87,1
+Heraclião,Grécia,715,195.01,Várias companhias aéreas,HER,2023-06-13,2023-06-20,http://kayak.com/flights/LIS-HER/2023-06-13/2023-06-20/,195.01,1
+Dallas,Estados Unidos,1184,667.54,British Airways,DFW,2023-05-07,2023-05-14,http://kayak.com/flights/LIS-DFW/2023-05-07/2023-05-14/,667.54,1
+Glasgow,Reino Unido,830,142.4,Ryanair,GLA,2023-06-01,2023-06-06,http://kayak.com/flights/LIS-GLA/2023-06-01/2023-06-06/,142.4,1
+Mahón,Espanha,760,90.7,Vueling,MAH,2023-10-17,2023-10-21,http://kayak.com/flights/LIS-MAH/2023-10-17/2023-10-21/,90.7,1
+Arrecife,Espanha,760,105.21,Várias companhias aéreas,ACE,2023-05-30,2023-06-06,http://kayak.com/flights/LIS-ACE/2023-05-30/2023-06-06/,105.21,1
+Argel,Argélia,125,193.19,Air Algerie,ALG,2023-08-11,2023-08-16,http://kayak.com/flights/LIS-ALG/2023-08-11/2023-08-16/,193.19,1
+Corfú,Grécia,1565,145.12,Várias companhias aéreas,CFU,2023-06-03,2023-06-07,http://kayak.com/flights/LIS-CFU/2023-06-03/2023-06-07/,145.12,1
+Roterdão,Holanda,175,122.45,Transavia,RTM,2023-10-04,2023-10-09,http://kayak.com/flights/LIS-RTM/2023-10-04/2023-10-09/,122.45,1
+Split,Croácia,1145,216.77,Várias companhias aéreas,SPU,2023-06-27,2023-07-04,http://kayak.com/flights/LIS-SPU/2023-06-27/2023-07-04/,216.77,1
+Puerto del Rosario,Espanha,945,103.4,Várias companhias aéreas,FUE,2023-05-16,2023-05-20,http://kayak.com/flights/LIS-FUE/2023-05-16/2023-05-20/,103.4,1
+Salónica,Grécia,945,183.21,Ryanair,SKG,2023-05-13,2023-05-20,http://kayak.com/flights/LIS-SKG/2023-05-13/2023-05-20/,183.21,1
+Basileia,Suíça,855,143.31,Várias companhias aéreas,EAP,2023-05-17,2023-05-23,http://kayak.com/flights/LIS-EAP/2023-05-17/2023-05-23/,143.31,1
+Gdansk,Polónia,1760,192.28,Várias companhias aéreas,GDN,2023-05-11,2023-05-15,http://kayak.com/flights/LIS-GDN/2023-05-11/2023-05-15/,192.28,1
+Nuremberga,Alemanha,900,175.05,Várias companhias aéreas,NUE,2023-06-22,2023-06-27,http://kayak.com/flights/LIS-NUE/2023-06-22/2023-06-27/,175.05,1
+Rennes,França,135,83.45,easyJet,RNS,2023-05-16,2023-05-23,http://kayak.com/flights/LIS-RNS/2023-05-16/2023-05-23/,83.45,1
+Bastia,França,160,97.96,easyJet,BIA,2023-06-21,2023-06-28,http://kayak.com/flights/LIS-BIA/2023-06-21/2023-06-28/,97.96,1
+Vilnius,Lituânia,1670,200.45,Várias companhias aéreas,VNO,2023-06-07,2023-06-13,http://kayak.com/flights/LIS-VNO/2023-06-07/2023-06-13/,200.45,1
+Zagreb,Croácia,1130,212.24,Várias companhias aéreas,ZAG,2023-07-05,2023-07-12,http://kayak.com/flights/LIS-ZAG/2023-07-05/2023-07-12/,212.24,1
+Joanesburgo,África do Sul,1580,567.77,TAAG,JNB,2023-05-03,2023-05-10,http://kayak.com/flights/LIS-JNB/2023-05-03/2023-05-10/,567.77,1
+Lajes,Portugal,155,56.24,Ryanair,TER,2023-05-16,2023-05-20,http://kayak.com/flights/LIS-TER/2023-05-16/2023-05-20/,56.24,1
+Iași,Roménia,825,112.47,Várias companhias aéreas,IAS,2023-06-01,2023-06-06,http://kayak.com/flights/LIS-IAS/2023-06-01/2023-06-06/,112.47,1
+Katovice,Polónia,1100,180.49,Várias companhias aéreas,KTW,2023-05-11,2023-05-15,http://kayak.com/flights/LIS-KTW/2023-05-11/2023-05-15/,180.49,1
+Reiquiavique,Islândia,740,202.26,easyJet,KEF,2023-11-18,2023-11-24,http://kayak.com/flights/LIS-KEF/2023-11-18/2023-11-24/,202.26,1
+Chicago,Estados Unidos,1950,639.43,Várias companhias aéreas,ORD,2023-05-13,2023-05-20,http://kayak.com/flights/LIS-ORD/2023-05-13/2023-05-20/,639.43,1
+Poznań,Polónia,930,144.21,Várias companhias aéreas,POZ,2023-06-07,2023-06-14,http://kayak.com/flights/LIS-POZ/2023-06-07/2023-06-14/,144.21,1
+Fes,Marrocos,765,108.84,Ryanair,FEZ,2023-05-19,2023-05-23,http://kayak.com/flights/LIS-FEZ/2023-05-19/2023-05-23/,108.84,1
+Cluj,Roménia,950,137.87,Várias companhias aéreas,CLJ,2023-05-03,2023-05-08,http://kayak.com/flights/LIS-CLJ/2023-05-03/2023-05-08/,137.87,1
+Liverpool,Reino Unido,675,137.87,Várias companhias aéreas,LPL,2023-05-27,2023-05-31,http://kayak.com/flights/LIS-LPL/2023-05-27/2023-05-31/,137.87,1
+La Corunha,Espanha,820,112.47,Várias companhias aéreas,LCG,2023-05-11,2023-05-18,http://kayak.com/flights/LIS-LCG/2023-05-11/2023-05-18/,112.47,1
+Lárnaca,Chipre,640,254.87,Várias companhias aéreas,LCA,2023-10-02,2023-10-06,http://kayak.com/flights/LIS-LCA/2023-10-02/2023-10-06/,254.87,1
+Thera,Grécia,695,208.61,Várias companhias aéreas,JTR,2023-06-06,2023-06-12,http://kayak.com/flights/LIS-JTR/2023-06-06/2023-06-12/,208.61,1
+Pisa,Itália,180,174.15,Ryanair,PSA,2023-07-17,2023-07-24,http://kayak.com/flights/LIS-PSA/2023-07-17/2023-07-24/,174.15,1
+Rabate,Marrocos,1340,120.63,Várias companhias aéreas,RBA,2023-05-18,2023-05-22,http://kayak.com/flights/LIS-RBA/2023-05-18/2023-05-22/,120.63,1
+Riade,Arábia Saudita,1715,221.31,Várias companhias aéreas,RUH,2023-06-10,2023-06-14,http://kayak.com/flights/LIS-RUH/2023-06-10/2023-06-14/,221.31,1
+Denver,Estados Unidos,1600,696.57,British Airways,DEN,2024-01-12,2024-01-18,http://kayak.com/flights/LIS-DEN/2024-01-12/2024-01-18/,696.57,1
+Olbia,Itália,910,174.15,Várias companhias aéreas,OLB,2023-09-14,2023-09-18,http://kayak.com/flights/LIS-OLB/2023-09-14/2023-09-18/,174.15,1
+Montreal,Canadá,1010,378.22,Air France,YUL,2023-09-14,2023-09-21,http://kayak.com/flights/LIS-YUL/2023-09-14/2023-09-21/,378.22,1
+Vigo,Espanha,400,128.8,Várias companhias aéreas,VGO,2023-08-02,2023-08-08,http://kayak.com/flights/LIS-VGO/2023-08-02/2023-08-08/,128.8,1
+Newcastle upon Tyne,Reino Unido,660,141.49,Várias companhias aéreas,NCL,2023-05-12,2023-05-17,http://kayak.com/flights/LIS-NCL/2023-05-12/2023-05-17/,141.49,1
+Hanover,Alemanha,1540,244.89,SWISS,HAJ,2023-04-27,2023-05-02,http://kayak.com/flights/LIS-HAJ/2023-04-27/2023-05-02/,244.89,1
+Bratislava,Eslováquia,900,139.68,Várias companhias aéreas,BTS,2023-05-17,2023-05-21,http://kayak.com/flights/LIS-BTS/2023-05-17/2023-05-21/,139.68,1
+Génova,Itália,1290,152.38,Várias companhias aéreas,GOA,2023-09-25,2023-09-30,http://kayak.com/flights/LIS-GOA/2023-09-25/2023-09-30/,152.38,1
+Santander,Espanha,635,139.68,Iberia,SDR,2023-04-20,2023-04-24,http://kayak.com/flights/LIS-SDR/2023-04-20/2023-04-24/,139.68,1
+Bristol,Reino Unido,155,217.68,easyJet,BRS,2023-04-28,2023-05-02,http://kayak.com/flights/LIS-BRS/2023-04-28/2023-05-02/,217.68,1
+Zadar,Croácia,770,168.7,Várias companhias aéreas,ZAD,2023-07-01,2023-07-06,http://kayak.com/flights/LIS-ZAD/2023-07-01/2023-07-06/,168.7,1
+Porto Santo,Portugal,110,113.38,easyJet,PXO,2023-04-23,2023-04-28,http://kayak.com/flights/LIS-PXO/2023-04-23/2023-04-28/,113.38,1
+Cidade do México,México,1435,739.19,Iberia,MEX,2023-04-20,2023-04-25,http://kayak.com/flights/LIS-MEX/2023-04-20/2023-04-25/,739.19,1
+Horta,Portugal,165,110.66,Azores Airlines,HOR,2023-10-16,2023-10-20,http://kayak.com/flights/LIS-HOR/2023-10-16/2023-10-20/,110.66,1
+Lille,França,815,178.68,Várias companhias aéreas,LIL,2023-09-01,2023-09-07,http://kayak.com/flights/LIS-LIL/2023-09-01/2023-09-07/,178.68,1
+Antália,Turquia,1550,317.45,Várias companhias aéreas,AYT,2023-06-19,2023-06-25,http://kayak.com/flights/LIS-AYT/2023-06-19/2023-06-25/,317.45,1
+Santa Cruz da Graciosa,Portugal,2940,121.54,Várias companhias aéreas,GRW,2023-10-03,2023-10-09,http://kayak.com/flights/LIS-GRW/2023-10-03/2023-10-09/,121.54,1
+Seattle,Estados Unidos,1610,835.33,Aer Lingus,SEA,2023-06-23,2023-06-27,http://kayak.com/flights/LIS-SEA/2023-06-23/2023-06-27/,835.33,1
+Podgorica,Montenegro,1020,188.66,Várias companhias aéreas,TGD,2023-05-04,2023-05-10,http://kayak.com/flights/LIS-TGD/2023-05-04/2023-05-10/,188.66,1
+Tallin,Estónia,1190,329.24,SWISS,TLL,2023-05-14,2023-05-19,http://kayak.com/flights/LIS-TLL/2023-05-14/2023-05-19/,329.24,1
+Beirute,Líbano,895,399.98,Várias companhias aéreas,BEY,2023-05-13,2023-05-20,http://kayak.com/flights/LIS-BEY/2023-05-13/2023-05-20/,399.98,1
+Ilha do Pico,Portugal,1655,132.42,Várias companhias aéreas,PIX,2023-05-08,2023-05-13,http://kayak.com/flights/LIS-PIX/2023-05-08/2023-05-13/,132.42,1
+Brindisi,Itália,820,175.05,Ryanair,BDS,2023-09-04,2023-09-08,http://kayak.com/flights/LIS-BDS/2023-09-04/2023-09-08/,175.05,1
+Algueiro,Itália,1040,167.8,Várias companhias aéreas,AHO,2023-05-26,2023-06-02,http://kayak.com/flights/LIS-AHO/2023-05-26/2023-06-02/,167.8,1
+Liubliana,Eslovénia,1340,236.73,Várias companhias aéreas,LJU,2023-04-21,2023-04-25,http://kayak.com/flights/LIS-LJU/2023-04-21/2023-04-25/,236.73,1
+Milltown (Kerry),Irlanda,700,139.68,Ryanair,KIR,2023-05-10,2023-05-17,http://kayak.com/flights/LIS-KIR/2023-05-10/2023-05-17/,139.68,1
+Nottingham,Reino Unido,1285,159.63,Várias companhias aéreas,EMA,2023-04-24,2023-05-01,http://kayak.com/flights/LIS-EMA/2023-04-24/2023-05-01/,159.63,1
+Lourdes,França,2420,151.47,Ryanair,LDE,2023-05-12,2023-05-19,http://kayak.com/flights/LIS-LDE/2023-05-12/2023-05-19/,151.47,1
+Karlsruhe,Alemanha,780,177.77,Várias companhias aéreas,FKB,2023-04-26,2023-05-02,http://kayak.com/flights/LIS-FKB/2023-04-26/2023-05-02/,177.77,1
+Almeria,Espanha,525,186.84,Várias companhias aéreas,LEI,2023-05-25,2023-05-31,http://kayak.com/flights/LIS-LEI/2023-05-25/2023-05-31/,186.84,1
+Kos,Grécia,920,199.54,Várias companhias aéreas,KGS,2023-06-13,2023-06-20,http://kayak.com/flights/LIS-KGS/2023-06-13/2023-06-20/,199.54,1
+Brno,República Checa,810,154.19,Ryanair,BRQ,2023-05-03,2023-05-08,http://kayak.com/flights/LIS-BRQ/2023-05-03/2023-05-08/,154.19,1
+Bergen,Noruega,975,266.66,Várias companhias aéreas,BGO,2023-05-12,2023-05-19,http://kayak.com/flights/LIS-BGO/2023-05-12/2023-05-19/,266.66,1
+Inverness,Reino Unido,1080,164.17,easyJet,INV,2023-10-11,2023-10-16,http://kayak.com/flights/LIS-INV/2023-10-11/2023-10-16/,164.17,1
+Leeds,Reino Unido,1035,191.38,Ryanair,LBA,2023-05-20,2023-05-24,http://kayak.com/flights/LIS-LBA/2023-05-20/2023-05-24/,191.38,1
+Escópia,Macedónia do Norte,900,233.1,Várias companhias aéreas,SKP,2023-05-13,2023-05-20,http://kayak.com/flights/LIS-SKP/2023-05-13/2023-05-20/,233.1,1
+Pescara,Itália,1045,163.26,Ryanair,PSR,2023-04-27,2023-05-04,http://kayak.com/flights/LIS-PSR/2023-04-27/2023-05-04/,163.26,1
+Santa Cruz das Flores,Portugal,1610,155.1,Várias companhias aéreas,FLW,2023-09-12,2023-09-17,http://kayak.com/flights/LIS-FLW/2023-09-12/2023-09-17/,155.1,1
+Vila do Porto,Portugal,2460,156.91,Várias companhias aéreas,SMA,2023-10-03,2023-10-07,http://kayak.com/flights/LIS-SMA/2023-10-03/2023-10-07/,156.91,1
+Varna,Bulgária,1110,192.28,Várias companhias aéreas,VAR,2023-05-13,2023-05-20,http://kayak.com/flights/LIS-VAR/2023-05-13/2023-05-20/,192.28,1
+Corvo Island,Portugal,1445,160.54,Várias companhias aéreas,CVU,2023-09-29,2023-10-06,http://kayak.com/flights/LIS-CVU/2023-09-29/2023-10-06/,160.54,1
+Pafos,Chipre,1650,221.31,Várias companhias aéreas,PFO,2023-06-19,2023-06-25,http://kayak.com/flights/LIS-PFO/2023-06-19/2023-06-25/,221.31,1
+Timişoara,Roménia,1645,205.89,Várias companhias aéreas,TSR,2023-04-17,2023-04-21,http://kayak.com/flights/LIS-TSR/2023-04-17/2023-04-21/,205.89,1
+Filadélfia,Estados Unidos,1075,627.64,American Airlines,PHL,2023-11-21,2023-11-26,http://kayak.com/flights/LIS-PHL/2023-11-21/2023-11-26/,627.64,1
+Estrasburgo,França,300,209.52,Várias companhias aéreas,SXB,2023-06-07,2023-06-11,http://kayak.com/flights/LIS-SXB/2023-06-07/2023-06-11/,209.52,1
+Memmingen,Alemanha,1125,214.05,Várias companhias aéreas,FMM,2023-04-18,2023-04-22,http://kayak.com/flights/LIS-FMM/2023-04-18/2023-04-22/,214.05,1
+Santa Cruz de la Palma,Espanha,1535,201.35,Várias companhias aéreas,SPC,2023-06-01,2023-06-06,http://kayak.com/flights/LIS-SPC/2023-06-01/2023-06-06/,201.35,1
+Stavanger,Noruega,1770,247.61,Várias companhias aéreas,SVG,2023-05-11,2023-05-16,http://kayak.com/flights/LIS-SVG/2023-05-11/2023-05-16/,247.61,1
+Granada,Espanha,1195,229.47,Várias companhias aéreas,GRX,2023-05-09,2023-05-13,http://kayak.com/flights/LIS-GRX/2023-05-09/2023-05-13/,229.47,1
+Badajoz,Espanha,695,183.21,Iberia,BJZ,2023-08-01,2023-08-06,http://kayak.com/flights/LIS-BJZ/2023-08-01/2023-08-06/,183.21,1
+Castellón de la Plana,Espanha,915,183.21,Iberia,CDT,2023-09-28,2023-10-04,http://kayak.com/flights/LIS-CDT/2023-09-28/2023-10-04/,183.21,1
+Figari,França,1000,214.05,Várias companhias aéreas,FSC,2023-05-13,2023-05-20,http://kayak.com/flights/LIS-FSC/2023-05-13/2023-05-20/,214.05,1
+Verona,Itália,560,273.01,Várias companhias aéreas,VRN,2023-08-24,2023-08-28,http://kayak.com/flights/LIS-VRN/2023-08-24/2023-08-28/,273.01,1
+Ålesund,Noruega,1495,195.91,Várias companhias aéreas,AES,2023-05-16,2023-05-22,http://kayak.com/flights/LIS-AES/2023-05-16/2023-05-22/,195.91,1
+Nimes,França,460,195.01,Várias companhias aéreas,FNI,2023-09-28,2023-10-02,http://kayak.com/flights/LIS-FNI/2023-09-28/2023-10-02/,195.01,1
+Bergerac,França,1315,188.66,Várias companhias aéreas,EGC,2023-06-08,2023-06-12,http://kayak.com/flights/LIS-EGC/2023-06-08/2023-06-12/,188.66,1
+Grenoble,França,655,191.38,Várias companhias aéreas,GNB,2024-01-20,2024-01-27,http://kayak.com/flights/LIS-GNB/2024-01-20/2024-01-27/,191.38,1
+Dalaman,Turquia,1210,216.77,Várias companhias aéreas,DLM,2023-06-15,2023-06-19,http://kayak.com/flights/LIS-DLM/2023-06-15/2023-06-19/,216.77,1
+Lodz,Polónia,1225,195.91,Ryanair,LCJ,2023-06-03,2023-06-08,http://kayak.com/flights/LIS-LCJ/2023-06-03/2023-06-08/,195.91,1
+Vancouver,Canadá,1635,703.82,Várias companhias aéreas,YVR,2023-06-06,2023-06-10,http://kayak.com/flights/LIS-YVR/2023-06-06/2023-06-10/,703.82,1
+Chania,Grécia,895,273.91,Várias companhias aéreas,CHQ,2023-05-27,2023-06-03,http://kayak.com/flights/LIS-CHQ/2023-05-27/2023-06-03/,273.91,1
+Tampa,Estados Unidos,1840,600.43,American Airlines,TPA,2023-05-10,2023-05-17,http://kayak.com/flights/LIS-TPA/2023-05-10/2023-05-17/,600.43,1
+Montpellier,França,1155,283.89,Várias companhias aéreas,MPL,2023-05-04,2023-05-08,http://kayak.com/flights/LIS-MPL/2023-05-04/2023-05-08/,283.89,1
+Reus,Espanha,1340,207.7,Ryanair,REU,2023-05-11,2023-05-16,http://kayak.com/flights/LIS-REU/2023-05-11/2023-05-16/,207.7,1
+Suceava,Roménia,1105,224.94,Várias companhias aéreas,SCV,2023-05-03,2023-05-07,http://kayak.com/flights/LIS-SCV/2023-05-03/2023-05-07/,224.94,1
+Lamezia Terme,Itália,800,248.52,Ryanair,SUF,2023-07-17,2023-07-22,http://kayak.com/flights/LIS-SUF/2023-07-17/2023-07-22/,248.52,1
+Sharm El Sheikh,Egito,1860,269.38,Várias companhias aéreas,SSH,2023-05-18,2023-05-22,http://kayak.com/flights/LIS-SSH/2023-05-18/2023-05-22/,269.38,1
+Míconos,Grécia,650,306.56,Várias companhias aéreas,JMK,2023-08-26,2023-09-02,http://kayak.com/flights/LIS-JMK/2023-08-26/2023-09-02/,306.56,1
+Forlì,Itália,1120,218.59,Várias companhias aéreas,FRL,2023-05-09,2023-05-16,http://kayak.com/flights/LIS-FRL/2023-05-09/2023-05-16/,218.59,1
+Pula,Croácia,1370,237.63,Várias companhias aéreas,PUY,2023-06-04,2023-06-10,http://kayak.com/flights/LIS-PUY/2023-06-04/2023-06-10/,237.63,1
+Velas,Portugal,1255,225.84,Várias companhias aéreas,SJZ,2023-07-02,2023-07-08,http://kayak.com/flights/LIS-SJZ/2023-07-02/2023-07-08/,225.84,1
+Rzeszów,Polónia,935,240.35,Várias companhias aéreas,RZE,2023-05-14,2023-05-20,http://kayak.com/flights/LIS-RZE/2023-05-14/2023-05-20/,240.35,1
+Belfast,Reino Unido,750,268.47,Várias companhias aéreas,BFS,2023-10-28,2023-11-01,http://kayak.com/flights/LIS-BFS/2023-10-28/2023-11-01/,268.47,1
+Clermont-Ferrand,França,1435,240.35,Air France,CFE,2023-09-18,2023-09-25,http://kayak.com/flights/LIS-CFE/2023-09-18/2023-09-25/,240.35,1
+Craiova,Roménia,1015,237.63,Várias companhias aéreas,CRA,2023-05-14,2023-05-21,http://kayak.com/flights/LIS-CRA/2023-05-14/2023-05-21/,237.63,1
+São Paulo,Brasil,1335,658.47,TAAG,SAO,2023-11-25,2023-12-02,http://kayak.com/flights/LIS-SAO/2023-11-25/2023-12-02/,658.47,1
+Tetuão,Marrocos,890,243.98,Várias companhias aéreas,TTU,2023-04-21,2023-04-25,http://kayak.com/flights/LIS-TTU/2023-04-21/2023-04-25/,243.98,1
+Breslavia,Polónia,940,363.7,Várias companhias aéreas,WRO,2023-04-14,2023-04-18,http://kayak.com/flights/LIS-WRO/2023-04-14/2023-04-18/,363.7,1
+Baltimore,Estados Unidos,1005,510.63,British Airways,BWI,2023-04-21,2023-04-26,http://kayak.com/flights/LIS-BWI/2023-04-21/2023-04-26/,510.63,1
+Singapura,Singapura,2025,908.8,Várias companhias aéreas,SIN,2023-04-25,2023-05-02,http://kayak.com/flights/LIS-SIN/2023-04-25/2023-05-02/,908.8,1
+Dresden,Alemanha,680,306.56,SWISS,DRS,2023-05-04,2023-05-09,http://kayak.com/flights/LIS-DRS/2023-05-04/2023-05-09/,306.56,1
+Burgas,Bulgária,1795,273.01,Várias companhias aéreas,BOJ,2023-06-12,2023-06-16,http://kayak.com/flights/LIS-BOJ/2023-06-12/2023-06-16/,273.01,1
+Newquay,Reino Unido,910,253.96,Várias companhias aéreas,NQY,2023-06-16,2023-06-23,http://kayak.com/flights/LIS-NQY/2023-06-16/2023-06-23/,253.96,1
+Kaunas,Lituânia,1430,268.47,Ryanair,KUN,2023-04-27,2023-05-01,http://kayak.com/flights/LIS-KUN/2023-04-27/2023-05-01/,268.47,1
+San José,Costa Rica,1989,580.47,Air France,SJO,2023-09-27,2023-10-04,http://kayak.com/flights/LIS-SJO/2023-09-27/2023-10-04/,580.47,1
+Plovdiv,Bulgária,1620,251.24,Várias companhias aéreas,PDV,2023-05-12,2023-05-17,http://kayak.com/flights/LIS-PDV/2023-05-12/2023-05-17/,251.24,1
+Cidade da Praia,Cabo Verde,250,276.63,Cabo Verde Airlines,RAI,2023-05-29,2023-06-05,http://kayak.com/flights/LIS-RAI/2023-05-29/2023-06-05/,276.63,1
+Phoenix,Estados Unidos,1751,721.96,Air France,PHX,2023-05-12,2023-05-18,http://kayak.com/flights/LIS-PHX/2023-05-12/2023-05-18/,721.96,1
+Pristina,Kosovo,1115,319.26,Austrian Airlines,PRN,2023-05-02,2023-05-07,http://kayak.com/flights/LIS-PRN/2023-05-02/2023-05-07/,319.26,1
+Jerez de la Frontera,Espanha,750,299.31,Iberia,XRY,2023-05-12,2023-05-19,http://kayak.com/flights/LIS-XRY/2023-05-12/2023-05-19/,299.31,1
+Trapani,Itália,980,285.7,Várias companhias aéreas,TPS,2023-09-09,2023-09-16,http://kayak.com/flights/LIS-TPS/2023-09-09/2023-09-16/,285.7,1
+Biarritz,França,420,302.03,Várias companhias aéreas,BIQ,2023-05-12,2023-05-19,http://kayak.com/flights/LIS-BIQ/2023-05-12/2023-05-19/,302.03,1
+Bogotá,Colômbia,1795,920.59,Várias companhias aéreas,BOG,2023-05-13,2023-05-20,http://kayak.com/flights/LIS-BOG/2023-05-13/2023-05-20/,920.59,1
+Oujda,Marrocos,865,299.31,Várias companhias aéreas,OUD,2023-06-24,2023-07-01,http://kayak.com/flights/LIS-OUD/2023-06-24/2023-07-01/,299.31,1
+Perpinhã,França,1150,290.24,Várias companhias aéreas,PGF,2023-04-13,2023-04-20,http://kayak.com/flights/LIS-PGF/2023-04-13/2023-04-20/,290.24,1
+Carcassonne,França,1220,279.35,Várias companhias aéreas,CCF,2023-04-19,2023-04-23,http://kayak.com/flights/LIS-CCF/2023-04-19/2023-04-23/,279.35,1
+Erevã,Arménia,1260,421.75,Várias companhias aéreas,EVN,2023-06-18,2023-06-22,http://kayak.com/flights/LIS-EVN/2023-06-18/2023-06-22/,421.75,1
+Zaquinto,Grécia,1130,346.47,Várias companhias aéreas,ZTH,2023-06-23,2023-06-28,http://kayak.com/flights/LIS-ZTH/2023-06-23/2023-06-28/,346.47,1
+Saraievo,Bósnia-Herzegóvina,1075,336.49,Várias companhias aéreas,SJJ,2023-05-30,2023-06-05,http://kayak.com/flights/LIS-SJJ/2023-05-30/2023-06-05/,336.49,1
+Quichinau,Moldávia,620,330.15,Várias companhias aéreas,KIV,2023-07-24,2023-07-29,http://kayak.com/flights/LIS-KIV/2023-07-24/2023-07-29/,330.15,1
+Logroño,Espanha,575,298.4,Iberia,RJL,2023-05-11,2023-05-15,http://kayak.com/flights/LIS-RJL/2023-05-11/2023-05-15/,298.4,1
+Bremen,Alemanha,2315,394.54,Várias companhias aéreas,BRE,2023-04-15,2023-04-22,http://kayak.com/flights/LIS-BRE/2023-04-15/2023-04-22/,394.54,1
+Fort Myers,Estados Unidos,1540,464.38,American Airlines,RSW,2023-05-02,2023-05-08,http://kayak.com/flights/LIS-RSW/2023-05-02/2023-05-08/,464.38,1
+Ajácio,França,445,344.66,Várias companhias aéreas,AJA,2023-05-13,2023-05-20,http://kayak.com/flights/LIS-AJA/2023-05-13/2023-05-20/,344.66,1
+Bacau,Roménia,1695,303.84,Várias companhias aéreas,BCM,2023-05-22,2023-05-26,http://kayak.com/flights/LIS-BCM/2023-05-22/2023-05-26/,303.84,1
+Saragoça,Espanha,1595,312.01,Várias companhias aéreas,ZAZ,2023-04-14,2023-04-20,http://kayak.com/flights/LIS-ZAZ/2023-04-14/2023-04-20/,312.01,1
+Abu Dhabi,Emirados Árabes Unidos,1520,487.05,Várias companhias aéreas,AUH,2023-10-31,2023-11-05,http://kayak.com/flights/LIS-AUH/2023-10-31/2023-11-05/,487.05,1
+Cardiff,Reino Unido,825,336.49,KLM,CWL,2023-04-28,2023-05-02,http://kayak.com/flights/LIS-CWL/2023-04-28/2023-05-02/,336.49,1
+Mulhouse,França,1630,322.89,Várias companhias aéreas,MLH,2023-05-25,2023-06-01,http://kayak.com/flights/LIS-MLH/2023-05-25/2023-06-01/,322.89,1
+Bydgoszcz,Polónia,1320,311.1,Várias companhias aéreas,BZG,2023-04-24,2023-04-28,http://kayak.com/flights/LIS-BZG/2023-04-24/2023-04-28/,311.1,1
+Calvi,França,1040,325.61,Air France,CLY,2023-05-12,2023-05-19,http://kayak.com/flights/LIS-CLY/2023-05-12/2023-05-19/,325.61,1
+Aberdeen,Reino Unido,785,341.94,KLM,ABZ,2023-05-16,2023-05-20,http://kayak.com/flights/LIS-ABZ/2023-05-16/2023-05-20/,341.94,1
+Sibiu,Roménia,1700,324.7,Várias companhias aéreas,SBZ,2023-04-17,2023-04-21,http://kayak.com/flights/LIS-SBZ/2023-04-17/2023-04-21/,324.7,1
+São Sebastião,Espanha,655,357.36,Iberia,EAS,2023-05-11,2023-05-15,http://kayak.com/flights/LIS-EAS/2023-05-11/2023-05-15/,357.36,1
+Pau,França,925,334.68,Air France,PUF,2023-05-12,2023-05-19,http://kayak.com/flights/LIS-PUF/2023-05-12/2023-05-19/,334.68,1
+Ancara,Turquia,1415,359.17,Várias companhias aéreas,ANK,2023-04-17,2023-04-23,http://kayak.com/flights/LIS-ANK/2023-04-17/2023-04-23/,359.17,1
+Charlotte,Estados Unidos,995,655.75,American Airlines,CLT,2023-04-27,2023-05-04,http://kayak.com/flights/LIS-CLT/2023-04-27/2023-05-04/,655.75,1
+Alexandria,Egito,2440,351.91,Várias companhias aéreas,HBE,2023-11-01,2023-11-08,http://kayak.com/flights/LIS-HBE/2023-11-01/2023-11-08/,351.91,1
+Szczecin,Polónia,1450,332.87,Várias companhias aéreas,SZZ,2023-05-22,2023-05-26,http://kayak.com/flights/LIS-SZZ/2023-05-22/2023-05-26/,332.87,1
+São Pedro,Cabo Verde,260,332.87,TAP AIR PORTUGAL,VXE,2023-05-11,2023-05-18,http://kayak.com/flights/LIS-VXE/2023-05-11/2023-05-18/,332.87,1
+Ancona,Itália,910,335.59,Várias companhias aéreas,AOI,2023-08-29,2023-09-02,http://kayak.com/flights/LIS-AOI/2023-08-29/2023-09-02/,335.59,1
+Münster,Alemanha,545,371.87,Lufthansa,FMO,2023-04-27,2023-05-01,http://kayak.com/flights/LIS-FMO/2023-04-27/2023-05-01/,371.87,1
+San Juan,Porto Rico,1768,752.8,United Airlines,SJU,2023-05-06,2023-05-12,http://kayak.com/flights/LIS-SJU/2023-05-06/2023-05-12/,752.8,1
+Seul,Coreia do Sul,2085,721.05,Finnair,SEL,2023-09-12,2023-09-18,http://kayak.com/flights/LIS-SEL/2023-09-12/2023-09-18/,721.05,1
+Esmirna,Turquia,1365,382.75,Várias companhias aéreas,IZM,2023-05-14,2023-05-21,http://kayak.com/flights/LIS-IZM/2023-05-14/2023-05-21/,382.75,1
+Trieste,Itália,595,390.91,Lufthansa,TRS,2023-04-27,2023-05-03,http://kayak.com/flights/LIS-TRS/2023-04-27/2023-05-03/,390.91,1
+Houston,Estados Unidos,1225,715.61,British Airways,IAH,2023-05-13,2023-05-20,http://kayak.com/flights/LIS-IAH/2023-05-13/2023-05-20/,715.61,1
+Sitia,Grécia,1430,357.36,Aegean Airlines,JSH,2023-09-26,2023-10-03,http://kayak.com/flights/LIS-JSH/2023-09-26/2023-10-03/,357.36,1
+Lampedusa,Itália,770,362.8,Várias companhias aéreas,LMP,2023-09-03,2023-09-07,http://kayak.com/flights/LIS-LMP/2023-09-03/2023-09-07/,362.8,1
+Luanda,Angola,1075,406.33,Várias companhias aéreas,LAD,2023-09-21,2023-09-28,http://kayak.com/flights/LIS-LAD/2023-09-21/2023-09-28/,406.33,1
+Raleigh,Estados Unidos,1565,647.59,British Airways,RDU,2023-06-07,2023-06-12,http://kayak.com/flights/LIS-RDU/2023-06-07/2023-06-12/,647.59,1
+Dakar,Senegal,255,457.12,TAP AIR PORTUGAL,DSS,2023-11-06,2023-11-13,http://kayak.com/flights/LIS-DSS/2023-11-06/2023-11-13/,457.12,1
+Cidade do Cabo,África do Sul,1475,695.66,KLM,CPT,2023-09-12,2023-09-19,http://kayak.com/flights/LIS-CPT/2023-09-12/2023-09-19/,695.66,1
+Portland,Estados Unidos,1560,702.91,KLM,PDX,2023-05-13,2023-05-20,http://kayak.com/flights/LIS-PDX/2023-05-13/2023-05-20/,702.91,1
+Dortmund,Alemanha,1830,418.12,Várias companhias aéreas,DTM,2023-04-15,2023-04-19,http://kayak.com/flights/LIS-DTM/2023-04-15/2023-04-19/,418.12,1
+Banjul,Gâmbia,1390,418.12,Várias companhias aéreas,BJL,2023-12-15,2023-12-22,http://kayak.com/flights/LIS-BJL/2023-12-15/2023-12-22/,418.12,1
+San Sebastián de la Gomera,Espanha,775,375.49,Iberia,GMZ,2023-09-19,2023-09-26,http://kayak.com/flights/LIS-GMZ/2023-09-19/2023-09-26/,375.49,1
+Tbilisi,Geórgia,1845,484.33,Várias companhias aéreas,TBS,2023-05-13,2023-05-20,http://kayak.com/flights/LIS-TBS/2023-05-13/2023-05-20/,484.33,1
+Cidade do Panamá,Panamá,1005,550.54,Iberia,PTY,2023-11-13,2023-11-20,http://kayak.com/flights/LIS-PTY/2023-11-13/2023-11-20/,550.54,1
+West Palm Beach,Estados Unidos,933,522.43,British Airways,PBI,2023-05-17,2023-05-21,http://kayak.com/flights/LIS-PBI/2023-05-17/2023-05-21/,522.43,1
+Doha,Catar,1900,705.64,Várias companhias aéreas,DOH,2023-06-26,2023-07-02,http://kayak.com/flights/LIS-DOH/2023-06-26/2023-07-02/,705.64,1
+Régio da Calábria,Itália,1575,382.75,Várias companhias aéreas,REG,2023-09-03,2023-09-08,http://kayak.com/flights/LIS-REG/2023-09-03/2023-09-08/,382.75,1
+Houmt Souk,Tunísia,1390,425.38,Várias companhias aéreas,DJE,2023-04-25,2023-05-02,http://kayak.com/flights/LIS-DJE/2023-04-25/2023-05-02/,425.38,1
+Tampere,Finlândia,1035,414.49,Várias companhias aéreas,TMP,2023-06-05,2023-06-09,http://kayak.com/flights/LIS-TMP/2023-06-05/2023-06-09/,414.49,1
+Minneapolis,Estados Unidos,948,799.96,Várias companhias aéreas,MSP,2023-06-20,2023-06-24,http://kayak.com/flights/LIS-MSP/2023-06-20/2023-06-24/,799.96,1
+Tóquio,Japão,1230,920.59,Várias companhias aéreas,TYO,2024-02-03,2024-02-10,http://kayak.com/flights/LIS-TYO/2024-02-03/2024-02-10/,920.59,1
+Kuala Lumpur,Malásia,1840,845.31,Várias companhias aéreas,KUL,2023-05-11,2023-05-17,http://kayak.com/flights/LIS-KUL/2023-05-11/2023-05-17/,845.31,1
+Southampton,Reino Unido,1455,431.73,Várias companhias aéreas,SOU,2023-04-21,2023-04-25,http://kayak.com/flights/LIS-SOU/2023-04-21/2023-04-25/,431.73,1
+Toulon,França,1015,429.01,Várias companhias aéreas,TLN,2023-05-22,2023-05-26,http://kayak.com/flights/LIS-TLN/2023-05-22/2023-05-26/,429.01,1
+Detroit,Estados Unidos,945,653.94,Delta,DTW,2023-05-11,2023-05-18,http://kayak.com/flights/LIS-DTW/2023-05-11/2023-05-18/,653.94,1
+Espargos,Cabo Verde,250,426.29,TAP AIR PORTUGAL,SID,2023-09-22,2023-09-27,http://kayak.com/flights/LIS-SID/2023-09-22/2023-09-27/,426.29,1
+Rio de Janeiro,Brasil,2585,648.5,Delta,RIO,2024-01-21,2024-01-28,http://kayak.com/flights/LIS-RIO/2024-01-21/2024-01-28/,648.5,1
+Lugano,Suíça,395,418.12,SWISS,QDL,2023-08-23,2023-08-29,http://kayak.com/flights/LIS-QDL/2023-08-23/2023-08-29/,418.12,1
+Mumbai,Índia,1900,930.57,Várias companhias aéreas,BOM,2023-07-24,2023-07-31,http://kayak.com/flights/LIS-BOM/2023-07-24/2023-07-31/,930.57,1
+Kayseri,Turquia,1055,453.5,Várias companhias aéreas,ASR,2023-09-25,2023-09-29,http://kayak.com/flights/LIS-ASR/2023-09-25/2023-09-29/,453.5,1
+Skýros,Grécia,1885,442.61,Várias companhias aéreas,SKU,2023-09-10,2023-09-17,http://kayak.com/flights/LIS-SKU/2023-09-10/2023-09-17/,442.61,1
+Panama City,Estados Unidos,2920,478.89,American Airlines,ECP,2023-05-13,2023-05-20,http://kayak.com/flights/LIS-ECP/2023-05-13/2023-05-20/,478.89,1
+Kuwait,Koweit,1535,537.84,Várias companhias aéreas,KWI,2023-04-29,2023-05-03,http://kayak.com/flights/LIS-KWI/2023-04-29/2023-05-03/,537.84,1
+Manila,Filipinas,2175,1155.5,Várias companhias aéreas,MNL,2023-04-29,2023-05-03,http://kayak.com/flights/LIS-MNL/2023-04-29/2023-05-03/,1155.5,1
+Leipzig,Alemanha,1265,520.61,Várias companhias aéreas,LEJ,2023-05-21,2023-05-26,http://kayak.com/flights/LIS-LEJ/2023-05-21/2023-05-26/,520.61,1
+Salt Lake City,Estados Unidos,1609,724.68,American Airlines,SLC,2023-05-30,2023-06-05,http://kayak.com/flights/LIS-SLC/2023-05-30/2023-06-05/,724.68,1
+Monastir,Tunísia,990,496.12,Várias companhias aéreas,MIR,2023-08-12,2023-08-19,http://kayak.com/flights/LIS-MIR/2023-08-12/2023-08-19/,496.12,1
+San Jose,Estados Unidos,1145,628.54,British Airways,SJC,2023-05-12,2023-05-19,http://kayak.com/flights/LIS-SJC/2023-05-12/2023-05-19/,628.54,1
+Austin,Estados Unidos,1200,790.89,Air France,AUS,2023-04-24,2023-04-28,http://kayak.com/flights/LIS-AUS/2023-04-24/2023-04-28/,790.89,1
+Parma,Itália,1580,476.17,Várias companhias aéreas,PMF,2023-09-01,2023-09-08,http://kayak.com/flights/LIS-PMF/2023-09-01/2023-09-08/,476.17,1
+Corvera,Espanha,1285,488.87,Várias companhias aéreas,RMU,2023-10-23,2023-10-29,http://kayak.com/flights/LIS-RMU/2023-10-23/2023-10-29/,488.87,1
+São Diego,Estados Unidos,1329,862.54,Delta,SAN,2023-08-21,2023-08-27,http://kayak.com/flights/LIS-SAN/2023-08-21/2023-08-27/,862.54,1
+Sørvágur,Ilhas Faroe,3205,502.47,Várias companhias aéreas,FAE,2023-08-04,2023-08-11,http://kayak.com/flights/LIS-FAE/2023-08-04/2023-08-11/,502.47,1
+Hurghada,Egito,1435,578.66,Várias companhias aéreas,HRG,2023-07-03,2023-07-10,http://kayak.com/flights/LIS-HRG/2023-07-03/2023-07-10/,578.66,1
+Buenos Aires,Argentina,1760,794.52,Lufthansa,BUE,2023-06-14,2023-06-21,http://kayak.com/flights/LIS-BUE/2023-06-14/2023-06-21/,794.52,1
+St Louis,Estados Unidos,1050,650.31,Várias companhias aéreas,STL,2023-11-01,2023-11-07,http://kayak.com/flights/LIS-STL/2023-11-01/2023-11-07/,650.31,1
+Punta Cana,República Dominicana,485,698.38,Orbest,PUJ,2023-08-14,2023-08-21,http://kayak.com/flights/LIS-PUJ/2023-08-14/2023-08-21/,698.38,1
+Honolulu,Estados Unidos,2135,909.71,American Airlines,HNL,2023-04-16,2023-04-23,http://kayak.com/flights/LIS-HNL/2023-04-16/2023-04-23/,909.71,1
+Manama,Bahrain,1760,550.54,Várias companhias aéreas,BAH,2023-05-04,2023-05-09,http://kayak.com/flights/LIS-BAH/2023-05-04/2023-05-09/,550.54,1
+Patras,Grécia,755,512.45,Várias companhias aéreas,GPA,2023-06-23,2023-06-30,http://kayak.com/flights/LIS-GPA/2023-06-23/2023-06-30/,512.45,1
+Umeå,Suécia,1490,522.43,Várias companhias aéreas,UME,2023-04-17,2023-04-21,http://kayak.com/flights/LIS-UME/2023-04-17/2023-04-21/,522.43,1
+Vólos,Grécia,1650,519.7,Austrian Airlines,VOL,2023-08-05,2023-08-12,http://kayak.com/flights/LIS-VOL/2023-08-05/2023-08-12/,519.7,1
+Pittsburgh,Estados Unidos,848,686.59,American Airlines,PIT,2023-05-03,2023-05-07,http://kayak.com/flights/LIS-PIT/2023-05-03/2023-05-07/,686.59,1
+Quito,Equador,1160,700.19,Air Europa,UIO,2023-05-19,2023-05-23,http://kayak.com/flights/LIS-UIO/2023-05-19/2023-05-23/,700.19,1
+Al Hoceima,Marrocos,1325,536.94,Royal Air Maroc,AHU,2023-08-06,2023-08-13,http://kayak.com/flights/LIS-AHU/2023-08-06/2023-08-13/,536.94,1
+Oakland,Estados Unidos,2694,661.19,American Airlines,OAK,2023-05-12,2023-05-19,http://kayak.com/flights/LIS-OAK/2023-05-12/2023-05-19/,661.19,1
+Indianápolis,Estados Unidos,1559,703.82,Iberia,IND,2023-04-20,2023-04-27,http://kayak.com/flights/LIS-IND/2023-04-20/2023-04-27/,703.82,1
+Parikia,Grécia,750,555.98,Várias companhias aéreas,PAS,2023-05-13,2023-05-20,http://kayak.com/flights/LIS-PAS/2023-05-13/2023-05-20/,555.98,1
+New Windsor,Estados Unidos,1520,587.73,PLAY,SWF,2023-08-21,2023-08-27,http://kayak.com/flights/LIS-SWF/2023-08-21/2023-08-27/,587.73,1
+Bissau,Guiné-Bissau,675,556.89,Royal Air Maroc,OXB,2023-05-13,2023-05-20,http://kayak.com/flights/LIS-OXB/2023-05-13/2023-05-20/,556.89,1
+Nova Orleães,Estados Unidos,1158,778.19,American Airlines,MSY,2023-05-23,2023-05-30,http://kayak.com/flights/LIS-MSY/2023-05-23/2023-05-30/,778.19,1
+Acra,Gana,1430,696.57,Várias companhias aéreas,ACC,2023-10-24,2023-10-28,http://kayak.com/flights/LIS-ACC/2023-10-24/2023-10-28/,696.57,1
+Calgary,Canadá,2019,814.47,American Airlines,YYC,2023-04-14,2023-04-21,http://kayak.com/flights/LIS-YYC/2023-04-14/2023-04-21/,814.47,1
+Santo Domingo,República Dominicana,1136,772.75,Iberia,SDQ,2023-05-17,2023-05-22,http://kayak.com/flights/LIS-SDQ/2023-05-17/2023-05-22/,772.75,1
+Dakhla,Sara Ocidental,1035,568.68,Várias companhias aéreas,VIL,2023-04-17,2023-04-21,http://kayak.com/flights/LIS-VIL/2023-04-17/2023-04-21/,568.68,1
+Belo Horizonte,Brasil,2205,626.73,Várias companhias aéreas,CNF,2023-06-06,2023-06-12,http://kayak.com/flights/LIS-CNF/2023-06-06/2023-06-12/,626.73,1
+Memphis,Estados Unidos,1326,663.91,Delta,MEM,2023-09-04,2023-09-11,http://kayak.com/flights/LIS-MEM/2023-09-04/2023-09-11/,663.91,1
+São Tomé,São Tomé e Príncipe,555,586.82,TAP AIR PORTUGAL,TMS,2023-10-29,2023-11-05,http://kayak.com/flights/LIS-TMS/2023-10-29/2023-11-05/,586.82,1
+Bursa,Turquia,1230,585.01,Várias companhias aéreas,YEI,2023-06-08,2023-06-12,http://kayak.com/flights/LIS-YEI/2023-06-08/2023-06-12/,585.01,1
+Tivat,Montenegro,1440,629.45,Air Serbia,TIV,2023-04-15,2023-04-19,http://kayak.com/flights/LIS-TIV/2023-04-15/2023-04-19/,629.45,1
+Baku,Azerbeijão,1750,647.59,Várias companhias aéreas,GYD,2023-04-13,2023-04-18,http://kayak.com/flights/LIS-GYD/2023-04-13/2023-04-18/,647.59,1
+Nevşehir,Turquia,905,596.8,Várias companhias aéreas,NAV,2023-05-12,2023-05-19,http://kayak.com/flights/LIS-NAV/2023-05-12/2023-05-19/,596.8,1
+São Luís,Brasil,1615,627.64,LATAM Airlines,SLZ,2024-01-24,2024-01-31,http://kayak.com/flights/LIS-SLZ/2024-01-24/2024-01-31/,627.64,1
+Aqaba,Jordânia,1035,614.94,Turkish Airlines,AQJ,2023-10-27,2023-11-03,http://kayak.com/flights/LIS-AQJ/2023-10-27/2023-11-03/,614.94,1
+Nicósia,Chipre,1210,620.38,Várias companhias aéreas,ECN,2023-05-13,2023-05-20,http://kayak.com/flights/LIS-ECN/2023-05-13/2023-05-20/,620.38,1
+Mascate,Omã,1370,711.08,Lufthansa,MCT,2023-06-30,2023-07-07,http://kayak.com/flights/LIS-MCT/2023-06-30/2023-07-07/,711.08,1
+Santiago,Chile,1926,936.92,Várias companhias aéreas,SCL,2023-08-16,2023-08-23,http://kayak.com/flights/LIS-SCL/2023-08-16/2023-08-23/,936.92,1
+Maputo,Moçambique,1805,663.01,Várias companhias aéreas,MPM,2023-09-13,2023-09-19,http://kayak.com/flights/LIS-MPM/2023-09-13/2023-09-19/,663.01,1
+Medellín,Colômbia,1010,896.1,Air Europa,MDE,2023-05-12,2023-05-19,http://kayak.com/flights/LIS-MDE/2023-05-12/2023-05-19/,896.1,1
+Sharjah,Emirados Árabes Unidos,1215,680.24,Várias companhias aéreas,SHJ,2023-04-28,2023-05-05,http://kayak.com/flights/LIS-SHJ/2023-04-28/2023-05-05/,680.24,1
+Guadalajara,México,1459,796.33,American Airlines,GDL,2023-04-14,2023-04-21,http://kayak.com/flights/LIS-GDL/2023-04-14/2023-04-21/,796.33,1
+Carachi,Paquistão,1975,723.78,Várias companhias aéreas,KHI,2023-05-11,2023-05-18,http://kayak.com/flights/LIS-KHI/2023-05-11/2023-05-18/,723.78,1
+Islamabad,Paquistão,1900,774.57,Várias companhias aéreas,ISB,2023-05-11,2023-05-16,http://kayak.com/flights/LIS-ISB/2023-05-11/2023-05-16/,774.57,1
+Salvador,Brasil,815,737.38,Air Europa,SSA,2023-09-27,2023-10-04,http://kayak.com/flights/LIS-SSA/2023-09-27/2023-10-04/,737.38,1
+Naxos,Grécia,840,642.15,Várias companhias aéreas,JNX,2023-07-28,2023-08-03,http://kayak.com/flights/LIS-JNX/2023-07-28/2023-08-03/,642.15,1
+Columbus,Estados Unidos,1256,771.84,Lufthansa,CMH,2023-09-11,2023-09-18,http://kayak.com/flights/LIS-CMH/2023-09-11/2023-09-18/,771.84,1
+Karpathos,Grécia,760,645.77,Várias companhias aéreas,AOK,2023-08-17,2023-08-24,http://kayak.com/flights/LIS-AOK/2023-08-17/2023-08-24/,645.77,1
+Hong Kong,Hong Kong,2085,1068.43,Várias companhias aéreas,HKG,2023-05-11,2023-05-18,http://kayak.com/flights/LIS-HKG/2023-05-11/2023-05-18/,1068.43,1
+Hyderabad,Índia,2835,893.38,Etihad Airways,HYD,2023-05-18,2023-05-23,http://kayak.com/flights/LIS-HYD/2023-05-18/2023-05-23/,893.38,1
+Fort-de-France,Martinica,1060,709.26,Várias companhias aéreas,FDF,2023-06-01,2023-06-08,http://kayak.com/flights/LIS-FDF/2023-06-01/2023-06-08/,709.26,1
+Pequim,China,1790,742.82,Várias companhias aéreas,BJS,2023-11-08,2023-11-15,http://kayak.com/flights/LIS-BJS/2023-11-08/2023-11-15/,742.82,1
+Cap Skirring,Senegal,1770,652.12,Várias companhias aéreas,CSK,2023-05-11,2023-05-18,http://kayak.com/flights/LIS-CSK/2023-05-11/2023-05-18/,652.12,1
+Tulsa,Estados Unidos,1495,702.91,KLM,TUL,2023-05-11,2023-05-18,http://kayak.com/flights/LIS-TUL/2023-05-11/2023-05-18/,702.91,1
+Bangalore,Índia,1280,885.22,IndiGo,BLR,2023-07-08,2023-07-12,http://kayak.com/flights/LIS-BLR/2023-07-08/2023-07-12/,885.22,1
+Paleochori,Grécia,1430,662.1,Várias companhias aéreas,MLO,2023-07-17,2023-07-22,http://kayak.com/flights/LIS-MLO/2023-07-17/2023-07-22/,662.1,1
+Malé,Maldivas,2395,856.19,Várias companhias aéreas,MLE,2023-04-24,2023-05-01,http://kayak.com/flights/LIS-MLE/2023-04-24/2023-05-01/,856.19,1
+Luxor,Egito,1140,676.61,Várias companhias aéreas,LXR,2023-08-25,2023-08-30,http://kayak.com/flights/LIS-LXR/2023-08-25/2023-08-30/,676.61,1
+Malabo,Guiné Equatorial,1600,673.89,Lufthansa,SSG,2023-10-28,2023-11-04,http://kayak.com/flights/LIS-SSG/2023-10-28/2023-11-04/,673.89,1
+Cidade do Kansas,Estados Unidos,1115,802.68,KLM,MCI,2023-06-17,2023-06-24,http://kayak.com/flights/LIS-MCI/2023-06-17/2023-06-24/,802.68,1
+Ontário,Estados Unidos,1105,801.78,American Airlines,ONT,2023-04-14,2023-04-21,http://kayak.com/flights/LIS-ONT/2023-04-14/2023-04-21/,801.78,1
+White Plains,Estados Unidos,2060,715.61,United Airlines,HPN,2023-10-31,2023-11-06,http://kayak.com/flights/LIS-HPN/2023-10-31/2023-11-06/,715.61,1
+Recife,Brasil,1455,779.1,Air France,REC,2023-11-24,2023-11-29,http://kayak.com/flights/LIS-REC/2023-11-24/2023-11-29/,779.1,1
+Jidá,Arábia Saudita,1320,934.19,Várias companhias aéreas,JED,2023-05-05,2023-05-12,http://kayak.com/flights/LIS-JED/2023-05-05/2023-05-12/,934.19,1
+Osaka,Japão,2160,1095.64,Finnair,KIX,2023-05-18,2023-05-22,http://kayak.com/flights/LIS-KIX/2023-05-18/2023-05-22/,1095.64,1
+Chapecó,Brasil,1895,691.12,LATAM Airlines,XAP,2023-11-17,2023-11-24,http://kayak.com/flights/LIS-XAP/2023-11-17/2023-11-24/,691.12,1
+Nouakchott,Mauritânia,1265,692.94,Várias companhias aéreas,NKC,2023-04-28,2023-05-03,http://kayak.com/flights/LIS-NKC/2023-04-28/2023-05-03/,692.94,1
+Anchorage,Estados Unidos,1270,800.87,American Airlines,ANC,2023-05-12,2023-05-19,http://kayak.com/flights/LIS-ANC/2023-05-12/2023-05-19/,800.87,1
+Argostoli,Grécia,1480,710.17,Aegean Airlines,EFL,2023-06-14,2023-06-21,http://kayak.com/flights/LIS-EFL/2023-06-14/2023-06-21/,710.17,1
+Cidade de Ho Chi Minh,Vietname,1545,1025.8,Emirates,SGN,2023-09-27,2023-10-04,http://kayak.com/flights/LIS-SGN/2023-09-27/2023-10-04/,1025.8,1
+Abuja,Nigéria,930,723.78,Air France,ABV,2023-05-20,2023-05-24,http://kayak.com/flights/LIS-ABV/2023-05-20/2023-05-24/,723.78,1
+Salalah,Omã,2015,711.98,Várias companhias aéreas,SLL,2023-04-29,2023-05-06,http://kayak.com/flights/LIS-SLL/2023-04-29/2023-05-06/,711.98,1
+Greensboro,Estados Unidos,1716,744.64,American Airlines,GSO,2023-06-07,2023-06-12,http://kayak.com/flights/LIS-GSO/2023-06-07/2023-06-12/,744.64,1
+Puerto Vallarta,México,1773,787.26,American Airlines,PVR,2023-10-25,2023-11-01,http://kayak.com/flights/LIS-PVR/2023-10-25/2023-11-01/,787.26,1
+Colombo,Sri Lanka,1920,906.08,Várias companhias aéreas,CMB,2023-05-06,2023-05-13,http://kayak.com/flights/LIS-CMB/2023-05-06/2023-05-13/,906.08,1
+San José del Cabo,México,2321,804.5,Várias companhias aéreas,SJD,2023-06-05,2023-06-09,http://kayak.com/flights/LIS-SJD/2023-06-05/2023-06-09/,804.5,1
+São Salvador,El Salvador,1490,892.47,United Airlines,SAL,2023-04-25,2023-05-02,http://kayak.com/flights/LIS-SAL/2023-04-25/2023-05-02/,892.47,1
+Sydney,Austrália,2495,1343.24,Iberia,SYD,2023-05-12,2023-05-19,http://kayak.com/flights/LIS-SYD/2023-05-12/2023-05-19/,1343.24,1
+Cozumel,México,1979,749.17,American Airlines,CZM,2023-11-18,2023-11-25,http://kayak.com/flights/LIS-CZM/2023-11-18/2023-11-25/,749.17,1
+Denpasar,Indonésia,1750,1209.92,Emirates,DPS,2024-01-26,2024-02-02,http://kayak.com/flights/LIS-DPS/2024-01-26/2024-02-02/,1209.92,1
+Kahului,Estados Unidos,2110,853.47,American Airlines,OGG,2023-05-12,2023-05-19,http://kayak.com/flights/LIS-OGG/2023-05-12/2023-05-19/,853.47,1
+Daca,Bangladexe,2100,876.15,Várias companhias aéreas,DAC,2023-05-10,2023-05-17,http://kayak.com/flights/LIS-DAC/2023-05-10/2023-05-17/,876.15,1
+Port Louis,Maurícia,2245,889.75,Várias companhias aéreas,MRU,2023-11-18,2023-11-25,http://kayak.com/flights/LIS-MRU/2023-11-18/2023-11-25/,889.75,1
+Nairobi,Quénia,1575,918.78,British Airways,NBO,2023-04-20,2023-04-27,http://kayak.com/flights/LIS-NBO/2023-04-20/2023-04-27/,918.78,1
+Belém,Brasil,2580,793.61,Várias companhias aéreas,BEL,2023-05-24,2023-05-31,http://kayak.com/flights/LIS-BEL/2023-05-24/2023-05-31/,793.61,1
+Halifax,Canadá,2010,850.75,Air Transat,YHZ,2023-08-14,2023-08-20,http://kayak.com/flights/LIS-YHZ/2023-08-14/2023-08-20/,850.75,1
+Éilat,Israel,1505,773.66,Várias companhias aéreas,ETM,2023-08-13,2023-08-19,http://kayak.com/flights/LIS-ETM/2023-08-13/2023-08-19/,773.66,1
+Santa Ana,Estados Unidos,2096,917.87,Air Canada,SNA,2023-08-22,2023-08-29,http://kayak.com/flights/LIS-SNA/2023-08-22/2023-08-29/,917.87,1
+Bishkek,Quirguizistão,1155,800.87,Várias companhias aéreas,FRU,2023-08-09,2023-08-16,http://kayak.com/flights/LIS-FRU/2023-08-09/2023-08-16/,800.87,1
+Katmandu,Nepal,1870,917.87,Várias companhias aéreas,KTM,2023-05-12,2023-05-19,http://kayak.com/flights/LIS-KTM/2023-05-12/2023-05-19/,917.87,1
+Fortaleza,Brasil,2935,867.08,LATAM Airlines,FOR,2023-09-15,2023-09-22,http://kayak.com/flights/LIS-FOR/2023-09-15/2023-09-22/,867.08,1
+Zanzibar,Tanzânia,1270,897.01,KLM,ZNZ,2023-09-03,2023-09-09,http://kayak.com/flights/LIS-ZNZ/2023-09-03/2023-09-09/,897.01,1
+Fresno,Estados Unidos,1356,873.43,British Airways,FAT,2023-04-14,2023-04-21,http://kayak.com/flights/LIS-FAT/2023-04-14/2023-04-21/,873.43,1
+Hanói,Vietname,2380,997.68,Várias companhias aéreas,HAN,2023-05-13,2023-05-20,http://kayak.com/flights/LIS-HAN/2023-05-13/2023-05-20/,997.68,1
+Siālkot,Paquistão,1545,848.03,Iberia,SKT,2023-05-09,2023-05-16,http://kayak.com/flights/LIS-SKT/2023-05-09/2023-05-16/,848.03,1
+Natal,Brasil,2330,864.36,LATAM Airlines,NAT,2023-11-04,2023-11-11,http://kayak.com/flights/LIS-NAT/2023-11-04/2023-11-11/,864.36,1
+Oaxaca,México,1401,851.66,Várias companhias aéreas,OAX,2023-06-14,2023-06-20,http://kayak.com/flights/LIS-OAX/2023-06-14/2023-06-20/,851.66,1
+Amritsar,Índia,3210,897.92,IndiGo,ATQ,2023-05-11,2023-05-18,http://kayak.com/flights/LIS-ATQ/2023-05-11/2023-05-18/,897.92,1
+Vasco da Gama,Índia,2240,906.08,IndiGo,GOI,2023-05-11,2023-05-18,http://kayak.com/flights/LIS-GOI/2023-05-11/2023-05-18/,906.08,1
+Teresina,Brasil,2500,862.54,LATAM Airlines,THE,2023-08-21,2023-08-28,http://kayak.com/flights/LIS-THE/2023-08-21/2023-08-28/,862.54,1
+Gaborone,Botsuana,2045,876.15,Várias companhias aéreas,GBE,2023-09-13,2023-09-20,http://kayak.com/flights/LIS-GBE/2023-09-13/2023-09-20/,876.15,1
+Palmas,Brasil,2170,858.01,LATAM Airlines,PMW,2023-10-15,2023-10-22,http://kayak.com/flights/LIS-PMW/2023-10-15/2023-10-22/,858.01,1
+Porto Seguro,Brasil,1895,899.73,LATAM Airlines,BPS,2023-05-10,2023-05-17,http://kayak.com/flights/LIS-BPS/2023-05-10/2023-05-17/,899.73,1
+Conacri,Guiné,1545,888.85,Ethiopian Air,CKY,2023-06-22,2023-06-26,http://kayak.com/flights/LIS-CKY/2023-06-22/2023-06-26/,888.85,1
+Spokane,Estados Unidos,1595,961.4,KLM,GEG,2023-06-22,2023-06-26,http://kayak.com/flights/LIS-GEG/2023-06-22/2023-06-26/,961.4,1
+Victoria,Seicheles,2350,975.01,Várias companhias aéreas,SEZ,2023-09-09,2023-09-16,http://kayak.com/flights/LIS-SEZ/2023-09-09/2023-09-16/,975.01,1
+Al ‘Ulá,Arábia Saudita,2085,896.1,Várias companhias aéreas,ULH,2023-07-14,2023-07-21,http://kayak.com/flights/LIS-ULH/2023-07-14/2023-07-21/,896.1,1
+Brasília,Brasil,1560,1022.17,LATAM Airlines,BSB,2023-05-11,2023-05-18,http://kayak.com/flights/LIS-BSB/2023-05-11/2023-05-18/,1022.17,1
+Xangai,China,2370,1041.22,Várias companhias aéreas,SHA,2023-05-05,2023-05-12,http://kayak.com/flights/LIS-SHA/2023-05-05/2023-05-12/,1041.22,1
+Montevidéu,Uruguai,3285,1030.33,LATAM Airlines,MVD,2023-05-14,2023-05-21,http://kayak.com/flights/LIS-MVD/2023-05-14/2023-05-21/,1030.33,1
+Nassau,Bahamas,1968,1006.75,Delta,NAS,2023-08-20,2023-08-26,http://kayak.com/flights/LIS-NAS/2023-08-20/2023-08-26/,1006.75,1
+Abbotsford,Canadá,1575,936.01,Várias companhias aéreas,YXX,2023-06-18,2023-06-24,http://kayak.com/flights/LIS-YXX/2023-06-18/2023-06-24/,936.01,1
+Antananarivo,Madagáscar,1290,1004.94,Ethiopian Air,TNR,2023-12-11,2023-12-18,http://kayak.com/flights/LIS-TNR/2023-12-11/2023-12-18/,1004.94,1
+Hoedspruit,África do Sul,2790,958.68,Várias companhias aéreas,HDS,2023-09-08,2023-09-14,http://kayak.com/flights/LIS-HDS/2023-09-08/2023-09-14/,958.68,1
+Pasco,Estados Unidos,1424,998.59,KLM,PSC,2023-06-22,2023-06-27,http://kayak.com/flights/LIS-PSC/2023-06-22/2023-06-27/,998.59,1
+Calcutá,Índia,2325,1056.64,Várias companhias aéreas,CCU,2023-05-13,2023-05-19,http://kayak.com/flights/LIS-CCU/2023-05-13/2023-05-19/,1056.64,1
+Kinshasa,República Democrática do Congo,1355,994.96,Brussels Airlines,FIH,2023-04-30,2023-05-06,http://kayak.com/flights/LIS-FIH/2023-04-30/2023-05-06/,994.96,1
+Vitória,Brasil,1925,1026.71,Azul,VIX,2023-05-11,2023-05-18,http://kayak.com/flights/LIS-VIX/2023-05-11/2023-05-18/,1026.71,1
+Maceió,Brasil,1745,1024.89,LATAM Airlines,MCZ,2023-07-02,2023-07-09,http://kayak.com/flights/LIS-MCZ/2023-07-02/2023-07-09/,1024.89,1
+Phuket,Tailândia,2145,1220.8,Várias companhias aéreas,HKT,2023-05-02,2023-05-06,http://kayak.com/flights/LIS-HKT/2023-05-02/2023-05-06/,1220.8,1
+Lima,Perú,2319,1395.85,Turkish Airlines,LIM,2023-07-29,2023-08-04,http://kayak.com/flights/LIS-LIM/2023-07-29/2023-08-04/,1395.85,1
+Pernem,Índia,1355,1014.92,IndiGo,GOX,2023-05-11,2023-05-18,http://kayak.com/flights/LIS-GOX/2023-05-11/2023-05-18/,1014.92,1
+Florianópolis,Brasil,1885,1070.24,Várias companhias aéreas,FLN,2023-05-12,2023-05-19,http://kayak.com/flights/LIS-FLN/2023-05-12/2023-05-19/,1070.24,1
+Cebu,Filipinas,2465,1242.57,Várias companhias aéreas,CEB,2023-05-06,2023-05-12,http://kayak.com/flights/LIS-CEB/2023-05-06/2023-05-12/,1242.57,1
+Port Elizabeth,África do Sul,2045,1081.13,Várias companhias aéreas,PLZ,2023-08-21,2023-08-26,http://kayak.com/flights/LIS-PLZ/2023-08-21/2023-08-26/,1081.13,1
+Goiânia,Brasil,1895,1091.1,LATAM Airlines,GYN,2023-05-14,2023-05-21,http://kayak.com/flights/LIS-GYN/2023-05-14/2023-05-21/,1091.1,1
+Nador,Marrocos,675,1062.08,Brussels Airlines,NDR,2023-08-06,2023-08-13,http://kayak.com/flights/LIS-NDR/2023-08-06/2023-08-13/,1062.08,1
+Richmond,Estados Unidos,1505,1144.61,Várias companhias aéreas,RIC,2023-07-09,2023-07-13,http://kayak.com/flights/LIS-RIC/2023-07-09/2023-07-13/,1144.61,1
+Porto Alegre,Brasil,690,1141.89,TAP AIR PORTUGAL,POA,2024-01-02,2024-01-09,http://kayak.com/flights/LIS-POA/2024-01-02/2024-01-09/,1141.89,1
+Thiruvananthapuram,Índia,1910,1118.31,Várias companhias aéreas,TRV,2023-04-13,2023-04-20,http://kayak.com/flights/LIS-TRV/2023-04-13/2023-04-20/,1118.31,1
+Sacramento,Estados Unidos,1956,1171.82,Várias companhias aéreas,SMF,2023-06-18,2023-06-24,http://kayak.com/flights/LIS-SMF/2023-06-18/2023-06-24/,1171.82,1
+Johor Bahru,Malásia,2260,1076.59,Várias companhias aéreas,JHB,2024-01-23,2024-01-29,http://kayak.com/flights/LIS-JHB/2024-01-23/2024-01-29/,1076.59,1
+Saint John's,Antígua e Barbuda,2275,1071.15,American Airlines,ANU,2023-12-02,2023-12-09,http://kayak.com/flights/LIS-ANU/2023-12-02/2023-12-09/,1071.15,1
+Hangzhou,China,1205,1086.57,Várias companhias aéreas,HGH,2023-05-11,2023-05-17,http://kayak.com/flights/LIS-HGH/2023-05-11/2023-05-17/,1086.57,1
+Curitiba,Brasil,865,1117.4,Várias companhias aéreas,CWB,2023-06-02,2023-06-08,http://kayak.com/flights/LIS-CWB/2023-06-02/2023-06-08/,1117.4,1
+Kigali,Ruanda,1855,1080.22,Turkish Airlines,KGL,2023-06-11,2023-06-15,http://kayak.com/flights/LIS-KGL/2023-06-11/2023-06-15/,1080.22,1
+Cali,Colômbia,2326,1200.85,Várias companhias aéreas,CLO,2023-04-13,2023-04-20,http://kayak.com/flights/LIS-CLO/2023-04-13/2023-04-20/,1200.85,1
+Hamilton,Canadá,1500,1080.22,Várias companhias aéreas,YHM,2023-07-10,2023-07-15,http://kayak.com/flights/LIS-YHM/2023-07-10/2023-07-15/,1080.22,1
+Moroni,Comores,1350,1079.31,Ethiopian Air,HAH,2023-06-07,2023-06-11,http://kayak.com/flights/LIS-HAH/2023-06-07/2023-06-11/,1079.31,1
+Manágua,Nicarágua,2824,1265.24,Iberia,MGA,2023-04-23,2023-04-29,http://kayak.com/flights/LIS-MGA/2023-04-23/2023-04-29/,1265.24,1
+Santarém,Brasil,2090,1089.29,LATAM Airlines,STM,2023-08-18,2023-08-25,http://kayak.com/flights/LIS-STM/2023-08-18/2023-08-25/,1089.29,1
+Chiang Mai,Tailândia,1395,1156.4,Várias companhias aéreas,CNX,2023-11-25,2023-11-30,http://kayak.com/flights/LIS-CNX/2023-11-25/2023-11-30/,1156.4,1
+Bucaramanga,Colômbia,2377,1128.29,LATAM Airlines,BGA,2023-05-12,2023-05-19,http://kayak.com/flights/LIS-BGA/2023-05-12/2023-05-19/,1128.29,1
+Navegantes,Brasil,1940,1121.94,Delta,NVT,2023-08-21,2023-08-25,http://kayak.com/flights/LIS-NVT/2023-08-21/2023-08-25/,1121.94,1
+San Pedro,Honduras,1912,1153.68,American Airlines,SAP,2023-08-11,2023-08-18,http://kayak.com/flights/LIS-SAP/2023-08-11/2023-08-18/,1153.68,1
+Ribeirão Preto,Brasil,2315,1110.15,LATAM Airlines,RAO,2023-06-21,2023-06-27,http://kayak.com/flights/LIS-RAO/2023-06-21/2023-06-27/,1110.15,1
+Caiena,Guiana Francesa,1560,1109.24,Várias companhias aéreas,CAY,2023-04-25,2023-05-01,http://kayak.com/flights/LIS-CAY/2023-04-25/2023-05-01/,1109.24,1
+Grande Caimão,Ilhas Cayman,1780,1150.06,British Airways,GCM,2023-06-06,2023-06-13,http://kayak.com/flights/LIS-GCM/2023-06-06/2023-06-13/,1150.06,1
+Cantão,China,2175,1211.73,Qatar Airways,CAN,2023-05-19,2023-05-25,http://kayak.com/flights/LIS-CAN/2023-05-19/2023-05-25/,1211.73,1
+Boa Vista,Brasil,1680,1150.06,Azul,BVB,2023-11-01,2023-11-07,http://kayak.com/flights/LIS-BVB/2023-11-01/2023-11-07/,1150.06,1
+Cartagena,Colômbia,1830,1315.13,Várias companhias aéreas,CTG,2023-04-13,2023-04-20,http://kayak.com/flights/LIS-CTG/2023-04-13/2023-04-20/,1315.13,1
+Long Beach,Estados Unidos,1123,1179.99,Delta,LGB,2023-12-21,2023-12-27,http://kayak.com/flights/LIS-LGB/2023-12-21/2023-12-27/,1179.99,1
+Foz do Iguaçu,Brasil,870,1189.96,Várias companhias aéreas,IGU,2023-06-02,2023-06-08,http://kayak.com/flights/LIS-IGU/2023-06-02/2023-06-08/,1189.96,1
+Cuiabá,Brasil,2100,1181.8,Várias companhias aéreas,CGB,2023-05-11,2023-05-18,http://kayak.com/flights/LIS-CGB/2023-05-11/2023-05-18/,1181.8,1
+Wichita,Estados Unidos,1720,1192.68,American Airlines,ICT,2023-07-31,2023-08-04,http://kayak.com/flights/LIS-ICT/2023-07-31/2023-08-04/,1192.68,1
+Uberlândia,Brasil,1370,1186.33,LATAM Airlines,UDI,2023-04-16,2023-04-21,http://kayak.com/flights/LIS-UDI/2023-04-16/2023-04-21/,1186.33,1
+Bellingham,Estados Unidos,2796,1207.2,Várias companhias aéreas,BLI,2023-06-23,2023-06-27,http://kayak.com/flights/LIS-BLI/2023-06-23/2023-06-27/,1207.2,1
+Brazavile,República do Congo,1495,1189.96,Air France,BZV,2023-06-28,2023-07-05,http://kayak.com/flights/LIS-BZV/2023-06-28/2023-07-05/,1189.96,1
+Dodoma,Tanzânia,3100,1215.36,Várias companhias aéreas,DOD,2023-08-20,2023-08-26,http://kayak.com/flights/LIS-DOD/2023-08-20/2023-08-26/,1215.36,1
+Agra,Índia,1905,1214.45,Várias companhias aéreas,AGR,2023-04-21,2023-04-25,http://kayak.com/flights/LIS-AGR/2023-04-21/2023-04-25/,1214.45,1
+Kobe,Japão,1395,1234.4,Várias companhias aéreas,UKB,2023-05-18,2023-05-22,http://kayak.com/flights/LIS-UKB/2023-05-18/2023-05-22/,1234.4,1
+Santa Cruz da Serra,Bolívia,2230,1347.78,Várias companhias aéreas,VVI,2023-05-13,2023-05-20,http://kayak.com/flights/LIS-VVI/2023-05-13/2023-05-20/,1347.78,1
+Roseau,Dominica,1830,1285.2,Várias companhias aéreas,DOM,2023-05-04,2023-05-11,http://kayak.com/flights/LIS-DOM/2023-05-04/2023-05-11/,1285.2,1
+Assunção,Paraguai,2165,1375.89,LATAM Airlines,ASU,2023-08-04,2023-08-10,http://kayak.com/flights/LIS-ASU/2023-08-04/2023-08-10/,1375.89,1
+Krabi,Tailândia,2980,1326.92,Finnair,KBV,2023-09-15,2023-09-19,http://kayak.com/flights/LIS-KBV/2023-09-15/2023-09-19/,1326.92,1
+Bridgetown,Barbados,1615,1359.57,Várias companhias aéreas,BGI,2023-04-19,2023-04-26,http://kayak.com/flights/LIS-BGI/2023-04-19/2023-04-26/,1359.57,1
+Friedrichshafen,Alemanha,745,1335.08,Várias companhias aéreas,FDH,2023-04-14,2023-04-19,http://kayak.com/flights/LIS-FDH/2023-04-14/2023-04-19/,1335.08,1
+Soyo,Angola,1850,1306.96,TAAG,SZA,2023-04-13,2023-04-19,http://kayak.com/flights/LIS-SZA/2023-04-13/2023-04-19/,1306.96,1
+Cidade da Guatemala,Guatemala,1560,1512.85,United Airlines,GUA,2023-06-27,2023-07-04,http://kayak.com/flights/LIS-GUA/2023-06-27/2023-07-04/,1512.85,1
+Toyooka,Japão,2455,1317.85,Japan Airlines,TJH,2023-05-18,2023-05-22,http://kayak.com/flights/LIS-TJH/2023-05-18/2023-05-22/,1317.85,1
+Brisbane,Austrália,2700,1553.66,Várias companhias aéreas,BNE,2023-11-01,2023-11-08,http://kayak.com/flights/LIS-BNE/2023-11-01/2023-11-08/,1553.66,1
+Porto Plata,República Dominicana,2783,1379.52,Várias companhias aéreas,POP,2023-04-13,2023-04-20,http://kayak.com/flights/LIS-POP/2023-04-13/2023-04-20/,1379.52,1
+Burbank,Estados Unidos,1785,1446.64,Várias companhias aéreas,BUR,2023-05-19,2023-05-26,http://kayak.com/flights/LIS-BUR/2023-05-19/2023-05-26/,1446.64,1
+Balikpapan,Indonésia,2325,1370.45,Emirates,BPN,2023-06-22,2023-06-29,http://kayak.com/flights/LIS-BPN/2023-06-22/2023-06-29/,1370.45,1
+Barreiras,Brasil,1950,1381.34,Várias companhias aéreas,BRA,2023-05-10,2023-05-17,http://kayak.com/flights/LIS-BRA/2023-05-10/2023-05-17/,1381.34,1
+Londrina,Brasil,1530,1391.31,Azul,LDB,2023-05-13,2023-05-20,http://kayak.com/flights/LIS-LDB/2023-05-13/2023-05-20/,1391.31,1
+Arusha,Tanzânia,1690,1408.54,Várias companhias aéreas,JRO,2023-08-20,2023-08-26,http://kayak.com/flights/LIS-JRO/2023-08-20/2023-08-26/,1408.54,1
+Chiang Rai,Tailândia,2565,1393.13,Várias companhias aéreas,CEI,2023-08-07,2023-08-14,http://kayak.com/flights/LIS-CEI/2023-08-07/2023-08-14/,1393.13,1
+Rosario,Argentina,1515,1413.99,Aerolineas Argentinas,ROS,2023-09-01,2023-09-08,http://kayak.com/flights/LIS-ROS/2023-09-01/2023-09-08/,1413.99,1
+Porto Velho,Brasil,1975,1409.45,LATAM Airlines,PVH,2023-05-12,2023-05-18,http://kayak.com/flights/LIS-PVH/2023-05-12/2023-05-18/,1409.45,1
+Montego Bay,Jamaica,1988,1550.03,Várias companhias aéreas,MBJ,2024-01-01,2024-01-08,http://kayak.com/flights/LIS-MBJ/2024-01-01/2024-01-08/,1550.03,1
+Phnom Penh,Cambodja,1690,1537.34,Korean Air,PNH,2023-10-06,2023-10-13,http://kayak.com/flights/LIS-PNH/2023-10-06/2023-10-13/,1537.34,1
+São José do Rio Preto,Brasil,1370,1475.66,Azul,SJP,2023-04-13,2023-04-20,http://kayak.com/flights/LIS-SJP/2023-04-13/2023-04-20/,1475.66,1
+Nampula,Moçambique,2085,1494.71,Várias companhias aéreas,APL,2023-04-20,2023-04-26,http://kayak.com/flights/LIS-APL/2023-04-20/2023-04-26/,1494.71,1
+Fernando de Noronha,Brasil,1540,1550.03,Azul,FEN,2023-07-20,2023-07-27,http://kayak.com/flights/LIS-FEN/2023-07-20/2023-07-27/,1550.03,1
+Calama,Chile,1791,1569.99,Iberia,CJC,2023-04-18,2023-04-25,http://kayak.com/flights/LIS-CJC/2023-04-18/2023-04-25/,1569.99,1
+Auckland,Nova Zelândia,2495,1804.9,Várias companhias aéreas,AKL,2023-05-12,2023-05-19,http://kayak.com/flights/LIS-AKL/2023-05-12/2023-05-19/,1804.9,1
+Jayapura,Indonésia,2385,1578.15,Várias companhias aéreas,DJJ,2023-05-11,2023-05-18,http://kayak.com/flights/LIS-DJJ/2023-05-11/2023-05-18/,1578.15,1
+Macau,Macau,1615,1647.08,Várias companhias aéreas,MFM,2023-12-17,2023-12-23,http://kayak.com/flights/LIS-MFM/2023-12-17/2023-12-23/,1647.08,1
+San Miguel de Tucumán,Argentina,2751,1622.59,Várias companhias aéreas,TUC,2023-05-19,2023-05-23,http://kayak.com/flights/LIS-TUC/2023-05-19/2023-05-23/,1622.59,1
+Medan,Indonésia,2185,1679.73,SWISS,KNO,2023-04-30,2023-05-06,http://kayak.com/flights/LIS-KNO/2023-04-30/2023-05-06/,1679.73,1
+Baltra,Equador,2698,1681.55,Várias companhias aéreas,GPS,2023-05-11,2023-05-18,http://kayak.com/flights/LIS-GPS/2023-05-11/2023-05-18/,1681.55,1
+Lampang,Tailândia,2010,1687.89,Várias companhias aéreas,LPT,2023-08-07,2023-08-14,http://kayak.com/flights/LIS-LPT/2023-08-07/2023-08-14/,1687.89,1
+Sihanoukville,Cambodja,1865,1725.99,Várias companhias aéreas,KOS,2023-05-02,2023-05-06,http://kayak.com/flights/LIS-KOS/2023-05-02/2023-05-06/,1725.99,1
+Lahore,Paquistão,1310,1867.48,Várias companhias aéreas,LHE,2023-04-22,2023-04-29,http://kayak.com/flights/LIS-LHE/2023-04-22/2023-04-29/,1867.48,1
+Camberra,Austrália,2425,1810.34,Várias companhias aéreas,CBR,2023-05-09,2023-05-16,http://kayak.com/flights/LIS-CBR/2023-05-09/2023-05-16/,1810.34,1
+João Pessoa,Brasil,1730,1837.55,Várias companhias aéreas,JPA,2023-09-08,2023-09-15,http://kayak.com/flights/LIS-JPA/2023-09-08/2023-09-15/,1837.55,1
+Ushuaia,Argentina,2725,1885.62,Várias companhias aéreas,USH,2023-05-13,2023-05-20,http://kayak.com/flights/LIS-USH/2023-05-13/2023-05-20/,1885.62,1
+Cairns,Austrália,2145,1989.92,Várias companhias aéreas,CNS,2023-07-26,2023-08-02,http://kayak.com/flights/LIS-CNS/2023-07-26/2023-08-02/,1989.92,1
+Papete,Polinésia Francesa,2890,2054.31,United Airlines,PPT,2023-05-13,2023-05-20,http://kayak.com/flights/LIS-PPT/2023-05-13/2023-05-20/,2054.31,1
+Sorong,Indonésia,2095,2052.5,Várias companhias aéreas,SOQ,2023-08-14,2023-08-19,http://kayak.com/flights/LIS-SOQ/2023-08-14/2023-08-19/,2052.5,1
+Road Town,Ilhas Virgens Britânicas,2275,2092.41,American Airlines,EIS,2023-04-13,2023-04-20,http://kayak.com/flights/LIS-EIS/2023-04-13/2023-04-20/,2092.41,1
+Kochi,Japão,2520,2114.18,Japan Airlines,KCZ,2023-04-20,2023-04-27,http://kayak.com/flights/LIS-KCZ/2023-04-20/2023-04-27/,2114.18,1
+Rabil,Cabo Verde,255,2195.8,TAP AIR PORTUGAL,BVC,2023-08-07,2023-08-14,http://kayak.com/flights/LIS-BVC/2023-08-07/2023-08-14/,2195.8,1
+Nadi,Fiji,2235,2241.15,Várias companhias aéreas,NAN,2023-04-14,2023-04-21,http://kayak.com/flights/LIS-NAN/2023-04-14/2023-04-21/,2241.15,1
+Knock,Irlanda,1330,2242.06,Várias companhias aéreas,NOC,2023-05-12,2023-05-19,http://kayak.com/flights/LIS-NOC/2023-05-12/2023-05-19/,2242.06,1
+Tembagapura,Indonésia,2060,2446.13,Várias companhias aéreas,TIM,2023-05-11,2023-05-18,http://kayak.com/flights/LIS-TIM/2023-05-11/2023-05-18/,2446.13,1
+Córdova,Argentina,1885,3058.34,Aerolineas Argentinas,COR,2023-09-01,2023-09-08,http://kayak.com/flights/LIS-COR/2023-09-01/2023-09-08/,3058.34,1

@@ -1,0 +1,596 @@
+City,Country,Duration,Price,Airline,Airport,Depart,Return,Link,MinPrice,is_MinPrice
+Incheon,Coreia do Sul,2070,724.39,Turkish Airlines,ICN,2023-11-25,2023-12-02,http://kayak.com/flights/MXP-ICN/2023-11-25/2023-12-02/,724.39,1.0
+Paris,França,110,49.42,easyJet,PAR,2023-09-14,2023-09-18,http://kayak.com/flights/MXP-PAR/2023-09-14/2023-09-18/,49.42,1.0
+Nova Iorque,Estados Unidos,1000,299.27,Scandinavian Airlines,NYC,2023-11-23,2023-11-30,http://kayak.com/flights/MXP-NYC/2023-11-23/2023-11-30/,299.27,1.0
+Los Angeles,Estados Unidos,1530,429.79,Scandinavian Airlines,LAX,2023-11-04,2023-11-11,http://kayak.com/flights/MXP-LAX/2023-11-04/2023-11-11/,429.79,1.0
+Londres,Reino Unido,120,27.97,Ryanair,LON,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-LON/2023-06-28/2023-07-05/,27.97,1.0
+Copenhaga,Dinamarca,130,59.67,easyJet,CPH,2023-09-26,2023-10-02,http://kayak.com/flights/MXP-CPH/2023-09-26/2023-10-02/,59.67,1.0
+São Francisco,Estados Unidos,975,435.38,Scandinavian Airlines,SFO,2024-04-23,2024-04-30,http://kayak.com/flights/MXP-SFO/2024-04-23/2024-04-30/,435.38,1.0
+Madrid,Espanha,140,54.08,Ryanair,MAD,2023-09-19,2023-09-23,http://kayak.com/flights/MXP-MAD/2023-09-19/2023-09-23/,54.08,1.0
+Banguecoque,Tailândia,2045,506.24,Gulf Air,BKK,2023-06-08,2023-06-13,http://kayak.com/flights/MXP-BKK/2023-06-08/2023-06-13/,506.24,1.0
+Barcelona,Espanha,105,37.3,Ryanair,BCN,2023-10-23,2023-10-27,http://kayak.com/flights/MXP-BCN/2023-10-23/2023-10-27/,37.3,1.0
+Miami,Estados Unidos,1815,391.57,Scandinavian Airlines,MIA,2023-11-30,2023-12-07,http://kayak.com/flights/MXP-MIA/2023-11-30/2023-12-07/,391.57,1.0
+Boston,Estados Unidos,1880,413.01,Scandinavian Airlines,BOS,2024-03-06,2024-03-13,http://kayak.com/flights/MXP-BOS/2024-03-06/2024-03-13/,413.01,1.0
+Viena,Áustria,90,35.43,Ryanair,VIE,2023-06-20,2023-06-27,http://kayak.com/flights/MXP-VIE/2023-06-20/2023-06-27/,35.43,1.0
+Lisboa,Portugal,175,64.33,easyJet,LIS,2023-12-13,2023-12-20,http://kayak.com/flights/MXP-LIS/2023-12-13/2023-12-20/,64.33,1.0
+Amesterdão,Holanda,115,95.1,easyJet,AMS,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-AMS/2023-06-28/2023-07-05/,95.1,1.0
+Nova Deli,Índia,1845,488.52,Etihad Airways,DEL,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-DEL/2023-06-28/2023-07-05/,488.52,1.0
+Istambul,Turquia,1085,159.43,Air Serbia,IST,2023-10-30,2023-11-05,http://kayak.com/flights/MXP-IST/2023-10-30/2023-11-05/,159.43,1.0
+Atlanta,Estados Unidos,770,520.22,British Airways,ATL,2023-10-28,2023-11-02,http://kayak.com/flights/MXP-ATL/2023-10-28/2023-11-02/,520.22,1.0
+Las Vegas,Estados Unidos,880,640.49,Várias companhias aéreas,LAS,2024-01-20,2024-01-27,http://kayak.com/flights/MXP-LAS/2024-01-20/2024-01-27/,640.49,1.0
+Dubai,Emirados Árabes Unidos,735,262.91,Wizz Air,DXB,2023-06-28,2023-07-03,http://kayak.com/flights/MXP-DXB/2023-06-28/2023-07-03/,262.91,1.0
+Seattle,Estados Unidos,1905,911.78,Air France,SEA,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-SEA/2023-06-28/2023-07-05/,911.78,1.0
+Dallas,Estados Unidos,1465,907.12,United Airlines,DFW,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-DFW/2023-06-28/2023-07-05/,907.12,1.0
+Newark,Estados Unidos,1665,321.65,TAP AIR PORTUGAL,EWR,2023-11-03,2023-11-10,http://kayak.com/flights/MXP-EWR/2023-11-03/2023-11-10/,321.65,1.0
+Manila,Filipinas,1445,641.42,Qatar Airways,MNL,2024-02-22,2024-02-29,http://kayak.com/flights/MXP-MNL/2024-02-22/2024-02-29/,641.42,1.0
+Roma,Itália,1150,94.17,Várias companhias aéreas,ROM,2023-06-13,2023-06-20,http://kayak.com/flights/MXP-ROM/2023-06-13/2023-06-20/,94.17,1.0
+Telavive,Israel,260,83.91,Wizz Air Malta,TLV,2023-06-14,2023-06-19,http://kayak.com/flights/MXP-TLV/2023-06-14/2023-06-19/,83.91,1.0
+Berlim,Alemanha,105,56.87,Ryanair,BER,2023-06-22,2023-06-27,http://kayak.com/flights/MXP-BER/2023-06-22/2023-06-27/,56.87,1.0
+Bogotá,Colômbia,1765,726.26,Várias companhias aéreas,BOG,2023-06-18,2023-06-25,http://kayak.com/flights/MXP-BOG/2023-06-18/2023-06-25/,726.26,1.0
+Singapura,Singapura,1100,630.23,Turkish Airlines,SIN,2023-10-24,2023-10-29,http://kayak.com/flights/MXP-SIN/2023-10-24/2023-10-29/,630.23,1.0
+Denver,Estados Unidos,1820,886.61,Várias companhias aéreas,DEN,2023-08-14,2023-08-21,http://kayak.com/flights/MXP-DEN/2023-08-14/2023-08-21/,886.61,1.0
+Atenas,Grécia,165,68.06,Wizz Air Malta,ATH,2023-09-23,2023-09-30,http://kayak.com/flights/MXP-ATH/2023-09-23/2023-09-30/,68.06,1.0
+Munique,Alemanha,70,135.19,easyJet,MUC,2023-09-15,2023-09-20,http://kayak.com/flights/MXP-MUC/2023-09-15/2023-09-20/,135.19,1.0
+Sydney,Austrália,2340,1580.24,Várias companhias aéreas,SYD,2023-06-14,2023-06-21,http://kayak.com/flights/MXP-SYD/2023-06-14/2023-06-21/,1580.24,1.0
+Cidade do México,México,1750,813.89,United Airlines,MEX,2023-09-07,2023-09-14,http://kayak.com/flights/MXP-MEX/2023-09-07/2023-09-14/,813.89,1.0
+Zurique,Suíça,55,146.37,SWISS,ZRH,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-ZRH/2023-06-28/2023-07-05/,146.37,1.0
+Chicago,Estados Unidos,1400,430.72,Aer Lingus,ORD,2023-09-20,2023-09-26,http://kayak.com/flights/MXP-ORD/2023-09-20/2023-09-26/,430.72,1.0
+Toronto,Canadá,940,510.9,Várias companhias aéreas,YYZ,2023-09-01,2023-09-08,http://kayak.com/flights/MXP-YYZ/2023-09-01/2023-09-08/,510.9,1.0
+Mumbai,Índia,1865,451.23,Várias companhias aéreas,BOM,2023-06-05,2023-06-10,http://kayak.com/flights/MXP-BOM/2023-06-05/2023-06-10/,451.23,1.0
+Bruxelas,Bélgica,90,118.41,Brussels Airlines,BRU,2023-10-31,2023-11-05,http://kayak.com/flights/MXP-BRU/2023-10-31/2023-11-05/,118.41,1.0
+Manchester,Reino Unido,135,78.32,Ryanair,MAN,2024-01-29,2024-02-05,http://kayak.com/flights/MXP-MAN/2024-01-29/2024-02-05/,78.32,1.0
+Palma de Maiorca,Espanha,105,41.03,easyJet,PMI,2023-10-07,2023-10-14,http://kayak.com/flights/MXP-PMI/2023-10-07/2023-10-14/,41.03,1.0
+Orlando,Estados Unidos,1120,578.02,United Airlines,MCO,2023-11-18,2023-11-25,http://kayak.com/flights/MXP-MCO/2023-11-18/2023-11-25/,578.02,1.0
+"Washington, D.C.",Estados Unidos,886,793.38,Várias companhias aéreas,WAS,2023-06-27,2023-07-04,http://kayak.com/flights/MXP-WAS/2023-06-27/2023-07-04/,793.38,1.0
+Dublin,Irlanda,155,63.4,Ryanair,DUB,2023-09-08,2023-09-12,http://kayak.com/flights/MXP-DUB/2023-09-08/2023-09-12/,63.4,1.0
+Cancún,México,1970,641.42,Várias companhias aéreas,CUN,2023-11-07,2023-11-12,http://kayak.com/flights/MXP-CUN/2023-11-07/2023-11-12/,641.42,1.0
+Varsóvia,Polónia,670,114.68,Várias companhias aéreas,WAW,2023-07-03,2023-07-07,http://kayak.com/flights/MXP-WAW/2023-07-03/2023-07-07/,114.68,1.0
+Tóquio,Japão,1610,736.51,Qatar Airways,TYO,2023-10-05,2023-10-11,http://kayak.com/flights/MXP-TYO/2023-10-05/2023-10-11/,736.51,1.0
+Málaga,Espanha,160,54.08,easyJet,AGP,2023-12-04,2023-12-09,http://kayak.com/flights/MXP-AGP/2023-12-04/2023-12-09/,54.08,1.0
+Oslo,Noruega,565,103.49,Várias companhias aéreas,OSL,2023-09-19,2023-09-26,http://kayak.com/flights/MXP-OSL/2023-09-19/2023-09-26/,103.49,1.0
+Vancouver,Canadá,885,699.22,Várias companhias aéreas,YVR,2023-09-21,2023-09-28,http://kayak.com/flights/MXP-YVR/2023-09-21/2023-09-28/,699.22,1.0
+Estocolmo,Suécia,1015,168.75,Várias companhias aéreas,STO,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-STO/2023-06-28/2023-07-05/,168.75,1.0
+Helsínquia,Finlândia,1525,167.82,KLM,HEL,2023-12-06,2023-12-10,http://kayak.com/flights/MXP-HEL/2023-12-06/2023-12-10/,167.82,1.0
+Phoenix,Estados Unidos,1790,908.06,Delta,PHX,2023-06-27,2023-07-04,http://kayak.com/flights/MXP-PHX/2023-06-27/2023-07-04/,908.06,1.0
+Busan,Coreia do Sul,1580,1336.91,Várias companhias aéreas,PUS,2023-06-27,2023-07-04,http://kayak.com/flights/MXP-PUS/2023-06-27/2023-07-04/,1336.91,1.0
+Kuala Lumpur,Malásia,1015,820.42,Qatar Airways,KUL,2023-06-02,2023-06-09,http://kayak.com/flights/MXP-KUL/2023-06-02/2023-06-09/,820.42,1.0
+Osaka,Japão,1420,928.57,Air China,KIX,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-KIX/2023-06-28/2023-07-05/,928.57,1.0
+Joanesburgo,África do Sul,1500,592.01,Air France,JNB,2023-06-28,2023-07-04,http://kayak.com/flights/MXP-JNB/2023-06-28/2023-07-04/,592.01,1.0
+Porto,Portugal,1590,92.3,TAP AIR PORTUGAL,OPO,2023-10-31,2023-11-05,http://kayak.com/flights/MXP-OPO/2023-10-31/2023-11-05/,92.3,1.0
+Fort Lauderdale,Estados Unidos,853,438.18,Air Canada,FLL,2023-11-30,2023-12-07,http://kayak.com/flights/MXP-FLL/2023-11-30/2023-12-07/,438.18,1.0
+Cairo,Egito,1535,254.52,Várias companhias aéreas,CAI,2024-03-23,2024-03-30,http://kayak.com/flights/MXP-CAI/2024-03-23/2024-03-30/,254.52,1.0
+Filadélfia,Estados Unidos,1304,782.2,United Airlines,PHL,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-PHL/2023-06-28/2023-07-05/,782.2,1.0
+Lyon,França,815,146.37,easyJet,LYS,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-LYS/2023-06-28/2023-07-05/,146.37,1.0
+Hamburgo,Alemanha,1270,116.54,Ryanair,HAM,2023-06-27,2023-07-04,http://kayak.com/flights/MXP-HAM/2023-06-27/2023-07-04/,116.54,1.0
+Praga,República Checa,90,15.85,Wizz Air,PRG,2023-09-14,2023-09-19,http://kayak.com/flights/MXP-PRG/2023-09-14/2023-09-19/,15.85,1.0
+Hong Kong,Hong Kong,1575,702.02,Qatar Airways,HKG,2023-10-29,2023-11-05,http://kayak.com/flights/MXP-HKG/2023-10-29/2023-11-05/,702.02,1.0
+Seul,Coreia do Sul,2070,724.39,Turkish Airlines,SEL,2023-11-25,2023-12-02,http://kayak.com/flights/MXP-SEL/2023-11-25/2023-12-02/,724.39,1.0
+Lima,Perú,925,799.91,Air France,LIM,2024-03-10,2024-03-17,http://kayak.com/flights/MXP-LIM/2024-03-10/2024-03-17/,799.91,1.0
+Denpasar,Indonésia,2095,840.93,Várias companhias aéreas,DPS,2023-11-20,2023-11-25,http://kayak.com/flights/MXP-DPS/2023-11-20/2023-11-25/,840.93,1.0
+Nice,França,750,101.62,Várias companhias aéreas,NCE,2023-06-27,2023-07-04,http://kayak.com/flights/MXP-NCE/2023-06-27/2023-07-04/,101.62,1.0
+Budapeste,Hungria,105,55.01,Wizz Air,BUD,2023-07-17,2023-07-22,http://kayak.com/flights/MXP-BUD/2023-07-17/2023-07-22/,55.01,1.0
+Marselha,França,385,137.05,Várias companhias aéreas,MRS,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-MRS/2023-06-28/2023-07-05/,137.05,1.0
+Honolulu,Estados Unidos,2005,812.03,Várias companhias aéreas,HNL,2023-11-06,2023-11-12,http://kayak.com/flights/MXP-HNL/2023-11-06/2023-11-12/,812.03,1.0
+San Juan,Porto Rico,1799,993.83,United Airlines,SJU,2023-06-05,2023-06-12,http://kayak.com/flights/MXP-SJU/2023-06-05/2023-06-12/,993.83,1.0
+Houston,Estados Unidos,855,640.49,Várias companhias aéreas,IAH,2024-01-20,2024-01-27,http://kayak.com/flights/MXP-IAH/2024-01-20/2024-01-27/,640.49,1.0
+Tampa,Estados Unidos,1000,509.97,British Airways,TPA,2023-11-25,2023-12-02,http://kayak.com/flights/MXP-TPA/2023-11-25/2023-12-02/,509.97,1.0
+São Paulo,Brasil,1780,610.65,Delta,SAO,2023-09-08,2023-09-15,http://kayak.com/flights/MXP-SAO/2023-09-08/2023-09-15/,610.65,1.0
+São Diego,Estados Unidos,1150,640.49,Várias companhias aéreas,SAN,2023-11-16,2023-11-23,http://kayak.com/flights/MXP-SAN/2023-11-16/2023-11-23/,640.49,1.0
+Taipé,Taiwan,1675,869.83,Várias companhias aéreas,TPE,2023-09-13,2023-09-18,http://kayak.com/flights/MXP-TPE/2023-09-13/2023-09-18/,869.83,1.0
+Veneza,Itália,590,120.27,Várias companhias aéreas,VCE,2023-10-09,2023-10-16,http://kayak.com/flights/MXP-VCE/2023-10-09/2023-10-16/,120.27,1.0
+Genebra,Suíça,1415,177.14,Várias companhias aéreas,GVA,2023-06-19,2023-06-26,http://kayak.com/flights/MXP-GVA/2023-06-19/2023-06-26/,177.14,1.0
+Portland,Estados Unidos,805,690.83,British Airways,PDX,2023-10-27,2023-11-03,http://kayak.com/flights/MXP-PDX/2023-10-27/2023-11-03/,690.83,1.0
+San José,Costa Rica,2610,872.63,Air France,SJO,2023-06-14,2023-06-21,http://kayak.com/flights/MXP-SJO/2023-06-14/2023-06-21/,872.63,1.0
+Beirute,Líbano,690,354.28,Várias companhias aéreas,BEY,2023-06-01,2023-06-05,http://kayak.com/flights/MXP-BEY/2023-06-01/2023-06-05/,354.28,1.0
+Doha,Catar,1400,470.81,Várias companhias aéreas,DOH,2023-11-06,2023-11-11,http://kayak.com/flights/MXP-DOH/2023-11-06/2023-11-11/,470.81,1.0
+Nápoles,Itália,95,32.64,Ryanair,NAP,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-NAP/2023-06-28/2023-07-05/,32.64,1.0
+Riga,Letónia,165,189.26,airBaltic,RIX,2023-09-01,2023-09-08,http://kayak.com/flights/MXP-RIX/2023-09-01/2023-09-08/,189.26,1.0
+Billund,Dinamarca,605,168.75,Lufthansa,BLL,2023-11-01,2023-11-05,http://kayak.com/flights/MXP-BLL/2023-11-01/2023-11-05/,168.75,1.0
+Santiago,Chile,3671,1037.64,LATAM Airlines,SCL,2023-07-08,2023-07-14,http://kayak.com/flights/MXP-SCL/2023-07-08/2023-07-14/,1037.64,1.0
+Cidade do Cabo,África do Sul,1555,613.45,KLM,CPT,2023-05-29,2023-06-05,http://kayak.com/flights/MXP-CPT/2023-05-29/2023-06-05/,613.45,1.0
+Edimburgo,Reino Unido,1215,97.9,Várias companhias aéreas,EDI,2023-06-27,2023-07-04,http://kayak.com/flights/MXP-EDI/2023-06-27/2023-07-04/,97.9,1.0
+Cidade de Ho Chi Minh,Vietname,2125,740.24,Singapore Airlines,SGN,2023-11-20,2023-11-27,http://kayak.com/flights/MXP-SGN/2023-11-20/2023-11-27/,740.24,1.0
+Cracóvia,Polónia,115,59.67,Wizz Air,KRK,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-KRK/2023-06-28/2023-07-05/,59.67,1.0
+Buenos Aires,Argentina,1950,688.04,Várias companhias aéreas,BUE,2023-06-08,2023-06-13,http://kayak.com/flights/MXP-BUE/2023-06-08/2023-06-13/,688.04,1.0
+Alicante,Espanha,225,74.59,Várias companhias aéreas,ALC,2023-10-02,2023-10-07,http://kayak.com/flights/MXP-ALC/2023-10-02/2023-10-07/,74.59,1.0
+Nantes,França,305,88.57,Várias companhias aéreas,NTE,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-NTE/2023-06-28/2023-07-05/,88.57,1.0
+Medellín,Colômbia,2938,965.86,Várias companhias aéreas,MDE,2023-06-27,2023-07-04,http://kayak.com/flights/MXP-MDE/2023-06-27/2023-07-04/,965.86,1.0
+Raleigh,Estados Unidos,1512,713.21,United Airlines,RDU,2023-06-05,2023-06-12,http://kayak.com/flights/MXP-RDU/2023-06-05/2023-06-12/,713.21,1.0
+Nashville,Estados Unidos,998,540.73,United Airlines,BNA,2023-09-12,2023-09-19,http://kayak.com/flights/MXP-BNA/2023-09-12/2023-09-19/,540.73,1.0
+Hyderabad,Índia,2075,506.24,Várias companhias aéreas,HYD,2023-06-06,2023-06-10,http://kayak.com/flights/MXP-HYD/2023-06-06/2023-06-10/,506.24,1.0
+Gotemburgo,Suécia,755,183.67,Ryanair,GOT,2023-05-30,2023-06-06,http://kayak.com/flights/MXP-GOT/2023-05-30/2023-06-06/,183.67,1.0
+Toulouse,França,880,203.24,Várias companhias aéreas,TLS,2023-05-30,2023-06-06,http://kayak.com/flights/MXP-TLS/2023-05-30/2023-06-06/,203.24,1.0
+Amã,Jordânia,270,184.6,Wizz Air,AMM,2023-10-04,2023-10-11,http://kayak.com/flights/MXP-AMM/2023-10-04/2023-10-11/,184.6,1.0
+Baltimore,Estados Unidos,1065,876.36,Delta,BWI,2023-06-27,2023-07-04,http://kayak.com/flights/MXP-BWI/2023-06-27/2023-07-04/,876.36,1.0
+Luqa,Malta,125,50.35,Ryanair,MLA,2023-06-08,2023-06-12,http://kayak.com/flights/MXP-MLA/2023-06-08/2023-06-12/,50.35,1.0
+Bangalore,Índia,1125,796.18,Várias companhias aéreas,BLR,2023-07-03,2023-07-10,http://kayak.com/flights/MXP-BLR/2023-07-03/2023-07-10/,796.18,1.0
+Salt Lake City,Estados Unidos,914,1142.99,United Airlines,SLC,2023-08-08,2023-08-14,http://kayak.com/flights/MXP-SLC/2023-08-08/2023-08-14/,1142.99,1.0
+Estugarda,Alemanha,255,150.1,SWISS,STR,2023-07-25,2023-07-29,http://kayak.com/flights/MXP-STR/2023-07-25/2023-07-29/,150.1,1.0
+Chennai,Índia,1895,483.86,Várias companhias aéreas,MAA,2023-06-13,2023-06-17,http://kayak.com/flights/MXP-MAA/2023-06-13/2023-06-17/,483.86,1.0
+Valência,Espanha,120,54.08,Ryanair,VLC,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-VLC/2023-06-28/2023-07-05/,54.08,1.0
+Montreal,Canadá,815,691.76,Várias companhias aéreas,YUL,2023-06-01,2023-06-05,http://kayak.com/flights/MXP-YUL/2023-06-01/2023-06-05/,691.76,1.0
+Bucareste,Roménia,145,64.33,Ryanair,BUH,2023-09-19,2023-09-26,http://kayak.com/flights/MXP-BUH/2023-09-19/2023-09-26/,64.33,1.0
+Calgary,Canadá,2370,729.06,Várias companhias aéreas,YYC,2023-09-07,2023-09-12,http://kayak.com/flights/MXP-YYC/2023-09-07/2023-09-12/,729.06,1.0
+Detroit,Estados Unidos,1027,826.95,Várias companhias aéreas,DTW,2023-06-27,2023-07-04,http://kayak.com/flights/MXP-DTW/2023-06-27/2023-07-04/,826.95,1.0
+Marraquexe,Marrocos,260,67.13,Wizz Air Malta,RAK,2024-02-18,2024-02-25,http://kayak.com/flights/MXP-RAK/2024-02-18/2024-02-25/,67.13,1.0
+Birmingham,Reino Unido,460,171.55,Várias companhias aéreas,BHX,2023-06-15,2023-06-21,http://kayak.com/flights/MXP-BHX/2023-06-15/2023-06-21/,171.55,1.0
+Auckland,Nova Zelândia,2275,1553.2,Várias companhias aéreas,AKL,2023-05-29,2023-06-05,http://kayak.com/flights/MXP-AKL/2023-05-29/2023-06-05/,1553.2,1.0
+Casablanca,Marrocos,1015,153.83,TAP AIR PORTUGAL,CMN,2023-06-03,2023-06-09,http://kayak.com/flights/MXP-CMN/2023-06-03/2023-06-09/,153.83,1.0
+Antália,Turquia,1360,172.48,Várias companhias aéreas,AYT,2023-06-08,2023-06-13,http://kayak.com/flights/MXP-AYT/2023-06-08/2023-06-13/,172.48,1.0
+Brisbane,Austrália,2425,1779.75,Etihad Airways,BNE,2023-06-27,2023-07-04,http://kayak.com/flights/MXP-BNE/2023-06-27/2023-07-04/,1779.75,1.0
+Da Nang,Vietname,1975,1343.43,Várias companhias aéreas,DAD,2023-11-19,2023-11-26,http://kayak.com/flights/MXP-DAD/2023-11-19/2023-11-26/,1343.43,1.0
+Nova Orleães,Estados Unidos,2010,816.69,Várias companhias aéreas,MSY,2024-01-01,2024-01-06,http://kayak.com/flights/MXP-MSY/2024-01-01/2024-01-06/,816.69,1.0
+Tallin,Estónia,980,189.26,Várias companhias aéreas,TLL,2023-07-16,2023-07-22,http://kayak.com/flights/MXP-TLL/2023-07-16/2023-07-22/,189.26,1.0
+Bordéus,França,765,128.66,Várias companhias aéreas,BOD,2023-08-30,2023-09-03,http://kayak.com/flights/MXP-BOD/2023-08-30/2023-09-03/,128.66,1.0
+Rio de Janeiro,Brasil,960,757.96,LATAM Airlines,RIO,2023-10-28,2023-11-03,http://kayak.com/flights/MXP-RIO/2023-10-28/2023-11-03/,757.96,1.0
+Phuket,Tailândia,1460,656.34,Singapore Airlines,HKT,2024-02-12,2024-02-19,http://kayak.com/flights/MXP-HKT/2024-02-12/2024-02-19/,656.34,1.0
+Cebu,Filipinas,2385,1045.1,Várias companhias aéreas,CEB,2023-11-01,2023-11-08,http://kayak.com/flights/MXP-CEB/2023-11-01/2023-11-08/,1045.1,1.0
+Ibiza,Espanha,115,68.06,easyJet,IBZ,2023-10-14,2023-10-18,http://kayak.com/flights/MXP-IBZ/2023-10-14/2023-10-18/,68.06,1.0
+Tirana,Albânia,120,52.21,Wizz Air Malta,TIA,2023-06-26,2023-07-03,http://kayak.com/flights/MXP-TIA/2023-06-26/2023-07-03/,52.21,1.0
+Catânia,Itália,125,38.23,Ryanair,CTA,2023-10-18,2023-10-23,http://kayak.com/flights/MXP-CTA/2023-10-18/2023-10-23/,38.23,1.0
+Cidade da Guatemala,Guatemala,1550,727.19,United Airlines,GUA,2023-11-30,2023-12-04,http://kayak.com/flights/MXP-GUA/2023-11-30/2023-12-04/,727.19,1.0
+Santo Domingo,República Dominicana,1315,647.01,KLM,SDQ,2023-05-30,2023-06-06,http://kayak.com/flights/MXP-SDQ/2023-05-30/2023-06-06/,647.01,1.0
+Túnis,Tunísia,110,112.81,Nouvelair,TUN,2023-10-02,2023-10-09,http://kayak.com/flights/MXP-TUN/2023-10-02/2023-10-09/,112.81,1.0
+Sevilha,Espanha,780,86.71,TAP AIR PORTUGAL,SVQ,2023-07-06,2023-07-13,http://kayak.com/flights/MXP-SVQ/2023-07-06/2023-07-13/,86.71,1.0
+Colombo,Sri Lanka,1170,751.43,Gulf Air,CMB,2023-12-05,2023-12-10,http://kayak.com/flights/MXP-CMB/2023-12-05/2023-12-10/,751.43,1.0
+Cleveland,Estados Unidos,955,903.39,Delta,CLE,2023-06-27,2023-07-04,http://kayak.com/flights/MXP-CLE/2023-06-27/2023-07-04/,903.39,1.0
+Guadalajara,México,2119,1028.32,Várias companhias aéreas,GDL,2023-06-11,2023-06-15,http://kayak.com/flights/MXP-GDL/2023-06-11/2023-06-15/,1028.32,1.0
+Split,Croácia,90,110.02,easyJet,SPU,2023-06-16,2023-06-23,http://kayak.com/flights/MXP-SPU/2023-06-16/2023-06-23/,110.02,1.0
+Faro,Portugal,835,106.29,Várias companhias aéreas,FAO,2023-07-11,2023-07-15,http://kayak.com/flights/MXP-FAO/2023-07-11/2023-07-15/,106.29,1.0
+Heraclião,Grécia,180,68.06,Wizz Air Malta,HER,2023-06-27,2023-07-04,http://kayak.com/flights/MXP-HER/2023-06-27/2023-07-04/,68.06,1.0
+Bolonha,Itália,715,513.7,Várias companhias aéreas,BLQ,2023-05-30,2023-06-06,http://kayak.com/flights/MXP-BLQ/2023-05-30/2023-06-06/,513.7,1.0
+Lárnaca,Chipre,230,143.58,easyJet,LCA,2023-08-29,2023-09-05,http://kayak.com/flights/MXP-LCA/2023-08-29/2023-09-05/,143.58,1.0
+Punta Cana,República Dominicana,1285,674.05,Air Canada,PUJ,2023-12-05,2023-12-11,http://kayak.com/flights/MXP-PUJ/2023-12-05/2023-12-11/,674.05,1.0
+Abu Dhabi,Emirados Árabes Unidos,1140,203.24,Várias companhias aéreas,AUH,2023-07-05,2023-07-11,http://kayak.com/flights/MXP-AUH/2023-07-05/2023-07-11/,203.24,1.0
+Colónia,Alemanha,755,216.3,Austrian Airlines,CGN,2023-06-01,2023-06-05,http://kayak.com/flights/MXP-CGN/2023-06-01/2023-06-05/,216.3,1.0
+Perth,Austrália,2220,1446.92,Várias companhias aéreas,PER,2023-06-29,2023-07-05,http://kayak.com/flights/MXP-PER/2023-06-29/2023-07-05/,1446.92,1.0
+Manágua,Nicarágua,3562,1728.47,Várias companhias aéreas,MGA,2023-06-27,2023-07-04,http://kayak.com/flights/MXP-MGA/2023-06-27/2023-07-04/,1728.47,1.0
+Cochin,Índia,1555,627.44,Várias companhias aéreas,COK,2023-06-27,2023-07-04,http://kayak.com/flights/MXP-COK/2023-06-27/2023-07-04/,627.44,1.0
+Argel,Argélia,340,396.23,Lufthansa,ALG,2023-06-23,2023-06-29,http://kayak.com/flights/MXP-ALG/2023-06-23/2023-06-29/,396.23,1.0
+Malé,Maldivas,1810,438.18,Várias companhias aéreas,MLE,2023-06-08,2023-06-13,http://kayak.com/flights/MXP-MLE/2023-06-08/2023-06-13/,438.18,1.0
+Bilbau,Espanha,120,74.59,Vueling,BIO,2023-06-21,2023-06-28,http://kayak.com/flights/MXP-BIO/2023-06-21/2023-06-28/,74.59,1.0
+Belgrado,Sérvia,525,146.37,Austrian Airlines,BEG,2023-06-23,2023-06-27,http://kayak.com/flights/MXP-BEG/2023-06-23/2023-06-27/,146.37,1.0
+Sófia,Bulgária,550,142.65,Ryanair,SOF,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-SOF/2023-06-28/2023-07-05/,142.65,1.0
+Nairobi,Quénia,805,529.55,Egypt Air,NBO,2023-06-08,2023-06-14,http://kayak.com/flights/MXP-NBO/2023-06-08/2023-06-14/,529.55,1.0
+Quito,Equador,2325,938.82,Várias companhias aéreas,UIO,2023-05-30,2023-06-06,http://kayak.com/flights/MXP-UIO/2023-05-30/2023-06-06/,938.82,1.0
+Pittsburgh,Estados Unidos,1757,827.88,United Airlines,PIT,2023-06-28,2023-07-04,http://kayak.com/flights/MXP-PIT/2023-06-28/2023-07-04/,827.88,1.0
+Zagreb,Croácia,880,150.1,Várias companhias aéreas,ZAG,2023-06-03,2023-06-07,http://kayak.com/flights/MXP-ZAG/2023-06-03/2023-06-07/,150.1,1.0
+Cidade do Panamá,Panamá,1655,803.64,Iberia,PTY,2023-06-06,2023-06-11,http://kayak.com/flights/MXP-PTY/2023-06-06/2023-06-11/,803.64,1.0
+Jacksonville,Estados Unidos,2039,967.72,Iberia,JAX,2023-08-20,2023-08-25,http://kayak.com/flights/MXP-JAX/2023-08-20/2023-08-25/,967.72,1.0
+Ahmedabad,Índia,865,740.24,Várias companhias aéreas,AMD,2024-05-04,2024-05-10,http://kayak.com/flights/MXP-AMD/2024-05-04/2024-05-10/,740.24,1.0
+Cartagena,Colômbia,1884,784.99,Várias companhias aéreas,CTG,2023-11-01,2023-11-08,http://kayak.com/flights/MXP-CTG/2023-11-01/2023-11-08/,784.99,1.0
+Palermo,Itália,105,31.7,Ryanair,PMO,2023-09-23,2023-09-27,http://kayak.com/flights/MXP-PMO/2023-09-23/2023-09-27/,31.7,1.0
+Gdansk,Polónia,1085,113.74,Várias companhias aéreas,GDN,2023-06-09,2023-06-13,http://kayak.com/flights/MXP-GDN/2023-06-09/2023-06-13/,113.74,1.0
+St Louis,Estados Unidos,1410,873.56,American Airlines,STL,2023-06-02,2023-06-09,http://kayak.com/flights/MXP-STL/2023-06-02/2023-06-09/,873.56,1.0
+Indianápolis,Estados Unidos,998,725.33,British Airways,IND,2023-10-07,2023-10-14,http://kayak.com/flights/MXP-IND/2023-10-07/2023-10-14/,725.33,1.0
+Florença,Itália,835,4628.82,Austrian Airlines,FLR,2023-06-04,2023-06-11,http://kayak.com/flights/MXP-FLR/2023-06-04/2023-06-11/,4628.82,1.0
+Hanói,Vietname,1575,1099.17,Várias companhias aéreas,HAN,2023-05-30,2023-06-06,http://kayak.com/flights/MXP-HAN/2023-05-30/2023-06-06/,1099.17,1.0
+Las Palmas,Espanha,715,123.07,Vueling,LPA,2023-12-17,2023-12-24,http://kayak.com/flights/MXP-LPA/2023-12-17/2023-12-24/,123.07,1.0
+Jidá,Arábia Saudita,350,118.41,Wizz Air,JED,2023-06-03,2023-06-10,http://kayak.com/flights/MXP-JED/2023-06-03/2023-06-10/,118.41,1.0
+Vilnius,Lituânia,165,171.55,Wizz Air,VNO,2023-07-03,2023-07-07,http://kayak.com/flights/MXP-VNO/2023-07-03/2023-07-07/,171.55,1.0
+Santa Ana,Estados Unidos,2231,1171.89,Brussels Airlines,SNA,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-SNA/2023-06-28/2023-07-05/,1171.89,1.0
+San Jose,Estados Unidos,2564,1313.6,Várias companhias aéreas,SJC,2023-08-05,2023-08-12,http://kayak.com/flights/MXP-SJC/2023-08-05/2023-08-12/,1313.6,1.0
+Salónica,Grécia,295,137.98,Ryanair,SKG,2023-08-29,2023-09-04,http://kayak.com/flights/MXP-SKG/2023-08-29/2023-09-04/,137.98,1.0
+São Salvador,El Salvador,2305,1003.15,Várias companhias aéreas,SAL,2023-06-28,2023-07-04,http://kayak.com/flights/MXP-SAL/2023-06-28/2023-07-04/,1003.15,1.0
+Hanover,Alemanha,805,206.04,Várias companhias aéreas,HAJ,2023-09-03,2023-09-09,http://kayak.com/flights/MXP-HAJ/2023-09-03/2023-09-09/,206.04,1.0
+Dubrovnik,Croácia,790,198.58,Austrian Airlines,DBV,2023-07-08,2023-07-15,http://kayak.com/flights/MXP-DBV/2023-07-08/2023-07-15/,198.58,1.0
+Erevã,Arménia,785,173.41,Várias companhias aéreas,EVN,2023-06-03,2023-06-07,http://kayak.com/flights/MXP-EVN/2023-06-03/2023-06-07/,173.41,1.0
+Daca,Bangladexe,1650,729.99,SAUDIA,DAC,2023-06-28,2023-07-04,http://kayak.com/flights/MXP-DAC/2023-06-28/2023-07-04/,729.99,1.0
+Cali,Colômbia,2267,881.02,Várias companhias aéreas,CLO,2023-11-30,2023-12-07,http://kayak.com/flights/MXP-CLO/2023-11-30/2023-12-07/,881.02,1.0
+Nuremberga,Alemanha,1070,192.06,Várias companhias aéreas,NUE,2023-06-27,2023-07-04,http://kayak.com/flights/MXP-NUE/2023-06-27/2023-07-04/,192.06,1.0
+Reiquiavique,Islândia,265,84.84,Wizz Air Malta,KEF,2023-06-04,2023-06-11,http://kayak.com/flights/MXP-KEF/2023-06-04/2023-06-11/,84.84,1.0
+Xangai,China,1020,840.93,Várias companhias aéreas,SHA,2023-06-28,2023-07-04,http://kayak.com/flights/MXP-SHA/2023-06-28/2023-07-04/,840.93,1.0
+Katmandu,Nepal,925,826.01,Qatar Airways,KTM,2023-06-27,2023-07-03,http://kayak.com/flights/MXP-KTM/2023-06-27/2023-07-03/,826.01,1.0
+Acra,Gana,2595,866.1,Várias companhias aéreas,ACC,2023-06-17,2023-06-22,http://kayak.com/flights/MXP-ACC/2023-06-17/2023-06-22/,866.1,1.0
+Buffalo,Estados Unidos,1825,850.25,British Airways,BUF,2023-06-18,2023-06-23,http://kayak.com/flights/MXP-BUF/2023-06-18/2023-06-23/,850.25,1.0
+Montego Bay,Jamaica,2190,746.77,Air Canada,MBJ,2023-10-22,2023-10-29,http://kayak.com/flights/MXP-MBJ/2023-10-22/2023-10-29/,746.77,1.0
+Cidade do Kansas,Estados Unidos,3513,686.17,United Airlines,MCI,2023-11-09,2023-11-15,http://kayak.com/flights/MXP-MCI/2023-11-09/2023-11-15/,686.17,1.0
+Cagliari,Itália,90,45.69,Ryanair,CAG,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-CAG/2023-06-28/2023-07-05/,45.69,1.0
+Glasgow,Reino Unido,945,165.02,Várias companhias aéreas,GLA,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-GLA/2023-06-28/2023-07-05/,165.02,1.0
+Ontário,Estados Unidos,1525,927.63,KLM,ONT,2023-11-03,2023-11-10,http://kayak.com/flights/MXP-ONT/2023-11-03/2023-11-10/,927.63,1.0
+West Palm Beach,Estados Unidos,1937,897.8,United Airlines,PBI,2023-07-01,2023-07-08,http://kayak.com/flights/MXP-PBI/2023-07-01/2023-07-08/,897.8,1.0
+Lahore,Paquistão,1860,665.66,Etihad Airways,LHE,2023-11-10,2023-11-17,http://kayak.com/flights/MXP-LHE/2023-11-10/2023-11-17/,665.66,1.0
+Islamabad,Paquistão,1230,496.92,Várias companhias aéreas,ISB,2023-06-12,2023-06-18,http://kayak.com/flights/MXP-ISB/2023-06-12/2023-06-18/,496.92,1.0
+Guaiaquil,Equador,2395,874.49,Várias companhias aéreas,GYE,2023-11-03,2023-11-10,http://kayak.com/flights/MXP-GYE/2023-11-03/2023-11-10/,874.49,1.0
+Corfú,Grécia,125,65.27,Ryanair,CFU,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-CFU/2023-06-28/2023-07-05/,65.27,1.0
+Tbilisi,Geórgia,1030,384.11,Várias companhias aéreas,TBS,2023-06-29,2023-07-04,http://kayak.com/flights/MXP-TBS/2023-06-29/2023-07-04/,384.11,1.0
+Eindhoven,Holanda,785,133.32,Ryanair,EIN,2023-06-07,2023-06-11,http://kayak.com/flights/MXP-EIN/2023-06-07/2023-06-11/,133.32,1.0
+Bari,Itália,100,40.09,Várias companhias aéreas,BRI,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-BRI/2023-06-28/2023-07-05/,40.09,1.0
+Katovice,Polónia,620,128.66,Várias companhias aéreas,KTW,2023-06-28,2023-07-02,http://kayak.com/flights/MXP-KTW/2023-06-28/2023-07-02/,128.66,1.0
+Findel,Luxemburgo,75,56.87,easyJet,LUX,2023-06-07,2023-06-11,http://kayak.com/flights/MXP-LUX/2023-06-07/2023-06-11/,56.87,1.0
+Charleston,Estados Unidos,1290,573.36,United Airlines,CHS,2023-10-14,2023-10-21,http://kayak.com/flights/MXP-CHS/2023-10-14/2023-10-21/,573.36,1.0
+Thera,Grécia,165,81.11,easyJet,JTR,2023-07-02,2023-07-09,http://kayak.com/flights/MXP-JTR/2023-07-02/2023-07-09/,81.11,1.0
+Riade,Arábia Saudita,945,407.42,Aegean Airlines,RUH,2023-09-15,2023-09-21,http://kayak.com/flights/MXP-RUH/2023-09-15/2023-09-21/,407.42,1.0
+Port Louis,Maurícia,1375,813.89,SWISS,MRU,2023-12-05,2023-12-10,http://kayak.com/flights/MXP-MRU/2023-12-05/2023-12-10/,813.89,1.0
+Oakland,Estados Unidos,1325,1032.05,Várias companhias aéreas,OAK,2023-12-02,2023-12-09,http://kayak.com/flights/MXP-OAK/2023-12-02/2023-12-09/,1032.05,1.0
+Addis Abeba,Etiópia,1410,800.84,Turkish Airlines,ADD,2023-07-15,2023-07-22,http://kayak.com/flights/MXP-ADD/2023-07-15/2023-07-22/,800.84,1.0
+Turim,Itália,560,624.64,KLM,TRN,2023-05-30,2023-06-06,http://kayak.com/flights/MXP-TRN/2023-05-30/2023-06-06/,624.64,1.0
+Anchorage,Estados Unidos,2126,941.62,KLM,ANC,2023-10-19,2023-10-26,http://kayak.com/flights/MXP-ANC/2023-10-19/2023-10-26/,941.62,1.0
+Funchal,Portugal,1675,106.29,TAP AIR PORTUGAL,FNC,2023-11-13,2023-11-19,http://kayak.com/flights/MXP-FNC/2023-11-13/2023-11-19/,106.29,1.0
+Santa Cruz de Tenerife,Espanha,270,82.05,easyJet,TCI,2023-12-11,2023-12-18,http://kayak.com/flights/MXP-TCI/2023-12-11/2023-12-18/,82.05,1.0
+Bergen,Noruega,1530,484.8,SWISS,BGO,2023-06-20,2023-06-27,http://kayak.com/flights/MXP-BGO/2023-06-20/2023-06-27/,484.8,1.0
+Breslavia,Polónia,420,189.26,Várias companhias aéreas,WRO,2023-10-16,2023-10-20,http://kayak.com/flights/MXP-WRO/2023-10-16/2023-10-20/,189.26,1.0
+Calcutá,Índia,2095,709.48,Várias companhias aéreas,CCU,2023-05-30,2023-06-06,http://kayak.com/flights/MXP-CCU/2023-05-30/2023-06-06/,709.48,1.0
+Roterdão,Holanda,580,247.06,Várias companhias aéreas,RTM,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-RTM/2023-06-28/2023-07-05/,247.06,1.0
+Salzburgo,Áustria,820,256.38,Lufthansa,SZG,2023-08-24,2023-08-30,http://kayak.com/flights/MXP-SZG/2023-08-24/2023-08-30/,256.38,1.0
+Okinawa,Japão,1515,974.25,Várias companhias aéreas,OKA,2023-06-27,2023-07-04,http://kayak.com/flights/MXP-OKA/2023-06-27/2023-07-04/,974.25,1.0
+Pequim,China,1645,710.41,Várias companhias aéreas,BJS,2023-05-30,2023-06-06,http://kayak.com/flights/MXP-BJS/2023-05-30/2023-06-06/,710.41,1.0
+Dakar,Senegal,1180,306.73,TAP AIR PORTUGAL,DSS,2024-01-26,2024-02-02,http://kayak.com/flights/MXP-DSS/2024-01-26/2024-02-02/,306.73,1.0
+Lagos,Nigéria,615,769.14,Air France,LOS,2023-06-27,2023-07-04,http://kayak.com/flights/MXP-LOS/2023-06-27/2023-07-04/,769.14,1.0
+Basileia,Suíça,855,152.9,Várias companhias aéreas,BSL,2023-09-03,2023-09-09,http://kayak.com/flights/MXP-BSL/2023-09-03/2023-09-09/,152.9,1.0
+Albuquerque,Estados Unidos,1742,900.6,American Airlines,ABQ,2023-06-19,2023-06-24,http://kayak.com/flights/MXP-ABQ/2023-06-19/2023-06-24/,900.6,1.0
+Bristol,Reino Unido,125,146.37,easyJet,BRS,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-BRS/2023-06-28/2023-07-05/,146.37,1.0
+Nha Trang,Vietname,1270,2216.06,Várias companhias aéreas,CXR,2023-07-24,2023-07-28,http://kayak.com/flights/MXP-CXR/2023-07-24/2023-07-28/,2216.06,1.0
+Montevidéu,Uruguai,1720,1156.98,Várias companhias aéreas,MVD,2023-12-24,2023-12-31,http://kayak.com/flights/MXP-MVD/2023-12-24/2023-12-31/,1156.98,1.0
+Granadilla de Abona,Espanha,270,82.05,easyJet,TFS,2023-12-11,2023-12-18,http://kayak.com/flights/MXP-TFS/2023-12-11/2023-12-18/,82.05,1.0
+Santiago de Compostela,Espanha,860,101.62,Ryanair,SCQ,2023-07-13,2023-07-19,http://kayak.com/flights/MXP-SCQ/2023-07-13/2023-07-19/,101.62,1.0
+Olbia,Itália,90,41.03,Wizz Air Malta,OLB,2023-07-12,2023-07-19,http://kayak.com/flights/MXP-OLB/2023-07-12/2023-07-19/,41.03,1.0
+Ottawa,Canadá,2277,988.23,Scandinavian Airlines,YOW,2023-08-19,2023-08-26,http://kayak.com/flights/MXP-YOW/2023-08-19/2023-08-26/,988.23,1.0
+Rodes,Grécia,695,121.2,Várias companhias aéreas,RHO,2023-06-20,2023-06-26,http://kayak.com/flights/MXP-RHO/2023-06-20/2023-06-26/,121.2,1.0
+Salvador,Brasil,2500,1078.66,Várias companhias aéreas,SSA,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-SSA/2023-06-28/2023-07-05/,1078.66,1.0
+Carachi,Paquistão,1780,645.15,Turkish Airlines,KHI,2023-06-26,2023-07-03,http://kayak.com/flights/MXP-KHI/2023-06-26/2023-07-03/,645.15,1.0
+Pisa,Itália,1200,554.72,Várias companhias aéreas,PSA,2023-08-02,2023-08-07,http://kayak.com/flights/MXP-PSA/2023-08-02/2023-08-07/,554.72,1.0
+Recife,Brasil,2300,709.48,LATAM Airlines,REC,2023-07-11,2023-07-18,http://kayak.com/flights/MXP-REC/2023-07-11/2023-07-18/,709.48,1.0
+San José del Cabo,México,2029,1238.09,American Airlines,SJD,2023-12-30,2024-01-06,http://kayak.com/flights/MXP-SJD/2023-12-30/2024-01-06/,1238.09,1.0
+Monterrei,México,1330,1626.85,Várias companhias aéreas,MTY,2023-07-29,2023-08-03,http://kayak.com/flights/MXP-MTY/2023-07-29/2023-08-03/,1626.85,1.0
+Mahón,Espanha,95,58.74,easyJet,MAH,2023-07-12,2023-07-19,http://kayak.com/flights/MXP-MAH/2023-07-12/2023-07-19/,58.74,1.0
+Míconos,Grécia,335,126.8,Várias companhias aéreas,JMK,2023-06-20,2023-06-27,http://kayak.com/flights/MXP-JMK/2023-06-20/2023-06-27/,126.8,1.0
+Liubliana,Eslovénia,1590,190.19,LOT,LJU,2023-07-29,2023-08-04,http://kayak.com/flights/MXP-LJU/2023-07-29/2023-08-04/,190.19,1.0
+Zanzibar,Tanzânia,830,649.81,Ethiopian Air,ZNZ,2024-01-30,2024-02-06,http://kayak.com/flights/MXP-ZNZ/2024-01-30/2024-02-06/,649.81,1.0
+Nassau,Bahamas,1741,970.52,Delta,NAS,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-NAS/2023-06-28/2023-07-05/,970.52,1.0
+Poznań,Polónia,280,151.97,LOT,POZ,2023-09-12,2023-09-19,http://kayak.com/flights/MXP-POZ/2023-09-12/2023-09-19/,151.97,1.0
+Porto Alegre,Brasil,2055,1500.99,TAP AIR PORTUGAL,POA,2023-12-26,2024-01-02,http://kayak.com/flights/MXP-POA/2023-12-26/2024-01-02/,1500.99,1.0
+Escópia,Macedónia do Norte,970,192.99,Air Serbia,SKP,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-SKP/2023-06-28/2023-07-05/,192.99,1.0
+Burbank,Estados Unidos,1200,1041.37,Condor,BUR,2023-11-13,2023-11-20,http://kayak.com/flights/MXP-BUR/2023-11-13/2023-11-20/,1041.37,1.0
+Oranjestad,Aruba,1885,705.75,Delta,AUA,2024-03-10,2024-03-16,http://kayak.com/flights/MXP-AUA/2024-03-10/2024-03-16/,705.75,1.0
+Tânger,Marrocos,800,139.85,Várias companhias aéreas,TNG,2023-06-06,2023-06-11,http://kayak.com/flights/MXP-TNG/2023-06-06/2023-06-11/,139.85,1.0
+Arrecife,Espanha,1560,153.83,Várias companhias aéreas,ACE,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-ACE/2023-06-28/2023-07-05/,153.83,1.0
+Jacarta,Indonésia,1455,722.53,Várias companhias aéreas,JKT,2023-06-06,2023-06-13,http://kayak.com/flights/MXP-JKT/2023-06-06/2023-06-13/,722.53,1.0
+Kuwait,Koweit,700,793.38,Gulf Air,KWI,2023-07-28,2023-08-01,http://kayak.com/flights/MXP-KWI/2023-07-28/2023-08-01/,793.38,1.0
+Verona,Itália,970,680.58,Eurowings,VRN,2023-05-30,2023-06-06,http://kayak.com/flights/MXP-VRN/2023-05-30/2023-06-06/,680.58,1.0
+Bremen,Alemanha,215,357.07,Lufthansa,BRE,2023-06-03,2023-06-08,http://kayak.com/flights/MXP-BRE/2023-06-03/2023-06-08/,357.07,1.0
+Fortaleza,Brasil,2420,1135.53,Air France,FOR,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-FOR/2023-06-28/2023-07-05/,1135.53,1.0
+Adelaide,Austrália,2440,1783.48,Turkish Airlines,ADL,2023-05-30,2023-06-06,http://kayak.com/flights/MXP-ADL/2023-05-30/2023-06-06/,1783.48,1.0
+Spokane,Estados Unidos,1224,1438.53,Várias companhias aéreas,GEG,2023-07-08,2023-07-15,http://kayak.com/flights/MXP-GEG/2023-07-08/2023-07-15/,1438.53,1.0
+Porto de Espanha,Trinidad e Tobago,2089,1009.68,Várias companhias aéreas,POS,2023-08-23,2023-08-27,http://kayak.com/flights/MXP-POS/2023-08-23/2023-08-27/,1009.68,1.0
+Kingston,Jamaica,3285,1275.38,Air Canada,KIN,2023-08-25,2023-09-01,http://kayak.com/flights/MXP-KIN/2023-08-25/2023-09-01/,1275.38,1.0
+Stavanger,Noruega,540,188.33,Lufthansa,SVG,2024-03-03,2024-03-10,http://kayak.com/flights/MXP-SVG/2024-03-03/2024-03-10/,188.33,1.0
+Hurghada,Egito,285,122.13,easyJet,HRG,2024-03-02,2024-03-09,http://kayak.com/flights/MXP-HRG/2024-03-02/2024-03-09/,122.13,1.0
+Puerto del Rosario,Espanha,640,142.65,Várias companhias aéreas,FUE,2023-06-06,2023-06-12,http://kayak.com/flights/MXP-FUE/2023-06-06/2023-06-12/,142.65,1.0
+Cantão,China,2495,791.52,Várias companhias aéreas,CAN,2023-05-30,2023-06-06,http://kayak.com/flights/MXP-CAN/2023-05-30/2023-06-06/,791.52,1.0
+Chiang Mai,Tailândia,2315,864.24,Várias companhias aéreas,CNX,2023-06-27,2023-07-04,http://kayak.com/flights/MXP-CNX/2023-06-27/2023-07-04/,864.24,1.0
+Louisville,Estados Unidos,878,661.93,Delta,SDF,2023-09-05,2023-09-11,http://kayak.com/flights/MXP-SDF/2023-09-05/2023-09-11/,661.93,1.0
+Mascate,Omã,1655,487.59,Turkish Airlines,MCT,2023-10-28,2023-11-04,http://kayak.com/flights/MXP-MCT/2023-10-28/2023-11-04/,487.59,1.0
+Chania,Grécia,375,110.02,Várias companhias aéreas,CHQ,2023-06-27,2023-07-04,http://kayak.com/flights/MXP-CHQ/2023-06-27/2023-07-04/,110.02,1.0
+Amritsar,Índia,2185,829.74,Várias companhias aéreas,ATQ,2023-05-30,2023-06-06,http://kayak.com/flights/MXP-ATQ/2023-05-30/2023-06-06/,829.74,1.0
+Podgorica,Montenegro,455,188.33,Várias companhias aéreas,TGD,2023-08-19,2023-08-24,http://kayak.com/flights/MXP-TGD/2023-08-19/2023-08-24/,188.33,1.0
+Bridgetown,Barbados,2040,737.45,Várias companhias aéreas,BGI,2023-12-03,2023-12-09,http://kayak.com/flights/MXP-BGI/2023-12-03/2023-12-09/,737.45,1.0
+Frejorgues,França,665,313.25,Várias companhias aéreas,MPL,2023-05-30,2023-06-06,http://kayak.com/flights/MXP-MPL/2023-05-30/2023-06-06/,313.25,1.0
+Victoria,Seicheles,845,585.48,Ethiopian Air,SEZ,2023-11-02,2023-11-08,http://kayak.com/flights/MXP-SEZ/2023-11-02/2023-11-08/,585.48,1.0
+Zadar,Croácia,80,47.55,Ryanair,ZAD,2023-06-04,2023-06-11,http://kayak.com/flights/MXP-ZAD/2023-06-04/2023-06-11/,47.55,1.0
+Assunção,Paraguai,2172,1064.68,Turkish Airlines,ASU,2023-09-15,2023-09-19,http://kayak.com/flights/MXP-ASU/2023-09-15/2023-09-19/,1064.68,1.0
+Kailua-Kona,Estados Unidos,1615,1469.29,British Airways,KOA,2023-08-27,2023-08-31,http://kayak.com/flights/MXP-KOA/2023-08-27/2023-08-31/,1469.29,1.0
+Thiruvananthapuram,Índia,1820,1065.61,Gulf Air,TRV,2023-08-13,2023-08-20,http://kayak.com/flights/MXP-TRV/2023-08-13/2023-08-20/,1065.61,1.0
+Palm Springs,Estados Unidos,2500,778.47,Várias companhias aéreas,PSP,2024-03-09,2024-03-16,http://kayak.com/flights/MXP-PSP/2024-03-09/2024-03-16/,778.47,1.0
+Angeles City,Filipinas,2450,792.45,Singapore Airlines,CRK,2024-01-21,2024-01-28,http://kayak.com/flights/MXP-CRK/2024-01-21/2024-01-28/,792.45,1.0
+Liverpool,Reino Unido,875,135.19,Ryanair,LPL,2023-09-05,2023-09-12,http://kayak.com/flights/MXP-LPL/2023-09-05/2023-09-12/,135.19,1.0
+Phnom Penh,Cambodja,2130,980.77,Várias companhias aéreas,PNH,2023-06-27,2023-07-04,http://kayak.com/flights/MXP-PNH/2023-06-27/2023-07-04/,980.77,1.0
+Agadir,Marrocos,995,246.13,Várias companhias aéreas,AGA,2023-07-06,2023-07-12,http://kayak.com/flights/MXP-AGA/2023-07-06/2023-07-12/,246.13,1.0
+Sharjah,Emirados Árabes Unidos,685,479.2,Qatar Airways,SHJ,2023-06-08,2023-06-13,http://kayak.com/flights/MXP-SHJ/2023-06-08/2023-06-13/,479.2,1.0
+Iași,Roménia,1180,167.82,Ryanair,IAS,2023-06-08,2023-06-14,http://kayak.com/flights/MXP-IAS/2023-06-08/2023-06-14/,167.82,1.0
+Dar Es Salaam,Tanzânia,820,547.26,SAUDIA,DAR,2023-09-14,2023-09-20,http://kayak.com/flights/MXP-DAR/2023-09-14/2023-09-20/,547.26,1.0
+Manaus,Brasil,2095,1592.36,Air France,MAO,2023-06-28,2023-07-04,http://kayak.com/flights/MXP-MAO/2023-06-28/2023-07-04/,1592.36,1.0
+Albany,Estados Unidos,1500,711.34,American Airlines,ALB,2023-06-05,2023-06-12,http://kayak.com/flights/MXP-ALB/2023-06-05/2023-06-12/,711.34,1.0
+Pune,Índia,1690,807.37,Várias companhias aéreas,PNQ,2024-05-04,2024-05-11,http://kayak.com/flights/MXP-PNQ/2024-05-04/2024-05-11/,807.37,1.0
+Cluj,Roménia,375,230.28,Várias companhias aéreas,CLJ,2023-07-06,2023-07-10,http://kayak.com/flights/MXP-CLJ/2023-07-06/2023-07-10/,230.28,1.0
+Harare,Zimbábue,880,1050.7,Ethiopian Air,HRE,2023-08-30,2023-09-06,http://kayak.com/flights/MXP-HRE/2023-08-30/2023-09-06/,1050.7,1.0
+Santa Cruz da Serra,Bolívia,1555,1101.04,Várias companhias aéreas,VVI,2023-06-27,2023-07-04,http://kayak.com/flights/MXP-VVI/2023-06-27/2023-07-04/,1101.04,1.0
+Pereira,Colômbia,3696,1138.33,Várias companhias aéreas,PEI,2023-06-26,2023-07-03,http://kayak.com/flights/MXP-PEI/2023-06-26/2023-07-03/,1138.33,1.0
+Sharm El Sheikh,Egito,280,103.49,easyJet,SSH,2024-01-10,2024-01-16,http://kayak.com/flights/MXP-SSH/2024-01-10/2024-01-16/,103.49,1.0
+Zaquinto,Grécia,150,94.17,Wizz Air Malta,ZTH,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-ZTH/2023-06-28/2023-07-05/,94.17,1.0
+Pafos,Chipre,1325,185.53,Várias companhias aéreas,PFO,2023-06-06,2023-06-12,http://kayak.com/flights/MXP-PFO/2023-06-06/2023-06-12/,185.53,1.0
+Ponta Delgada,Portugal,1335,258.25,TAP AIR PORTUGAL,PDL,2023-08-01,2023-08-08,http://kayak.com/flights/MXP-PDL/2023-08-01/2023-08-08/,258.25,1.0
+Entebbe,Uganda,735,593.87,Ethiopian Air,EBB,2023-06-04,2023-06-08,http://kayak.com/flights/MXP-EBB/2023-06-04/2023-06-08/,593.87,1.0
+Pristina,Kosovo,130,57.81,Wizz Air Malta,PRN,2023-07-05,2023-07-09,http://kayak.com/flights/MXP-PRN/2023-07-05/2023-07-09/,57.81,1.0
+Fort-de-France,Martinica,1070,606.93,Várias companhias aéreas,FDF,2023-06-13,2023-06-20,http://kayak.com/flights/MXP-FDF/2023-06-13/2023-06-20/,606.93,1.0
+Bastia,França,555,178.07,Lufthansa,BIA,2023-10-14,2023-10-21,http://kayak.com/flights/MXP-BIA/2023-10-14/2023-10-21/,178.07,1.0
+Newcastle upon Tyne,Reino Unido,955,266.64,Várias companhias aéreas,NCL,2023-06-06,2023-06-13,http://kayak.com/flights/MXP-NCL/2023-06-06/2023-06-13/,266.64,1.0
+Vaitape,Polinésia Francesa,2850,2374.55,Várias companhias aéreas,BOB,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-BOB/2023-06-28/2023-07-05/,2374.55,1.0
+Lille,França,685,148.24,Várias companhias aéreas,LIL,2023-06-27,2023-07-04,http://kayak.com/flights/MXP-LIL/2023-06-27/2023-07-04/,148.24,1.0
+San Pedro,Honduras,2275,901.53,Várias companhias aéreas,SAP,2023-06-06,2023-06-13,http://kayak.com/flights/MXP-SAP/2023-06-06/2023-06-13/,901.53,1.0
+Curitiba,Brasil,3570,1356.49,LATAM Airlines,CWB,2023-05-29,2023-06-05,http://kayak.com/flights/MXP-CWB/2023-05-29/2023-06-05/,1356.49,1.0
+Dammam,Arábia Saudita,755,266.64,Várias companhias aéreas,DMM,2023-07-25,2023-07-31,http://kayak.com/flights/MXP-DMM/2023-07-25/2023-07-31/,266.64,1.0
+Esmirna,Turquia,425,854.91,Turkish Airlines,IZM,2023-08-15,2023-08-22,http://kayak.com/flights/MXP-IZM/2023-08-15/2023-08-22/,854.91,1.0
+Lihue,Estados Unidos,3391,1569.98,Air Canada,LIH,2023-08-27,2023-08-31,http://kayak.com/flights/MXP-LIH/2023-08-27/2023-08-31/,1569.98,1.0
+Astúrias,Espanha,860,103.49,Várias companhias aéreas,OVD,2023-06-20,2023-06-27,http://kayak.com/flights/MXP-OVD/2023-06-20/2023-06-27/,103.49,1.0
+Bratislava,Eslováquia,1430,150.1,Várias companhias aéreas,BTS,2023-06-03,2023-06-07,http://kayak.com/flights/MXP-BTS/2023-06-03/2023-06-07/,150.1,1.0
+Koh Samui,Tailândia,2445,954.67,Várias companhias aéreas,USM,2023-06-25,2023-07-01,http://kayak.com/flights/MXP-USM/2023-06-25/2023-07-01/,954.67,1.0
+Baku,Azerbeijão,1390,428.86,Lufthansa,GYD,2023-06-26,2023-07-03,http://kayak.com/flights/MXP-GYD/2023-06-26/2023-07-03/,428.86,1.0
+Tashkent,Uzbequistão,960,581.75,Várias companhias aéreas,TAS,2023-10-10,2023-10-16,http://kayak.com/flights/MXP-TAS/2023-10-10/2023-10-16/,581.75,1.0
+Belo Horizonte,Brasil,1590,926.7,TAP AIR PORTUGAL,CNF,2023-10-02,2023-10-09,http://kayak.com/flights/MXP-CNF/2023-10-02/2023-10-09/,926.7,1.0
+Antananarivo,Madagáscar,2515,1005.01,Várias companhias aéreas,TNR,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-TNR/2023-06-28/2023-07-05/,1005.01,1.0
+Timişoara,Roménia,1020,121.2,Várias companhias aéreas,TSR,2023-06-23,2023-06-27,http://kayak.com/flights/MXP-TSR/2023-06-23/2023-06-27/,121.2,1.0
+Manama,Bahrain,760,489.46,Lufthansa,BAH,2024-02-12,2024-02-19,http://kayak.com/flights/MXP-BAH/2024-02-12/2024-02-19/,489.46,1.0
+Rennes,França,1170,310.46,Várias companhias aéreas,RNS,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-RNS/2023-06-28/2023-07-05/,310.46,1.0
+Génova,Itália,720,748.63,KLM,GOA,2023-05-30,2023-06-06,http://kayak.com/flights/MXP-GOA/2023-05-30/2023-06-06/,748.63,1.0
+Jerez de la Frontera,Espanha,785,268.5,Várias companhias aéreas,XRY,2023-07-31,2023-08-04,http://kayak.com/flights/MXP-XRY/2023-07-31/2023-08-04/,268.5,1.0
+Linz,Áustria,815,510.9,Várias companhias aéreas,LNZ,2023-05-30,2023-06-06,http://kayak.com/flights/MXP-LNZ/2023-05-30/2023-06-06/,510.9,1.0
+Florianópolis,Brasil,2385,925.77,Várias companhias aéreas,FLN,2023-10-27,2023-11-03,http://kayak.com/flights/MXP-FLN/2023-10-27/2023-11-03/,925.77,1.0
+Saraievo,Bósnia-Herzegóvina,1065,362.67,Várias companhias aéreas,SJJ,2023-05-30,2023-06-06,http://kayak.com/flights/MXP-SJJ/2023-05-30/2023-06-06/,362.67,1.0
+Cuzco,Perú,2045,1468.36,LATAM Airlines,CUZ,2023-05-30,2023-06-06,http://kayak.com/flights/MXP-CUZ/2023-05-30/2023-06-06/,1468.36,1.0
+Kos,Grécia,150,97.9,Ryanair,KGS,2023-06-26,2023-07-03,http://kayak.com/flights/MXP-KGS/2023-06-26/2023-07-03/,97.9,1.0
+Quichinau,Moldávia,1555,316.05,LOT,KIV,2023-07-31,2023-08-06,http://kayak.com/flights/MXP-KIV/2023-07-31/2023-08-06/,316.05,1.0
+Lusaka,Zâmbia,1375,792.45,Qatar Airways,LUN,2023-06-15,2023-06-21,http://kayak.com/flights/MXP-LUN/2023-06-15/2023-06-21/,792.45,1.0
+Fes,Marrocos,680,242.4,Várias companhias aéreas,FEZ,2023-09-06,2023-09-10,http://kayak.com/flights/MXP-FEZ/2023-09-06/2023-09-10/,242.4,1.0
+Maceió,Brasil,2190,727.19,LATAM Airlines,MCZ,2023-09-18,2023-09-24,http://kayak.com/flights/MXP-MCZ/2023-09-18/2023-09-24/,727.19,1.0
+Windhoek,Namíbia,1305,1003.15,Austrian Airlines,WDH,2023-08-29,2023-09-05,http://kayak.com/flights/MXP-WDH/2023-08-29/2023-09-05/,1003.15,1.0
+Banjul,Gâmbia,960,949.08,Vueling,BJL,2023-06-26,2023-07-03,http://kayak.com/flights/MXP-BJL/2023-06-26/2023-07-03/,949.08,1.0
+Santander,Espanha,495,135.19,Várias companhias aéreas,SDR,2023-06-15,2023-06-21,http://kayak.com/flights/MXP-SDR/2023-06-15/2023-06-21/,135.19,1.0
+Almeria,Espanha,990,423.26,Várias companhias aéreas,LEI,2023-07-29,2023-08-05,http://kayak.com/flights/MXP-LEI/2023-07-29/2023-08-05/,423.26,1.0
+Rabate,Marrocos,675,348.68,Várias companhias aéreas,RBA,2023-08-22,2023-08-26,http://kayak.com/flights/MXP-RBA/2023-08-22/2023-08-26/,348.68,1.0
+La Corunha,Espanha,630,156.63,Várias companhias aéreas,LCG,2023-10-25,2023-10-29,http://kayak.com/flights/MXP-LCG/2023-10-25/2023-10-29/,156.63,1.0
+Granada,Espanha,670,195.79,Várias companhias aéreas,GRX,2024-01-26,2024-02-02,http://kayak.com/flights/MXP-GRX/2024-01-26/2024-02-02/,195.79,1.0
+Vigo,Espanha,600,158.49,Vueling,VGO,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-VGO/2023-06-28/2023-07-05/,158.49,1.0
+Saint Thomas Island,Ilhas Virgens Americanas,2575,1179.35,United Airlines,STT,2023-07-01,2023-07-08,http://kayak.com/flights/MXP-STT/2023-07-01/2023-07-08/,1179.35,1.0
+Pointe-à-Pitre,Guadalupe,1895,1056.29,Várias companhias aéreas,PTP,2023-08-03,2023-08-10,http://kayak.com/flights/MXP-PTP/2023-08-03/2023-08-10/,1056.29,1.0
+Nadi,Fiji,2230,1567.18,British Airways,NAN,2024-03-02,2024-03-09,http://kayak.com/flights/MXP-NAN/2024-03-02/2024-03-09/,1567.18,1.0
+Belfast,Reino Unido,295,248.93,Várias companhias aéreas,BFS,2023-07-18,2023-07-23,http://kayak.com/flights/MXP-BFS/2023-07-18/2023-07-23/,248.93,1.0
+Trondheim,Noruega,455,340.29,Várias companhias aéreas,TRD,2023-06-26,2023-06-30,http://kayak.com/flights/MXP-TRD/2023-06-26/2023-06-30/,340.29,1.0
+Saint-Denis,Ilha da Reunião,2015,1108.5,Air France,RUN,2023-10-10,2023-10-17,http://kayak.com/flights/MXP-RUN/2023-10-10/2023-10-17/,1108.5,1.0
+Frankfurt,Alemanha,925,135.19,Várias companhias aéreas,HHN,2023-06-14,2023-06-18,http://kayak.com/flights/MXP-HHN/2023-06-14/2023-06-18/,135.19,1.0
+Goiânia,Brasil,1780,1109.43,LATAM Airlines,GYN,2023-06-27,2023-07-04,http://kayak.com/flights/MXP-GYN/2023-06-27/2023-07-04/,1109.43,1.0
+Antuérpia,Bélgica,850,217.23,Várias companhias aéreas,ANR,2023-08-17,2023-08-21,http://kayak.com/flights/MXP-ANR/2023-08-17/2023-08-21/,217.23,1.0
+Estrasburgo,França,1720,537.94,Aegean Airlines,SXB,2023-07-09,2023-07-13,http://kayak.com/flights/MXP-SXB/2023-07-09/2023-07-13/,537.94,1.0
+Lamezia Terme,Itália,115,34.5,Várias companhias aéreas,SUF,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-SUF/2023-06-28/2023-07-05/,34.5,1.0
+Brindisi,Itália,105,45.69,Ryanair,BDS,2023-09-10,2023-09-15,http://kayak.com/flights/MXP-BDS/2023-09-10/2023-09-15/,45.69,1.0
+Simpson Bay,São Martinho (Sint Maarten),1385,1428.27,Várias companhias aéreas,SXM,2023-12-27,2024-01-03,http://kayak.com/flights/MXP-SXM/2023-12-27/2024-01-03/,1428.27,1.0
+Natal,Brasil,3525,1087.99,Várias companhias aéreas,NAT,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-NAT/2023-06-28/2023-07-05/,1087.99,1.0
+Nagóia,Japão,1675,1326.65,Várias companhias aéreas,NGO,2023-08-11,2023-08-17,http://kayak.com/flights/MXP-NGO/2023-08-11/2023-08-17/,1326.65,1.0
+Ajácio,França,1095,291.81,Air France,AJA,2023-10-14,2023-10-21,http://kayak.com/flights/MXP-AJA/2023-10-14/2023-10-21/,291.81,1.0
+New Windsor,Estados Unidos,1085,560.31,Várias companhias aéreas,SWF,2023-09-26,2023-10-03,http://kayak.com/flights/MXP-SWF/2023-09-26/2023-10-03/,560.31,1.0
+Burgas,Bulgária,340,210.7,Várias companhias aéreas,BOJ,2023-09-05,2023-09-12,http://kayak.com/flights/MXP-BOJ/2023-09-05/2023-09-12/,210.7,1.0
+São Sebastião,Espanha,835,328.17,Vueling,EAS,2023-07-11,2023-07-16,http://kayak.com/flights/MXP-EAS/2023-07-11/2023-07-16/,328.17,1.0
+Christchurch,Nova Zelândia,3365,2195.55,Várias companhias aéreas,CHC,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-CHC/2023-06-28/2023-07-05/,2195.55,1.0
+Mombaça,Quénia,1165,574.3,Kenya Airways,MBA,2023-11-20,2023-11-24,http://kayak.com/flights/MXP-MBA/2023-11-20/2023-11-24/,574.3,1.0
+Tivat,Montenegro,1310,265.71,Air Serbia,TIV,2023-08-15,2023-08-21,http://kayak.com/flights/MXP-TIV/2023-08-15/2023-08-21/,265.71,1.0
+Cork,Irlanda,840,156.63,Ryanair,ORK,2023-09-03,2023-09-10,http://kayak.com/flights/MXP-ORK/2023-09-03/2023-09-10/,156.63,1.0
+Tromsø,Noruega,1115,236.81,Várias companhias aéreas,TOS,2023-08-28,2023-09-04,http://kayak.com/flights/MXP-TOS/2023-08-28/2023-09-04/,236.81,1.0
+Varna,Bulgária,1410,150.1,Várias companhias aéreas,VAR,2023-06-20,2023-06-26,http://kayak.com/flights/MXP-VAR/2023-06-20/2023-06-26/,150.1,1.0
+White Plains,Estados Unidos,1125,1187.74,American Airlines,HPN,2023-07-20,2023-07-27,http://kayak.com/flights/MXP-HPN/2023-07-20/2023-07-27/,1187.74,1.0
+Macau,Macau,1520,947.21,EVA Air,MFM,2023-06-14,2023-06-19,http://kayak.com/flights/MXP-MFM/2023-06-14/2023-06-19/,947.21,1.0
+Aarhus,Dinamarca,465,230.28,Várias companhias aéreas,AAR,2023-11-01,2023-11-05,http://kayak.com/flights/MXP-AAR/2023-11-01/2023-11-05/,230.28,1.0
+Gizé,Egito,245,98.83,Wizz Air,SPX,2023-10-10,2023-10-17,http://kayak.com/flights/MXP-SPX/2023-10-10/2023-10-17/,98.83,1.0
+George,África do Sul,2350,850.25,Qatar Airways,GRJ,2023-11-12,2023-11-19,http://kayak.com/flights/MXP-GRJ/2023-11-12/2023-11-19/,850.25,1.0
+Ancara,Turquia,945,330.04,Várias companhias aéreas,ANK,2023-06-01,2023-06-05,http://kayak.com/flights/MXP-ANK/2023-06-01/2023-06-05/,330.04,1.0
+San Luis Obispo,Estados Unidos,2263,1183.08,United Airlines,SBP,2023-06-27,2023-07-04,http://kayak.com/flights/MXP-SBP/2023-06-27/2023-07-04/,1183.08,1.0
+Córdova,Argentina,2510,1089.85,Várias companhias aéreas,COR,2023-06-27,2023-07-04,http://kayak.com/flights/MXP-COR/2023-06-27/2023-07-04/,1089.85,1.0
+Almaty,Cazaquistão,820,608.79,Várias companhias aéreas,ALA,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-ALA/2023-06-28/2023-07-05/,608.79,1.0
+Bodrum,Turquia,700,288.08,Várias companhias aéreas,BJV,2023-06-13,2023-06-19,http://kayak.com/flights/MXP-BJV/2023-06-13/2023-06-19/,288.08,1.0
+Kayseri,Turquia,1105,345.88,Várias companhias aéreas,ASR,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-ASR/2023-06-28/2023-07-05/,345.88,1.0
+Medina,Arábia Saudita,1030,253.59,Várias companhias aéreas,MED,2023-06-01,2023-06-07,http://kayak.com/flights/MXP-MED/2023-06-01/2023-06-07/,253.59,1.0
+Dalaman,Turquia,975,506.24,Várias companhias aéreas,DLM,2023-08-12,2023-08-19,http://kayak.com/flights/MXP-DLM/2023-08-12/2023-08-19/,506.24,1.0
+Abidjã,Costa do Marfim,2015,658.2,Ethiopian Air,ABJ,2023-06-02,2023-06-06,http://kayak.com/flights/MXP-ABJ/2023-06-02/2023-06-06/,658.2,1.0
+João Pessoa,Brasil,2410,1364.88,SWISS,JPA,2023-05-30,2023-06-06,http://kayak.com/flights/MXP-JPA/2023-05-30/2023-06-06/,1364.88,1.0
+Brest,França,710,279.69,Várias companhias aéreas,BES,2023-10-17,2023-10-22,http://kayak.com/flights/MXP-BES/2023-10-17/2023-10-22/,279.69,1.0
+Krabi,Tailândia,1885,950.01,Qatar Airways,KBV,2023-12-12,2023-12-18,http://kayak.com/flights/MXP-KBV/2023-12-12/2023-12-18/,950.01,1.0
+Trieste,Itália,1675,4929.02,Várias companhias aéreas,TRS,2023-07-08,2023-07-15,http://kayak.com/flights/MXP-TRS/2023-07-08/2023-07-15/,4929.02,1.0
+Santa Cruz de la Palma,Espanha,680,370.12,Várias companhias aéreas,SPC,2023-06-10,2023-06-17,http://kayak.com/flights/MXP-SPC/2023-06-10/2023-06-17/,370.12,1.0
+Houmt Souk,Tunísia,460,303.93,Várias companhias aéreas,DJE,2023-06-26,2023-07-03,http://kayak.com/flights/MXP-DJE/2023-06-26/2023-07-03/,303.93,1.0
+Lexington,Estados Unidos,2715,699.22,United Airlines,LEX,2023-08-28,2023-09-03,http://kayak.com/flights/MXP-LEX/2023-08-28/2023-09-03/,699.22,1.0
+Coimbatore,Índia,1635,853.05,Várias companhias aéreas,CJB,2023-06-25,2023-07-02,http://kayak.com/flights/MXP-CJB/2023-06-25/2023-07-02/,853.05,1.0
+Huntsville,Estados Unidos,1554,757.96,American Airlines,HSV,2023-06-01,2023-06-05,http://kayak.com/flights/MXP-HSV/2023-06-01/2023-06-05/,757.96,1.0
+Kosice,Eslováquia,765,153.83,Várias companhias aéreas,KSC,2023-07-27,2023-08-03,http://kayak.com/flights/MXP-KSC/2023-07-27/2023-08-03/,153.83,1.0
+Monastir,Tunísia,500,281.56,Várias companhias aéreas,MIR,2023-05-30,2023-06-06,http://kayak.com/flights/MXP-MIR/2023-05-30/2023-06-06/,281.56,1.0
+Long Beach,Estados Unidos,2505,887.55,KLM,LGB,2023-11-13,2023-11-20,http://kayak.com/flights/MXP-LGB/2023-11-13/2023-11-20/,887.55,1.0
+Biarritz,França,1350,188.33,Ryanair,BIQ,2023-08-30,2023-09-03,http://kayak.com/flights/MXP-BIQ/2023-08-30/2023-09-03/,188.33,1.0
+Luanda,Angola,2870,1333.18,SWISS,LAD,2023-06-09,2023-06-16,http://kayak.com/flights/MXP-LAD/2023-06-09/2023-06-16/,1333.18,1.0
+Argostoli,Grécia,135,163.16,easyJet,EFL,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-EFL/2023-06-28/2023-07-05/,163.16,1.0
+Aberdeen,Reino Unido,530,180.87,Várias companhias aéreas,ABZ,2023-08-16,2023-08-21,http://kayak.com/flights/MXP-ABZ/2023-08-16/2023-08-21/,180.87,1.0
+Algueiro,Itália,80,31.7,Ryanair,AHO,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-AHO/2023-06-28/2023-07-05/,31.7,1.0
+Cardiff,Reino Unido,865,134.25,Ryanair,CWL,2023-09-06,2023-09-13,http://kayak.com/flights/MXP-CWL/2023-09-06/2023-09-13/,134.25,1.0
+Préveza,Grécia,830,260.11,Várias companhias aéreas,PVK,2023-06-01,2023-06-08,http://kayak.com/flights/MXP-PVK/2023-06-01/2023-06-08/,260.11,1.0
+Pescara,Itália,1600,134.25,Várias companhias aéreas,PSR,2023-07-04,2023-07-09,http://kayak.com/flights/MXP-PSR/2023-07-04/2023-07-09/,134.25,1.0
+Pula,Croácia,415,197.65,Ryanair,PUY,2023-06-19,2023-06-23,http://kayak.com/flights/MXP-PUY/2023-06-19/2023-06-23/,197.65,1.0
+Cidade da Praia,Cabo Verde,1165,563.11,TAP AIR PORTUGAL,RAI,2023-07-10,2023-07-16,http://kayak.com/flights/MXP-RAI/2023-07-10/2023-07-16/,563.11,1.0
+Grande Caimão,Ilhas Cayman,1915,1293.09,Delta,GCM,2023-12-30,2024-01-06,http://kayak.com/flights/MXP-GCM/2023-12-30/2024-01-06/,1293.09,1.0
+Girona,Espanha,1380,206.04,Ryanair,GRO,2023-08-22,2023-08-29,http://kayak.com/flights/MXP-GRO/2023-08-22/2023-08-29/,206.04,1.0
+Porto Seguro,Brasil,2085,1222.24,LATAM Airlines,BPS,2023-06-27,2023-07-04,http://kayak.com/flights/MXP-BPS/2023-06-27/2023-07-04/,1222.24,1.0
+Alexandria,Egito,1265,454.03,Turkish Airlines,HBE,2023-06-27,2023-07-03,http://kayak.com/flights/MXP-HBE/2023-06-27/2023-07-03/,454.03,1.0
+Duala,Camarões,1960,1304.28,Várias companhias aéreas,DLA,2023-08-21,2023-08-26,http://kayak.com/flights/MXP-DLA/2023-08-21/2023-08-26/,1304.28,1.0
+Kutaisi,Geórgia,255,141.71,Wizz Air,KUT,2023-06-09,2023-06-14,http://kayak.com/flights/MXP-KUT/2023-06-09/2023-06-14/,141.71,1.0
+Papete,Polinésia Francesa,2710,1880.43,Air France,PPT,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-PPT/2023-06-28/2023-07-05/,1880.43,1.0
+Vishakhapatnam,Índia,1665,631.17,Várias companhias aéreas,VTZ,2023-06-03,2023-06-09,http://kayak.com/flights/MXP-VTZ/2023-06-03/2023-06-09/,631.17,1.0
+Navegantes,Brasil,1720,1000.35,Várias companhias aéreas,NVT,2023-10-27,2023-11-03,http://kayak.com/flights/MXP-NVT/2023-10-27/2023-11-03/,1000.35,1.0
+Boracay,Filipinas,1725,940.69,Várias companhias aéreas,MPH,2024-03-23,2024-03-30,http://kayak.com/flights/MXP-MPH/2024-03-23/2024-03-30/,940.69,1.0
+Figari,França,1265,153.83,Várias companhias aéreas,FSC,2023-07-05,2023-07-09,http://kayak.com/flights/MXP-FSC/2023-07-05/2023-07-09/,153.83,1.0
+Nottingham,Reino Unido,1515,216.3,Ryanair,EMA,2023-06-02,2023-06-09,http://kayak.com/flights/MXP-EMA/2023-06-02/2023-06-09/,216.3,1.0
+Daytona Beach,Estados Unidos,1075,904.33,Delta,DAB,2023-12-03,2023-12-09,http://kayak.com/flights/MXP-DAB/2023-12-03/2023-12-09/,904.33,1.0
+Cuiabá,Brasil,3025,940.69,LATAM Airlines,CGB,2023-11-27,2023-12-04,http://kayak.com/flights/MXP-CGB/2023-11-27/2023-12-04/,940.69,1.0
+Abuja,Nigéria,1525,728.12,Turkish Airlines,ABV,2023-09-07,2023-09-11,http://kayak.com/flights/MXP-ABV/2023-09-07/2023-09-11/,728.12,1.0
+Cataratas Vitória,Zimbábue,1230,1144.86,Várias companhias aéreas,VFA,2023-05-29,2023-06-05,http://kayak.com/flights/MXP-VFA/2023-05-29/2023-06-05/,1144.86,1.0
+Suceava,Roménia,1445,224.69,Várias companhias aéreas,SCV,2023-06-06,2023-06-10,http://kayak.com/flights/MXP-SCV/2023-06-06/2023-06-10/,224.69,1.0
+Arusha,Tanzânia,1220,1241.82,Várias companhias aéreas,JRO,2023-07-29,2023-08-05,http://kayak.com/flights/MXP-JRO/2023-07-29/2023-08-05/,1241.82,1.0
+Siālkot,Paquistão,1875,1014.34,Emirates,SKT,2023-06-27,2023-07-01,http://kayak.com/flights/MXP-SKT/2023-06-27/2023-07-01/,1014.34,1.0
+Siem Reap,Cambodja,1675,844.66,Turkish Airlines,REP,2023-06-06,2023-06-12,http://kayak.com/flights/MXP-REP/2023-06-06/2023-06-12/,844.66,1.0
+Conacri,Guiné,725,674.98,Tunisair,CKY,2023-06-27,2023-07-04,http://kayak.com/flights/MXP-CKY/2023-06-27/2023-07-04/,674.98,1.0
+Shenyang,China,3210,859.58,Várias companhias aéreas,SHE,2023-06-10,2023-06-17,http://kayak.com/flights/MXP-SHE/2023-06-10/2023-06-17/,859.58,1.0
+Trapani,Itália,105,60.6,Ryanair,TPS,2023-06-15,2023-06-22,http://kayak.com/flights/MXP-TPS/2023-06-15/2023-06-22/,60.6,1.0
+Trebizonda,Turquia,1545,369.19,Turkish Airlines,TZX,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-TZX/2023-06-28/2023-07-05/,369.19,1.0
+Turku,Finlândia,1105,282.49,Várias companhias aéreas,TKU,2023-09-24,2023-10-01,http://kayak.com/flights/MXP-TKU/2023-09-24/2023-10-01/,282.49,1.0
+Bishkek,Quirguizistão,1330,823.22,Turkish Airlines,FRU,2023-07-16,2023-07-23,http://kayak.com/flights/MXP-FRU/2023-07-16/2023-07-23/,823.22,1.0
+Sylt,Alemanha,405,186.46,Várias companhias aéreas,GWT,2023-09-22,2023-09-28,http://kayak.com/flights/MXP-GWT/2023-09-22/2023-09-28/,186.46,1.0
+Southampton,Reino Unido,1270,385.04,KLM,SOU,2023-09-26,2023-09-30,http://kayak.com/flights/MXP-SOU/2023-09-26/2023-09-30/,385.04,1.0
+Calamata,Grécia,570,283.42,Várias companhias aéreas,KLX,2023-06-11,2023-06-17,http://kayak.com/flights/MXP-KLX/2023-06-11/2023-06-17/,283.42,1.0
+Kinshasa,República Democrática do Congo,925,825.08,Ethiopian Air,FIH,2023-05-31,2023-06-04,http://kayak.com/flights/MXP-FIH/2023-05-31/2023-06-04/,825.08,1.0
+Hangzhou,China,935,1225.03,Air China,HGH,2023-06-17,2023-06-21,http://kayak.com/flights/MXP-HGH/2023-06-17/2023-06-21/,1225.03,1.0
+Nagpur,Índia,1185,831.61,Qatar Airways,NAG,2024-05-04,2024-05-11,http://kayak.com/flights/MXP-NAG/2024-05-04/2024-05-11/,831.61,1.0
+Dusseldorf,Alemanha,830,108.15,Ryanair,NRN,2023-09-13,2023-09-19,http://kayak.com/flights/MXP-NRN/2023-09-13/2023-09-19/,108.15,1.0
+San Carlos DeBariloche,Argentina,3120,1853.4,Várias companhias aéreas,BRC,2024-03-01,2024-03-08,http://kayak.com/flights/MXP-BRC/2024-03-01/2024-03-08/,1853.4,1.0
+Surabaia,Indonésia,1750,899.66,Várias companhias aéreas,SUB,2023-06-27,2023-07-04,http://kayak.com/flights/MXP-SUB/2023-06-27/2023-07-04/,899.66,1.0
+Kaunas,Lituânia,1125,226.55,Várias companhias aéreas,KUN,2023-06-03,2023-06-09,http://kayak.com/flights/MXP-KUN/2023-06-03/2023-06-09/,226.55,1.0
+Konya,Turquia,465,316.05,Turkish Airlines,KYA,2023-10-09,2023-10-13,http://kayak.com/flights/MXP-KYA/2023-10-09/2023-10-13/,316.05,1.0
+Grand'Anse Praslin,Seicheles,985,864.24,Várias companhias aéreas,PRI,2023-12-11,2023-12-18,http://kayak.com/flights/MXP-PRI/2023-12-11/2023-12-18/,864.24,1.0
+Melbourne,Estados Unidos,1076,1586.76,Delta,MLB,2023-12-03,2023-12-09,http://kayak.com/flights/MXP-MLB/2023-12-03/2023-12-09/,1586.76,1.0
+Rijeka,Croácia,400,477.34,Várias companhias aéreas,RJK,2023-06-24,2023-07-01,http://kayak.com/flights/MXP-RJK/2023-06-24/2023-07-01/,477.34,1.0
+Toulon,França,535,240.54,Várias companhias aéreas,TLN,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-TLN/2023-06-28/2023-07-05/,240.54,1.0
+Everett,Estados Unidos,1935,1797.46,Várias companhias aéreas,PAE,2023-06-10,2023-06-16,http://kayak.com/flights/MXP-PAE/2023-06-10/2023-06-16/,1797.46,1.0
+Peshawar,Paquistão,2365,1042.31,Várias companhias aéreas,PEW,2023-06-26,2023-07-02,http://kayak.com/flights/MXP-PEW/2023-06-26/2023-07-02/,1042.31,1.0
+Hamilton,Canadá,2080,764.48,Várias companhias aéreas,YHM,2023-06-27,2023-07-04,http://kayak.com/flights/MXP-YHM/2023-06-27/2023-07-04/,764.48,1.0
+Shenzhen,China,1615,1336.91,Air France,SZX,2023-06-08,2023-06-15,http://kayak.com/flights/MXP-SZX/2023-06-08/2023-06-15/,1336.91,1.0
+Inverness,Reino Unido,645,199.52,Várias companhias aéreas,INV,2023-08-17,2023-08-24,http://kayak.com/flights/MXP-INV/2023-08-17/2023-08-24/,199.52,1.0
+Nanjing,China,1940,1075.87,Várias companhias aéreas,NKG,2023-08-01,2023-08-08,http://kayak.com/flights/MXP-NKG/2023-08-01/2023-08-08/,1075.87,1.0
+Samos,Grécia,925,666.59,Austrian Airlines,SMI,2023-06-26,2023-07-03,http://kayak.com/flights/MXP-SMI/2023-06-26/2023-07-03/,666.59,1.0
+Nur-Sultan,Cazaquistão,1625,757.02,Várias companhias aéreas,NQZ,2023-09-03,2023-09-10,http://kayak.com/flights/MXP-NQZ/2023-09-03/2023-09-10/,757.02,1.0
+Wenzhou,China,2375,881.95,China Eastern,WNZ,2023-06-12,2023-06-19,http://kayak.com/flights/MXP-WNZ/2023-06-12/2023-06-19/,881.95,1.0
+Espargos,Cabo Verde,1785,648.88,TAP AIR PORTUGAL,SID,2023-10-02,2023-10-07,http://kayak.com/flights/MXP-SID/2023-10-02/2023-10-07/,648.88,1.0
+Parikia,Grécia,1380,264.78,Várias companhias aéreas,PAS,2023-06-17,2023-06-21,http://kayak.com/flights/MXP-PAS/2023-06-17/2023-06-21/,264.78,1.0
+Lajes,Portugal,1560,222.82,TAP AIR PORTUGAL,TER,2023-09-18,2023-09-24,http://kayak.com/flights/MXP-TER/2023-09-18/2023-09-24/,222.82,1.0
+Rovaniemi,Finlândia,1045,345.88,Finnair,RVN,2023-11-22,2023-11-26,http://kayak.com/flights/MXP-RVN/2023-11-22/2023-11-26/,345.88,1.0
+Nicósia,Chipre,1670,422.33,Turkish Airlines,ECN,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-ECN/2023-06-28/2023-07-05/,422.33,1.0
+Lourdes,França,785,206.04,Várias companhias aéreas,LDE,2023-05-30,2023-06-06,http://kayak.com/flights/MXP-LDE/2023-05-30/2023-06-06/,206.04,1.0
+Pau,França,695,559.38,KLM,PUF,2023-05-30,2023-06-06,http://kayak.com/flights/MXP-PUF/2023-05-30/2023-06-06/,559.38,1.0
+Kristiansand,Noruega,350,322.58,KLM,KRS,2023-10-01,2023-10-08,http://kayak.com/flights/MXP-KRS/2023-10-01/2023-10-08/,322.58,1.0
+Luxor,Egito,1470,537.0,Várias companhias aéreas,LXR,2023-09-17,2023-09-23,http://kayak.com/flights/MXP-LXR/2023-09-17/2023-09-23/,537.0,1.0
+Saragoça,Espanha,715,203.24,Ryanair,ZAZ,2023-08-07,2023-08-13,http://kayak.com/flights/MXP-ZAZ/2023-08-07/2023-08-13/,203.24,1.0
+Batumi,Geórgia,595,433.52,Várias companhias aéreas,BUS,2023-10-03,2023-10-09,http://kayak.com/flights/MXP-BUS/2023-10-03/2023-10-09/,433.52,1.0
+Escíato,Grécia,150,89.5,Wizz Air Malta,JSI,2023-07-27,2023-08-03,http://kayak.com/flights/MXP-JSI/2023-07-27/2023-08-03/,89.5,1.0
+Saint John's,Antígua e Barbuda,1876,1900.94,American Airlines,ANU,2023-08-06,2023-08-13,http://kayak.com/flights/MXP-ANU/2023-08-06/2023-08-13/,1900.94,1.0
+Sibiu,Roménia,540,264.78,Austrian Airlines,SBZ,2023-06-25,2023-07-01,http://kayak.com/flights/MXP-SBZ/2023-06-25/2023-07-01/,264.78,1.0
+Port Blair,Índia,2380,1308.94,Várias companhias aéreas,IXZ,2023-08-01,2023-08-06,http://kayak.com/flights/MXP-IXZ/2023-08-01/2023-08-06/,1308.94,1.0
+Aqaba,Jordânia,1420,358.94,Várias companhias aéreas,AQJ,2023-09-06,2023-09-10,http://kayak.com/flights/MXP-AQJ/2023-09-06/2023-09-10/,358.94,1.0
+Gazipasa,Turquia,1240,563.11,Scandinavian Airlines,GZP,2023-08-12,2023-08-19,http://kayak.com/flights/MXP-GZP/2023-08-12/2023-08-19/,563.11,1.0
+Sørvágur,Ilhas Faroe,1475,323.51,Várias companhias aéreas,FAE,2023-06-27,2023-07-04,http://kayak.com/flights/MXP-FAE/2023-06-27/2023-07-04/,323.51,1.0
+Uberlândia,Brasil,2725,1412.42,Várias companhias aéreas,UDI,2023-06-25,2023-07-02,http://kayak.com/flights/MXP-UDI/2023-06-25/2023-07-02/,1412.42,1.0
+Wuhan,China,1435,833.47,Várias companhias aéreas,WUH,2023-06-27,2023-07-04,http://kayak.com/flights/MXP-WUH/2023-06-27/2023-07-04/,833.47,1.0
+Armênia,Colômbia,3167,1110.36,Várias companhias aéreas,AXM,2023-06-26,2023-07-03,http://kayak.com/flights/MXP-AXM/2023-06-26/2023-07-03/,1110.36,1.0
+Lublin,Polónia,1430,595.74,Várias companhias aéreas,LUZ,2023-05-31,2023-06-04,http://kayak.com/flights/MXP-LUZ/2023-05-31/2023-06-04/,595.74,1.0
+Perugia,Itália,710,164.09,Ryanair,PEG,2023-07-08,2023-07-14,http://kayak.com/flights/MXP-PEG/2023-07-08/2023-07-14/,164.09,1.0
+Lomé,Togo,1015,1014.34,Várias companhias aéreas,LFW,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-LFW/2023-06-28/2023-07-05/,1014.34,1.0
+Veracruz,México,2635,1309.87,Iberia,VER,2023-07-17,2023-07-22,http://kayak.com/flights/MXP-VER/2023-07-17/2023-07-22/,1309.87,1.0
+Freetown,Serra Leoa,1185,666.59,Turkish Airlines,FNA,2023-10-07,2023-10-14,http://kayak.com/flights/MXP-FNA/2023-10-07/2023-10-14/,666.59,1.0
+Bodø,Noruega,410,348.68,Várias companhias aéreas,BOO,2023-09-29,2023-10-03,http://kayak.com/flights/MXP-BOO/2023-09-29/2023-10-03/,348.68,1.0
+Caen,França,1805,402.75,Várias companhias aéreas,CFR,2023-08-17,2023-08-21,http://kayak.com/flights/MXP-CFR/2023-08-17/2023-08-21/,402.75,1.0
+Darwin,Austrália,3030,2083.67,Qantas Airways,DRW,2023-05-29,2023-06-04,http://kayak.com/flights/MXP-DRW/2023-05-29/2023-06-04/,2083.67,1.0
+Abbotsford,Canadá,1075,1929.85,WestJet,YXX,2023-09-21,2023-09-28,http://kayak.com/flights/MXP-YXX/2023-09-21/2023-09-28/,1929.85,1.0
+Brno,República Checa,1280,651.68,Várias companhias aéreas,BRQ,2023-07-24,2023-07-31,http://kayak.com/flights/MXP-BRQ/2023-07-24/2023-07-31/,651.68,1.0
+Lampedusa,Itália,130,109.08,Wizz Air Malta,LMP,2023-06-30,2023-07-07,http://kayak.com/flights/MXP-LMP/2023-06-30/2023-07-07/,109.08,1.0
+Marsa Alam,Egito,295,115.61,Wizz Air,RMF,2024-02-18,2024-02-25,http://kayak.com/flights/MXP-RMF/2024-02-18/2024-02-25/,115.61,1.0
+Narvik,Noruega,405,344.95,Várias companhias aéreas,EVE,2023-09-29,2023-10-03,http://kayak.com/flights/MXP-EVE/2023-09-29/2023-10-03/,344.95,1.0
+Naxos,Grécia,860,425.13,Várias companhias aéreas,JNX,2023-06-25,2023-07-01,http://kayak.com/flights/MXP-JNX/2023-06-25/2023-07-01/,425.13,1.0
+Salalah,Omã,2625,1269.78,Turkish Airlines,SLL,2023-12-28,2024-01-04,http://kayak.com/flights/MXP-SLL/2023-12-28/2024-01-04/,1269.78,1.0
+Bacau,Roménia,1520,246.13,Várias companhias aéreas,BCM,2023-07-15,2023-07-19,http://kayak.com/flights/MXP-BCM/2023-07-15/2023-07-19/,246.13,1.0
+Nosy Be,Madagáscar,2285,910.85,Várias companhias aéreas,NOS,2023-05-30,2023-06-06,http://kayak.com/flights/MXP-NOS/2023-05-30/2023-06-06/,910.85,1.0
+Paleochori,Grécia,945,403.69,Várias companhias aéreas,MLO,2023-07-13,2023-07-17,http://kayak.com/flights/MXP-MLO/2023-07-13/2023-07-17/,403.69,1.0
+Montgomery,Estados Unidos,2027,1011.54,Várias companhias aéreas,MGM,2023-08-07,2023-08-12,http://kayak.com/flights/MXP-MGM/2023-08-07/2023-08-12/,1011.54,1.0
+Iaundé,Camarões,990,1500.06,Ethiopian Air,NSI,2023-08-23,2023-08-27,http://kayak.com/flights/MXP-NSI/2023-08-23/2023-08-27/,1500.06,1.0
+Régio da Calábria,Itália,529,307.66,Várias companhias aéreas,REG,2023-06-17,2023-06-21,http://kayak.com/flights/MXP-REG/2023-06-17/2023-06-21/,307.66,1.0
+Horta,Portugal,1225,352.41,Várias companhias aéreas,HOR,2023-09-18,2023-09-24,http://kayak.com/flights/MXP-HOR/2023-09-18/2023-09-24/,352.41,1.0
+Porto Santo,Portugal,1335,550.06,TAP AIR PORTUGAL,PXO,2023-08-15,2023-08-22,http://kayak.com/flights/MXP-PXO/2023-08-15/2023-08-22/,550.06,1.0
+Samarcanda,Uzbequistão,2025,688.04,Várias companhias aéreas,SKD,2023-06-24,2023-07-01,http://kayak.com/flights/MXP-SKD/2023-06-24/2023-07-01/,688.04,1.0
+Dakhla,Sara Ocidental,940,528.61,Royal Air Maroc,VIL,2023-07-01,2023-07-08,http://kayak.com/flights/MXP-VIL/2023-07-01/2023-07-08/,528.61,1.0
+Constanţa,Roménia,1245,404.62,Turkish Airlines,CND,2023-07-20,2023-07-26,http://kayak.com/flights/MXP-CND/2023-07-20/2023-07-26/,404.62,1.0
+Shannon,Irlanda,1750,10312.06,United Airlines,SNN,2023-07-09,2023-07-16,http://kayak.com/flights/MXP-SNN/2023-07-09/2023-07-16/,10312.06,1.0
+Lilongwe,Malaui,2405,980.77,Ethiopian Air,LLW,2023-08-30,2023-09-05,http://kayak.com/flights/MXP-LLW/2023-08-30/2023-09-05/,980.77,1.0
+Béziers,França,455,302.07,Várias companhias aéreas,BZR,2023-05-29,2023-06-05,http://kayak.com/flights/MXP-BZR/2023-05-29/2023-06-05/,302.07,1.0
+Asmara,Eritreia,1720,1126.21,Várias companhias aéreas,ASM,2023-06-26,2023-07-02,http://kayak.com/flights/MXP-ASM/2023-06-26/2023-07-02/,1126.21,1.0
+Knock,Irlanda,910,106.29,Ryanair,NOC,2023-06-19,2023-06-26,http://kayak.com/flights/MXP-NOC/2023-06-19/2023-06-26/,106.29,1.0
+Calvi,França,1165,296.47,Air France,CLY,2023-10-14,2023-10-21,http://kayak.com/flights/MXP-CLY/2023-10-14/2023-10-21/,296.47,1.0
+Karpathos,Grécia,1370,287.15,Várias companhias aéreas,AOK,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-AOK/2023-06-28/2023-07-05/,287.15,1.0
+Nis,Sérvia,675,178.07,Várias companhias aéreas,INI,2023-06-04,2023-06-10,http://kayak.com/flights/MXP-INI/2023-06-04/2023-06-10/,178.07,1.0
+Kingstown,São Vicente e Granadinas,2100,1556.0,American Airlines,SVD,2023-06-01,2023-06-08,http://kayak.com/flights/MXP-SVD/2023-06-01/2023-06-08/,1556.0,1.0
+Chapecó,Brasil,3015,1061.88,Várias companhias aéreas,XAP,2023-07-18,2023-07-25,http://kayak.com/flights/MXP-XAP/2023-07-18/2023-07-25/,1061.88,1.0
+Poitiers,França,710,182.73,Várias companhias aéreas,PIS,2023-09-01,2023-09-05,http://kayak.com/flights/MXP-PIS/2023-09-01/2023-09-05/,182.73,1.0
+Cotonou,Benin,1625,1093.58,Air France,COO,2023-08-06,2023-08-13,http://kayak.com/flights/MXP-COO/2023-08-06/2023-08-13/,1093.58,1.0
+Palmas,Brasil,2740,1363.95,LATAM Airlines,PMW,2023-06-27,2023-07-04,http://kayak.com/flights/MXP-PMW/2023-06-27/2023-07-04/,1363.95,1.0
+Debrecen,Hungria,1005,185.53,Várias companhias aéreas,DEB,2023-06-26,2023-07-02,http://kayak.com/flights/MXP-DEB/2023-06-26/2023-07-02/,185.53,1.0
+Mitilene,Grécia,675,276.9,Aegean Airlines,MJT,2023-07-17,2023-07-21,http://kayak.com/flights/MXP-MJT/2023-07-17/2023-07-21/,276.9,1.0
+Macassar,Indonésia,1915,928.57,Várias companhias aéreas,UPG,2023-06-19,2023-06-26,http://kayak.com/flights/MXP-UPG/2023-06-19/2023-06-26/,928.57,1.0
+Bydgoszcz,Polónia,425,220.03,LOT,BZG,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-BZG/2023-06-28/2023-07-05/,220.03,1.0
+Ordu,Turquia,675,415.81,Turkish Airlines,OGU,2023-06-28,2023-07-04,http://kayak.com/flights/MXP-OGU/2023-06-28/2023-07-04/,415.81,1.0
+Ushuaia,Argentina,2975,1566.25,Várias companhias aéreas,USH,2023-06-26,2023-07-03,http://kayak.com/flights/MXP-USH/2023-06-26/2023-07-03/,1566.25,1.0
+Banja Luka,Bósnia-Herzegóvina,730,192.99,Várias companhias aéreas,BNX,2023-08-24,2023-08-31,http://kayak.com/flights/MXP-BNX/2023-08-24/2023-08-31/,192.99,1.0
+Townsville,Austrália,3820,2295.3,Emirates,TSV,2023-06-26,2023-07-03,http://kayak.com/flights/MXP-TSV/2023-06-26/2023-07-03/,2295.3,1.0
+Rabil,Cabo Verde,1915,1540.15,Várias companhias aéreas,BVC,2023-08-21,2023-08-27,http://kayak.com/flights/MXP-BVC/2023-08-21/2023-08-27/,1540.15,1.0
+Rimini,Itália,440,548.19,Ryanair,RMI,2023-05-30,2023-06-06,http://kayak.com/flights/MXP-RMI/2023-05-30/2023-06-06/,548.19,1.0
+La Paz,México,2803,1240.88,Várias companhias aéreas,LAP,2024-03-28,2024-04-04,http://kayak.com/flights/MXP-LAP/2024-03-28/2024-04-04/,1240.88,1.0
+Ancona,Itália,830,140.78,Várias companhias aéreas,AOI,2023-09-15,2023-09-22,http://kayak.com/flights/MXP-AOI/2023-09-15/2023-09-22/,140.78,1.0
+Enfidha,Tunísia,1100,367.33,Várias companhias aéreas,NBE,2023-06-27,2023-07-04,http://kayak.com/flights/MXP-NBE/2023-06-27/2023-07-04/,367.33,1.0
+Ocrida,Macedónia do Norte,2415,432.59,Várias companhias aéreas,OHD,2023-07-08,2023-07-12,http://kayak.com/flights/MXP-OHD/2023-07-08/2023-07-12/,432.59,1.0
+Sfax,Tunísia,1355,703.88,Várias companhias aéreas,SFA,2023-08-01,2023-08-06,http://kayak.com/flights/MXP-SFA/2023-08-01/2023-08-06/,703.88,1.0
+Tuzla,Bósnia-Herzegóvina,895,239.6,Várias companhias aéreas,TZL,2023-06-07,2023-06-14,http://kayak.com/flights/MXP-TZL/2023-06-07/2023-06-14/,239.6,1.0
+Wausau,Estados Unidos,1233,810.17,American Airlines,CWA,2023-10-17,2023-10-24,http://kayak.com/flights/MXP-CWA/2023-10-17/2023-10-24/,810.17,1.0
+Praya,Indonésia,2385,1074.0,Várias companhias aéreas,LOP,2023-06-23,2023-06-27,http://kayak.com/flights/MXP-LOP/2023-06-23/2023-06-27/,1074.0,1.0
+Patras,Grécia,210,594.81,Neos Air,GPA,2023-08-11,2023-08-18,http://kayak.com/flights/MXP-GPA/2023-08-11/2023-08-18/,594.81,1.0
+Upington,África do Sul,2670,1023.66,Qatar Airways,UTN,2023-11-12,2023-11-19,http://kayak.com/flights/MXP-UTN/2023-11-12/2023-11-19/,1023.66,1.0
+Longyearbyen,Noruega,1710,443.78,Scandinavian Airlines,LYR,2023-07-01,2023-07-05,http://kayak.com/flights/MXP-LYR/2023-07-01/2023-07-05/,443.78,1.0
+Nevşehir,Turquia,1660,287.15,Turkish Airlines,NAV,2023-10-05,2023-10-09,http://kayak.com/flights/MXP-NAV/2023-10-05/2023-10-09/,287.15,1.0
+Corvera,Espanha,955,164.09,Várias companhias aéreas,RMU,2023-06-06,2023-06-11,http://kayak.com/flights/MXP-RMU/2023-06-06/2023-06-11/,164.09,1.0
+Craiova,Roménia,835,338.43,Várias companhias aéreas,CRA,2023-06-01,2023-06-08,http://kayak.com/flights/MXP-CRA/2023-06-01/2023-06-08/,338.43,1.0
+Exeter,Reino Unido,925,1188.67,British Airways,EXT,2023-07-26,2023-08-02,http://kayak.com/flights/MXP-EXT/2023-07-26/2023-08-02/,1188.67,1.0
+Skýros,Grécia,1815,482.0,Várias companhias aéreas,SKU,2023-08-05,2023-08-09,http://kayak.com/flights/MXP-SKU/2023-08-05/2023-08-09/,482.0,1.0
+Tetuão,Marrocos,605,336.56,Várias companhias aéreas,TTU,2023-08-22,2023-08-29,http://kayak.com/flights/MXP-TTU/2023-08-22/2023-08-29/,336.56,1.0
+Reus,Espanha,730,152.9,Ryanair,REU,2023-06-24,2023-06-29,http://kayak.com/flights/MXP-REU/2023-06-24/2023-06-29/,152.9,1.0
+Samsun,Turquia,970,389.7,Turkish Airlines,SZF,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-SZF/2023-06-28/2023-07-05/,389.7,1.0
+Faisalabad,Paquistão,1580,1365.81,Emirates,LYP,2023-06-27,2023-07-04,http://kayak.com/flights/MXP-LYP/2023-06-27/2023-07-04/,1365.81,1.0
+Coxen Hole,Honduras,1943,1156.98,United Airlines,RTB,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-RTB/2023-06-28/2023-07-05/,1156.98,1.0
+Sitia,Grécia,1590,180.87,Aegean Airlines,JSH,2023-10-02,2023-10-08,http://kayak.com/flights/MXP-JSH/2023-10-02/2023-10-08/,180.87,1.0
+Quios,Grécia,920,251.72,Várias companhias aéreas,JKH,2023-06-10,2023-06-14,http://kayak.com/flights/MXP-JKH/2023-06-10/2023-06-14/,251.72,1.0
+Hohhot,China,3275,808.3,Várias companhias aéreas,HET,2023-06-09,2023-06-16,http://kayak.com/flights/MXP-HET/2023-06-09/2023-06-16/,808.3,1.0
+Crotone,Itália,1650,350.55,Várias companhias aéreas,CRV,2023-06-07,2023-06-11,http://kayak.com/flights/MXP-CRV/2023-06-07/2023-06-11/,350.55,1.0
+Fort Saint John,Canadá,1864,1136.47,Air Canada,YXJ,2023-06-20,2023-06-27,http://kayak.com/flights/MXP-YXJ/2023-06-20/2023-06-27/,1136.47,1.0
+Errachidia,Marrocos,1650,375.72,Royal Air Maroc,ERH,2023-06-07,2023-06-13,http://kayak.com/flights/MXP-ERH/2023-06-07/2023-06-13/,375.72,1.0
+Hammerfest,Noruega,1817,723.46,Várias companhias aéreas,HFT,2023-07-17,2023-07-22,http://kayak.com/flights/MXP-HFT/2023-07-17/2023-07-22/,723.46,1.0
+Lakselv,Noruega,1245,626.5,Várias companhias aéreas,LKL,2023-07-17,2023-07-21,http://kayak.com/flights/MXP-LKL/2023-07-17/2023-07-21/,626.5,1.0
+Baia Mare,Roménia,2560,531.41,Várias companhias aéreas,BAY,2023-08-18,2023-08-25,http://kayak.com/flights/MXP-BAY/2023-08-18/2023-08-25/,531.41,1.0
+Pantelária,Itália,344,217.23,Várias companhias aéreas,PNL,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-PNL/2023-06-28/2023-07-05/,217.23,1.0
+La Romana,República Dominicana,580,866.1,Neos Air,LRM,2023-07-16,2023-07-22,http://kayak.com/flights/MXP-LRM/2023-07-16/2023-07-22/,866.1,1.0
+Liège,Bélgica,895,638.62,Várias companhias aéreas,LGG,2023-08-05,2023-08-09,http://kayak.com/flights/MXP-LGG/2023-08-05/2023-08-09/,638.62,1.0
+Pakxe,Laos,2420,974.25,Várias companhias aéreas,PKZ,2023-06-04,2023-06-10,http://kayak.com/flights/MXP-PKZ/2023-06-04/2023-06-10/,974.25,1.0
+Trat,Tailândia,1925,793.38,Várias companhias aéreas,TDX,2023-09-03,2023-09-10,http://kayak.com/flights/MXP-TDX/2023-09-03/2023-09-10/,793.38,1.0
+Al Hoceima,Marrocos,2870,973.32,Várias companhias aéreas,AHU,2023-08-04,2023-08-11,http://kayak.com/flights/MXP-AHU/2023-08-04/2023-08-11/,973.32,1.0
+Ivalo,Finlândia,1000,509.97,Finnair,IVL,2023-12-28,2024-01-02,http://kayak.com/flights/MXP-IVL/2023-12-28/2024-01-02/,509.97,1.0
+Taif,Arábia Saudita,1180,490.39,Várias companhias aéreas,TIF,2023-12-04,2023-12-09,http://kayak.com/flights/MXP-TIF/2023-12-04/2023-12-09/,490.39,1.0
+Vólos,Grécia,1555,435.38,Austrian Airlines,VOL,2023-07-01,2023-07-08,http://kayak.com/flights/MXP-VOL/2023-07-01/2023-07-08/,435.38,1.0
+Ghardaia,Argélia,505,551.92,Air Algerie,GHA,2023-06-04,2023-06-11,http://kayak.com/flights/MXP-GHA/2023-06-04/2023-06-11/,551.92,1.0
+Kálymnos,Grécia,1005,385.04,Várias companhias aéreas,JKL,2023-06-26,2023-07-03,http://kayak.com/flights/MXP-JKL/2023-06-26/2023-07-03/,385.04,1.0
+Moroni,Comores,860,1147.65,Ethiopian Air,HAH,2023-06-27,2023-07-04,http://kayak.com/flights/MXP-HAH/2023-06-27/2023-07-04/,1147.65,1.0
+Hermópolis,Grécia,1090,464.29,Várias companhias aéreas,JSY,2023-08-16,2023-08-23,http://kayak.com/flights/MXP-JSY/2023-08-16/2023-08-23/,464.29,1.0
+Oradea,Roménia,2875,627.44,Várias companhias aéreas,OMR,2023-07-15,2023-07-22,http://kayak.com/flights/MXP-OMR/2023-07-15/2023-07-22/,627.44,1.0
+Svolvær,Noruega,2450,649.81,Várias companhias aéreas,SVJ,2023-09-29,2023-10-03,http://kayak.com/flights/MXP-SVJ/2023-09-29/2023-10-03/,649.81,1.0
+Foggia,Itália,105,177.14,Belle Air Europe,FOG,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-FOG/2023-06-28/2023-07-05/,177.14,1.0
+Busuanga,Filipinas,2110,1415.22,Várias companhias aéreas,USU,2023-06-27,2023-07-04,http://kayak.com/flights/MXP-USU/2023-06-27/2023-07-04/,1415.22,1.0
+Alta,Noruega,3010,678.71,Várias companhias aéreas,ALF,2023-08-19,2023-08-26,http://kayak.com/flights/MXP-ALF/2023-08-19/2023-08-26/,678.71,1.0
+Maastricht,Holanda,495,185.53,Ryanair,MST,2023-08-08,2023-08-13,http://kayak.com/flights/MXP-MST/2023-08-08/2023-08-13/,185.53,1.0
+Balikpapan,Indonésia,1935,951.87,Várias companhias aéreas,BPN,2023-11-07,2023-11-11,http://kayak.com/flights/MXP-BPN/2023-11-07/2023-11-11/,951.87,1.0
+Kuantan,Malásia,2125,1164.44,Várias companhias aéreas,KUA,2023-08-17,2023-08-22,http://kayak.com/flights/MXP-KUA/2023-08-17/2023-08-22/,1164.44,1.0
+Oostende,Bélgica,545,571.5,Várias companhias aéreas,OST,2023-07-07,2023-07-14,http://kayak.com/flights/MXP-OST/2023-07-07/2023-07-14/,571.5,1.0
+Bardufoss,Noruega,760,352.41,Scandinavian Airlines,BDU,2024-02-01,2024-02-05,http://kayak.com/flights/MXP-BDU/2024-02-01/2024-02-05/,352.41,1.0
+Sønderborg,Dinamarca,2765,463.35,Várias companhias aéreas,SGD,2023-08-11,2023-08-16,http://kayak.com/flights/MXP-SGD/2023-08-11/2023-08-16/,463.35,1.0
+Valverde,Espanha,1190,389.7,Várias companhias aéreas,VDE,2023-05-30,2023-06-06,http://kayak.com/flights/MXP-VDE/2023-05-30/2023-06-06/,389.7,1.0
+Çanakkale,Turquia,2915,583.62,Várias companhias aéreas,CKZ,2023-08-29,2023-09-02,http://kayak.com/flights/MXP-CKZ/2023-08-29/2023-09-02/,583.62,1.0
+Leknes,Noruega,1055,749.57,Várias companhias aéreas,LKN,2023-06-01,2023-06-06,http://kayak.com/flights/MXP-LKN/2023-06-01/2023-06-06/,749.57,1.0
+Røst,Noruega,2390,631.17,Várias companhias aéreas,RET,2023-07-04,2023-07-09,http://kayak.com/flights/MXP-RET/2023-07-04/2023-07-09/,631.17,1.0
+Banyuwangi,Indonésia,2600,1289.36,Várias companhias aéreas,BWX,2023-06-08,2023-06-15,http://kayak.com/flights/MXP-BWX/2023-06-08/2023-06-15/,1289.36,1.0
+Jijel,Argélia,1605,658.2,Várias companhias aéreas,GJL,2023-06-04,2023-06-11,http://kayak.com/flights/MXP-GJL/2023-06-04/2023-06-11/,658.2,1.0
+Zonguldak,Turquia,500,464.29,Turkish Airlines,ONQ,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-ONQ/2023-06-28/2023-07-05/,464.29,1.0
+Tumbes,Perú,3785,1236.22,LATAM Airlines,TBP,2023-09-14,2023-09-21,http://kayak.com/flights/MXP-TBP/2023-09-14/2023-09-21/,1236.22,1.0
+Ilha do Pico,Portugal,1510,447.5,Várias companhias aéreas,PIX,2023-09-18,2023-09-24,http://kayak.com/flights/MXP-PIX/2023-09-18/2023-09-24/,447.5,1.0
+Aktau,Cazaquistão,2310,751.43,Várias companhias aéreas,SCO,2023-09-25,2023-10-02,http://kayak.com/flights/MXP-SCO/2023-09-25/2023-10-02/,751.43,1.0
+San Sebastián de la Gomera,Espanha,1455,805.5,Várias companhias aéreas,GMZ,2023-09-12,2023-09-17,http://kayak.com/flights/MXP-GMZ/2023-09-12/2023-09-17/,805.5,1.0
+Melinde,Quénia,2385,1078.66,Várias companhias aéreas,MYD,2023-09-10,2023-09-16,http://kayak.com/flights/MXP-MYD/2023-09-10/2023-09-16/,1078.66,1.0
+Kajaani,Finlândia,1015,231.21,Finnair,KAJ,2024-04-04,2024-04-11,http://kayak.com/flights/MXP-KAJ/2024-04-04/2024-04-11/,231.21,1.0
+Kraljevo,Sérvia,1000,500.64,Várias companhias aéreas,KVO,2023-06-27,2023-07-04,http://kayak.com/flights/MXP-KVO/2023-06-27/2023-07-04/,500.64,1.0
+Rayong,Tailândia,1865,1006.88,Várias companhias aéreas,UTP,2023-06-27,2023-07-04,http://kayak.com/flights/MXP-UTP/2023-06-27/2023-07-04/,1006.88,1.0
+Haikou,China,2685,1132.74,Várias companhias aéreas,HAK,2023-06-28,2023-07-05,http://kayak.com/flights/MXP-HAK/2023-06-28/2023-07-05/,1132.74,1.0
+Astypálaia,Grécia,690,631.17,Sky Express,JTY,2023-08-07,2023-08-12,http://kayak.com/flights/MXP-JTY/2023-08-07/2023-08-12/,631.17,1.0
+Lycksele,Suécia,1270,660.07,Várias companhias aéreas,LYC,2023-08-23,2023-08-30,http://kayak.com/flights/MXP-LYC/2023-08-23/2023-08-30/,660.07,1.0
+Akureyri,Islândia,1510,885.68,Várias companhias aéreas,AEY,2023-07-06,2023-07-10,http://kayak.com/flights/MXP-AEY/2023-07-06/2023-07-10/,885.68,1.0
+Chiang Rai,Tailândia,1710,1179.35,Várias companhias aéreas,CEI,2023-09-14,2023-09-21,http://kayak.com/flights/MXP-CEI/2023-09-14/2023-09-21/,1179.35,1.0
+George Town,Bahamas,2246,1312.67,Várias companhias aéreas,GGT,2023-12-30,2024-01-06,http://kayak.com/flights/MXP-GGT/2023-12-30/2024-01-06/,1312.67,1.0
+Ibagué,Colômbia,1561,1372.34,Várias companhias aéreas,IBE,2023-06-26,2023-07-03,http://kayak.com/flights/MXP-IBE/2023-06-26/2023-07-03/,1372.34,1.0
+Al Qurayyāt,Arábia Saudita,2285,852.12,Várias companhias aéreas,URY,2023-10-23,2023-10-28,http://kayak.com/flights/MXP-URY/2023-10-23/2023-10-28/,852.12,1.0
+Road Town,Ilhas Virgens Britânicas,2350,6608.08,United Airlines,EIS,2023-09-19,2023-09-26,http://kayak.com/flights/MXP-EIS/2023-09-19/2023-09-26/,6608.08,1.0
+Kobe,Japão,2390,2109.78,Várias companhias aéreas,UKB,2023-08-10,2023-08-17,http://kayak.com/flights/MXP-UKB/2023-08-10/2023-08-17/,2109.78,1.0
+Rarotonga,Ilhas Cook,2350,3177.25,Várias companhias aéreas,RAR,2023-07-10,2023-07-15,http://kayak.com/flights/MXP-RAR/2023-07-10/2023-07-15/,3177.25,1.0
+Esbjerg,Dinamarca,2505,2062.23,Várias companhias aéreas,EBJ,2023-08-11,2023-08-16,http://kayak.com/flights/MXP-EBJ/2023-08-11/2023-08-16/,2062.23,1.0
+The Valley,Anguila,1989,10304.61,Várias companhias aéreas,AXA,2023-07-04,2023-07-11,http://kayak.com/flights/MXP-AXA/2023-07-04/2023-07-11/,10304.61,1.0
